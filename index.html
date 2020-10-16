@@ -1,13 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Netlify & AnyMod | CSS Tricks</title>
-  </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>Feature 1 - Excavating Occaneechi Town</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/excavation_element.css" rel="stylesheet">
+  </head>
   <body>
-    Hello, World!
+    <header class="container-fluid sticky-top bg-dark">
+      <div class="navbar navbar-dark flex-column flex-md-row align-items-start bg-dark eot-navbar">
+        <a class="navbar-brand">Excavating Occaneechi Town</a>
+        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#eot-sidebar" aria-expanded="false" aria-controls="eot-sidebar">
+          Toggle Sidebar
+        </button>
+      </div>
+      <div class="row bg-secondary">
+        <div class="col-auto">
+          <a href="" class="text-light">Return to map view</a>
+        </div>
+        <div class="col-auto ml-auto">
+          <a href="" class="text-light">View Feature 1 artifact inventory</a>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 eot-sidebar collapse" id="eot-sidebar">
+          <nav class="nav flex-column">
+            <div class="sidebar-chapter">
+              <a href="001_getting_started.html">Getting Started</a>
+            </div>
+            <div class="sidebar-chapter">
+              <a href="002_archaeology_primer.html">Archaeology Primer</a>
+            </div>
+            <div class="sidebar-chapter">
+              <a href="01_introduction.html">Introduction</a>
+            </div>
+            <div class="sidebar-chapter">
+              <a href="02_contents.html">Contents</a>
+            </div>
+            <div class="sidebar-chapter"> <!-- Current chapter -->
+              <a href="1Historical_Background.html">Background</a>
+            </div>
+            <div class="sidebar-active sidebar-chapter">
+              <a href="2_excavations.html">Excavations</a>
+              <ul class="nav"> <!-- Current chapter modules list -->
+                <li class="sidebar-module">
+                  <a href="squares.html">Squares</a>
+                </li>
+                <li class="sidebar-active sidebar-module">
+                  <a href="features.html">Features</a>
+                  <ul class="nav"> <!-- Current chapter section list-->
+                    <li class="sidebar-section">
+                      <a href="burial_1.html">Burial 1</a>
+                    </li>
+                    <li class="sidebar-section">
+                      <a href="burial_2.html">Burial 2</a>
+                    </li>
+                    <li class="sidebar-section">
+                      <a href="burial_3.html">Burial 3</a>
+                    </li>
+                    <li class="sidebar-active sidebar-section">
+                      <a href="feature_1.html">Feature 1</a>
+                    </li>
+                    <li class="sidebar-section">
+                      <a href="feature_2_burial_4.html">Feature 2 (Burial 4)</a>
+                    </li>
+                    <li class="sidebar-section">
+                      <a href="feature_3_burial_5.html">Feature 3 (Burial 5)</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="sidebar-module">
+                  <a href="structures.html">Structures</a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar-chapter">
+              <a href="3_artifacts.html">Artifacts</a>
+            </div>
+            <div class="sidebar-chapter">
+              <a href="4_food_remains.html">Food Remains</a>
+            </div>
+            <div class="sidebar-chapter">
+              <a href="5_interpretations.html">Interpretations</a>
+            </div>
+            <div class="sidebar-chapter">
+              <a href="https://electronicdig.sites.oasis.unc.edu/">Electric Dig</a>
+            </div>
+          </nav>
+        </div>
+        <div class="col-md" style="overflow-y: scroll;">
+          <div class="row">
+            <div class="col-md align-items-center">
+              <div id="carouselFigures" class="carousel slide p-3" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselFigures" data-slide-to="0" class="bg-secondary active"></li>
+                  <li data-target="#carouselFigures" data-slide-to="1" class="bg-secondary"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-interval="0">
+                    <figure class="figure d-block">
+                      <img src="imgs/fea1.gif" class="d-block w-100 img-fluid" alt="Figure 533">
+                      <figcaption class="figure-caption">Figure 533. Feature 1, plan and profile views.</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-item" data-interval="0">
+                    <figure class="figure d-block">
+                      <img src="imgs/x6215.jpeg" class="d-block w-100 img-fluid" alt="Figure 532">
+                      <figcaption class="figure-caption">Figure 532. Feature 1 after excavation (view to southwest).</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselFigures" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselFigures" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <div class="row">
+                  <div class="col">
+                    <p>Type: Burial (Probable)</p>
+                    <p>Dimensions</p>
+                    <p>&emsp;Length: 3.9 ft</p>
+                    <p>&emsp;Width: 2.9 ft</p>
+                    <p>&emsp;Length: 2.8 ft</p>
+                    <p>Volume: 31.67 ft<sup>3</sup></p>
+                    <p>Area: 11.31 ft<sup>2</sup></p>
+                  </div>
+                  <div class="col d-flex align-items-center justify-content-center">
+                    <img src="imgs/l280r90.gif" class="img-fluid" alt="Excavation minimap">
+                  </div>
+                  <div class="col">
+                    <p>Related Elements:</p>
+                    <p><a href="">Sq. 280R80</a></p>
+                    <p><a href="">Sq. 280R90</a></p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <h1>Feature 1</h1>
+              <h2>Description</h2>
+              <h5>by R. P. Stephen Davis, Jr.</h5>
+              <p>Feature 1 was located near the southeast end of the cemetery at 282.7R80.7. It measured 3.9 ft long by 2.9 ft wide, and it was 2.8 ft deep. At the top of subsoil, this feature was very similar in appearance to other nearby burial pits within the cemetery. It appeared as a rectangular patch of dark brown soil (designated Zone 1) that contained numerous fragments of animal bone, charcoal, shell, burned clay, pottery, and fire-broken rock, and it was oriented along a northwest-southeast axis. Zone 1 was about one foot thick and was underlain by a mottled clay fill designated Zone 2. This zone contained significantly fewer artifacts.</p>
+              <p>Along the southwestern side of the pit bottom, the excavators encountered an area of softer, organically enriched fill which they interpreted as a probable burial chamber; however, no human bone or funerary objects were found. Despite this, the location, pit shape, and fill characteristics of this feature all indicate that it is a burial pit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
 </html>
