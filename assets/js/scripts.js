@@ -13,3 +13,7 @@ $('[data-toggle="popover-hover"]').popover({
     placement: 'bottom',
     content: function () { return '<img src="' + $(this).data('img') + '" />'; }
   });
+
+$(function () {
+  $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+  });
