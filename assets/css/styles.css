@@ -126,3 +126,10 @@ nav[data-toggle=toc] .nav>li>a {
 .col-md > p {
   color: black;
 }
+.container-fluid {
+  padding-right: 0px !important;
+}
+
+.navbar-nav > li > a {
+  display: none !important; /* fix the weird bug */
+}
