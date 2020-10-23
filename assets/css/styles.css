@@ -59,3 +59,70 @@ footer {
   width: 150px;
 }
 
+.sticky-top {
+  background-color: #202151 !important;
+}
+
+#toc .nav {
+  display: block;
+}
+
+.col-md-3 {
+  padding: 1rem;
+}
+
+.col-md {
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-family: 'Lithos Pro';
+  border-radius: 0;
+}
+
+.navbar-toggler-icon {
+  background: url('../img/hamburger_icon_white.svg') !important;
+  vertical-align: text-bottom !important;
+  }
+
+#author {
+  font-family: 'Ubuntu';
+  font-size: small;
+  margin-left: 10%;
+  font-style: italic;
+  color: #828282;
+}
+
+.sidebar-chapter {
+  padding: .25rem;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: larger;
+}
+
+.sidebar-active > a {
+  color: #563D7C;
+}
+
+.sidebar-active > a {
+  color: #563D7C !important;
+}
+
+.sidebar-chapter > a {
+  color: #828282;
+}
+
+nav[data-toggle=toc] .nav>li>a {
+  font-size: medium !important;
+  font-weight: bold !important;
+}
+
+.col-md > h1 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-bottom: 0.75rem;
+}
+
+.col-md > p {
+  color: black;
+}
