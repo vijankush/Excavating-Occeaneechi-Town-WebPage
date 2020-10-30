@@ -260,7 +260,7 @@ function setUpPageNumNavigation() {
         let offsetLeft = pageNumElement.offsetLeft;
         console.log(offsetTop, offsetLeft, pageNum);
         let background = document.createElement('div');
-        background.style.cssText = `width:100%;height:100%;z-index:98;opacity:0.3;background:#000;position:fixed;left:0;top:0;`;
+        background.style.cssText = `width:100%;height:100%;z-index:98;opacity:0.9;background:#000;position:fixed;left:0;top:0;`;
         let changePageNum = document.createElement('div');
         styleText = `position:sticky;width:auto;height:${height*1.2}px;z-index:100;top:${offsetTop}px;left:${offsetLeft}px;background:blue;color:snow;`;
         changePageNum.style.cssText = styleText;

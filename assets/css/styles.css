@@ -131,6 +131,10 @@ nav[data-toggle=toc] .nav>li>a {
   padding-right: 0px !important;
 }
 
+.pagination .page-item .page-link {
+    border: 1px solid #dee2e6 !important;
+}
+
 a.nav-link.active {
     display: none !important;
 }
