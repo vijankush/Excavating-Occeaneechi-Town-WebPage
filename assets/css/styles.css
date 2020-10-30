@@ -68,7 +68,8 @@ footer {
 }
 
 .col-md-3 {
-  padding: 1rem;
+  padding: 1rem !important;
+  max-width: 20% !important;
 }
 
 .col-md {
@@ -94,18 +95,18 @@ footer {
 }
 
 .sidebar-chapter {
-  padding: .25rem;
+  padding: .4rem;
   font-family: 'Roboto';
   font-weight: bold;
   font-size: larger;
 }
 
-.sidebar-active > a {
-  color: #563D7C;
+.sidebar-section {
+  margin-left: 5%;
 }
 
 .sidebar-active > a {
-  color: #563D7C !important;
+  color: #000 !important;
 }
 
 .sidebar-chapter > a {
@@ -125,4 +126,20 @@ nav[data-toggle=toc] .nav>li>a {
 
 .col-md > p {
   color: black;
+}
+.container-fluid {
+  padding-right: 0px !important;
+}
+
+.navbar-nav > li > a {
+  display: none !important; /* fix the weird bug */
+}
+/*border TOC*/
+.row>[class*='col-md']:nth-child(n+1):before {
+  content: "";
+  border-left: 2px solid #DDD;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
 }
