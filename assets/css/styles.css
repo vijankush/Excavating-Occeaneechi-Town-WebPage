@@ -131,8 +131,8 @@ nav[data-toggle=toc] .nav>li>a {
   padding-right: 0px !important;
 }
 
-.navbar-nav > li > a {
-  display: none !important; /* fix the weird bug */
+a.nav-link.active {
+    display: none !important;
 }
 /*border TOC*/
 .row>[class*='col-md']:nth-child(n+1):before {
