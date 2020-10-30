@@ -1,6 +1,6 @@
-#h-card {
+.card-header {
   font-family: 'Lithos Pro';
-  background-color: #202151;
+  background-color: #202151 !important;
   border-radius: 0;
 }
 
