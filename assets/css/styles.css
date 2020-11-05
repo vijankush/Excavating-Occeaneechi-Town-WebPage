@@ -173,3 +173,40 @@ a.nav-link.active {
     display: inline-block;
   }
 }
+.carousel-item {
+  transition: transform .6s ease-in-out !important;
+}
+.carousel-indicators {
+  margin: auto !important;
+}
+.carousel {
+  width: 100% !important;
+}
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+   width: 1rem;
+   height: 1rem;
+   margin: 0;
+   border-radius: 50%;
+   border: 0;
+   background: transparent;
+}
+
+ol.carousel-indicators li {
+   background: rgba(255,255,255,0.39);
+   margin-left: .5rem;
+   margin-right: .5rem;
+}
+.row > .col > p {
+  padding-left: inherit;
+  font-family: sans-serif;
+}
+
+.figure-caption {
+  text-align: center;
+  padding-top: 1%;
+}
+
+h2#description {
+  padding-bottom: 2%;
+}
