@@ -8,10 +8,27 @@
   color: white;
   font-size: 1.5rem;
 }
+/* iPads (portrait and landscape) and above ----------- */
+@media only screen and (max-device-width : 991px) {
+  /* Styles */
+  #home-pot-pics {
+    display: none;
+  }
+  #index-buttons {
+    text-align: -webkit-center;
+  }
+}
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 450px) {
+  /* Styles */
+  .mb-0 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
 footer {
-  position: absolute;
-  bottom: 0;
+  left: 0;
   background-color: #C4C4C4;
   width: 100%;
 }
@@ -23,7 +40,7 @@ footer {
 
 #title-img {
   padding-top: 25px;
-  max-width: 68%;
+  max-width: 95%;
   display: block;
 }
 
