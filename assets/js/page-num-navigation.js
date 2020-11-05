@@ -1,4 +1,36 @@
 let pageNumJson = {
+  "i": "introduction/prelims_01_title_page.html",
+  "ii": "introduction/prelims_02_foreword.html",
+  "iii": "introduction/prelims_03_preface_to_first_edition.html",
+  "iv": "introduction/prelims_04_preface_to_web_edition.html",
+  "vi": "contents/prelims_06_table_of_contents.html",
+  "vii": "contents/prelims_07_pages_i-xxxiii.html",
+  "viii": "contents/prelims_08_pages_1-70.html",
+  "ix": "contents/prelims_09_pages_71-140.html",
+  "x": "contents/prelims_10_pages_141-210.html",
+  "xi": "contents/prelims_11_pages_211-252.html",
+  "xii": "contents/prelims_12_appendix_pages_a_1-a_70.html",
+  "xiii": "contents/prelims_13_appendix_pages_a_71-a_140.html",
+  "xiv": "contents/prelims_14_appendix_pages_a_141-a_210.html",
+  "xv": "contents/prelims_15_appendix_pages_a_211-a_226.html",
+  "xvi": "contents/prelims_16_appendix_pages_b_1-b_7.html",
+  "xvii": "contents/prelims_17_figures_1-70.html",
+  "xviii": "contents/prelims_18_figures_71-140.html",
+  "xix": "contents/prelims_19_figures_141-210.html",
+  "xx": "contents/prelims_20_figures_211-280.html",
+  "xxi": "contents/prelims_21_figures_281-350.html",
+  "xxii": "contents/prelims_22_figures_351-420.html",
+  "xxiii": "contents/prelims_23_figures_421-490.html",
+  "xxiv": "contents/prelims_24_figures_491-560.html",
+  "xxv": "contents/prelims_25_figures_561-630.html",
+  "xxvi": "contents/prelims_26_figures_631-700.html",
+  "xxvii": "contents/prelims_27_figures_701-770.html",
+  "xxviii": "contents/prelims_28_figures_771-840.html",
+  "xxix": "contents/prelims_29_figures_841-910.html",
+  "xxx": "contents/prelims_30_figures_911-980.html",
+  "xxxi": "contents/prelims_31_figures_981-1050.html",
+  "xxxii": "contents/prelims_32_figures_1051-1053.html",
+  "xxxiii": "contents/prelims_33_list_of_tables.html",
   "1": "background/001_historical_background.html",
   "2": "background/002_siouan_archaeology.html",
   "3": "background/003_fredricks_site_discovery.html",
@@ -251,47 +283,28 @@ let pageNumJson = {
 };
 
 function setUpPageNumNavigation() {
-    console.log('setting up');
-    let pageNumElement = document.getElementById("page-num-clickable");
+    let pageNumElement = document.getElementById("pageNumClickable");
     let pageNum = pageNumElement.innerHTML;
-    let height = pageNumElement.getBoundingClientRect().height;
-    pageNumElement.onclick = function() {
-        let offsetTop = pageNumElement.offsetTop;
-        let offsetLeft = pageNumElement.offsetLeft;
-        console.log(offsetTop, offsetLeft, pageNum);
-        let background = document.createElement('div');
-        background.style.cssText = `width:100%;height:100%;z-index:98;opacity:0.9;background:#000;position:fixed;left:0;top:0;`;
-        let changePageNum = document.createElement('div');
-        styleText = `position:sticky;width:auto;height:${height*1.2}px;z-index:100;top:${offsetTop}px;left:${offsetLeft}px;background:blue;color:snow;`;
-        changePageNum.style.cssText = styleText;
-        console.log(changePageNum.style.cssText);
-        console.log(styleText);
-        changePageNum.innerHTML = `<form id="new-page-num-form"><label for="pagenum">Go to Page: </label><input type="text" style="background:white;color:black;width:4em;" name="pagenum" value="${pageNum}"></form>`;
-        background.appendChild(changePageNum);
-        document.body.appendChild(background);
-        form = document.getElementById("new-page-num-form");
-        form.onsubmit = function(e) {
-            console.log('hi');
-            let newPageNum = form.pagenum.value;
-            console.log(newPageNum);
-            e.stopPropagation();
-            e.preventDefault();
-            if (!(newPageNum in pageNumJson)) {
-                alert("Did not find page " + newPageNum + " on this site!");
-                return;
-            }
-            newPagePath = "../" + pageNumJson[newPageNum];
-            console.log(newPagePath);
-            window.open(newPagePath, "_self");
-        };
-
-        changePageNum.onclick = function(e) {
-            e.stopPropagation(); // Prevent closing the page num changer when you click on the div itself, rather than on the background
-        }
-        background.onclick = function() {
-            document.body.removeChild(background);
-        }
-    }
+    $(pageNumElement).popover({
+        "html": true,
+        "sanitize": false,
+        content: function() {
+            let form = $(`<form id="new-page-num-form"><label for="pagenum">Go to Page: </label><input type="text" style="width:4em;margin-left:1em;text-align:center" name="pagenum" value="${pageNum}"></form>`);
+            form.submit(function(e) {
+                e.stopPropagation();
+                e.preventDefault(); // Prevent refreshing page on form submit
+                let newPageNum = form.find("input").val();
+                if (!(newPageNum in pageNumJson)) {
+                    alert("Did not find page " + newPageNum + " on this site!");
+                    return;
+                }
+                newPagePath = "../" + pageNumJson[newPageNum];
+                window.open(newPagePath, "_self");
+            });
+            return form;
+        },
+        container: "body"
+    });
 };
 
 setUpPageNumNavigation();

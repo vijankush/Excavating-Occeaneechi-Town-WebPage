@@ -1,5 +1,4 @@
 function setUpModals() {
-  console.log('set up');
   let contents = document.getElementById("text-chapter-contents");
   let imgAnchors = contents.getElementsByClassName("a-img");
   let refAnchors = contents.getElementsByClassName("a-ref");
