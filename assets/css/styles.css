@@ -81,7 +81,7 @@ footer {
 }
 
 #toc .nav {
-  display: block;
+  display: inline-block;
 }
 
 .col-md-3 {
@@ -156,11 +156,20 @@ a.nav-link.active {
     display: none !important;
 }
 /*border TOC*/
-.row>[class*='col-md']:nth-child(n+1):before {
-  content: "";
-  border-left: 2px solid #DDD;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
+@media only screen and (min-width : 768px) {
+  /* Styles */
+  .row>[class*='col-md']:nth-child(n+1):before {
+    content: "";
+    border-left: 2px solid #DDD;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+@media only screen and (max-width : 767px) {
+  /* Styles */
+  #toc {
+    display: inline-block;
+  }
 }
