@@ -210,3 +210,14 @@ ol.carousel-indicators li {
 h2#description {
   padding-bottom: 2%;
 }
+
+li.sidebar-subsection {
+  list-style: none;
+  font-size: initial;
+}
+li.sidebar-subsection > a {
+  color: #828282;
+}
+li.sidebar-subsection > a:hover {
+  color: #563D7C;
+}
