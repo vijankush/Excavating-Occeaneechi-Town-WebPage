@@ -214,6 +214,7 @@ h2#description {
 li.sidebar-subsection {
   list-style: none;
   font-size: initial;
+  margin-left: 10%;
 }
 li.sidebar-subsection > a {
   color: #828282;
