@@ -1,0 +1,9 @@
+<div class="chart"></div>
+
+<script type="module">
+import {Runtime, Inspector} from "https://comp523eot.netlify.app/assets/js/d3runtime.js";
+import define from "https://comp523eot.netlify.app/assets/js/map.js";
+(new Runtime).module(define, name => {
+  if (name === "chart") return Inspector.into(".chart")();
+});
+</script>
