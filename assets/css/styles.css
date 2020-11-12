@@ -1,7 +1,7 @@
-#h-card {
-  font-family: 'Lithos Pro';
-  background-color: #202151;
-  border-radius: 0;
+.card-header {
+  font-family: 'Lithos Pro' !important;
+  background-color: #202151 !important;
+  border-radius: 0 !important;
 }
 
 .mb-0 {
