@@ -1,6 +1,6 @@
 export default function define(runtime, observer) {
     const main = runtime.module();
-    const fileAttachments = new Map([["excavations@1.json","https://comp523eot.netlify.app/assets/json/excavations@1.json"]]);
+    const fileAttachments = new Map([["excavations@1.json","https://comp523eot.netlify.app/assets/json/excavations@1_minify.json"]]);
     main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
     main.variable(observer("chart")).define("chart", ["d3","excavation","path"], function(d3,excavation,path)
   {
