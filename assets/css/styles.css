@@ -140,6 +140,7 @@ nav[data-toggle=toc] .nav>li>a {
 }
 img.d-block.w-100.img-fluid {
   height: -webkit-fill-available;
+  padding-block-end: 25px;
 }
 
 /* .d-block {
