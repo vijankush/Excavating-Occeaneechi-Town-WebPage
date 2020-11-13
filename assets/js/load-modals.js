@@ -1,3 +1,8 @@
+// MDB Lightbox Init
+$(function () {
+  $("#mdb-lightbox-ui").load("assets/mdb-addons/mdb-lightbox-ui.html");
+});
+
 function setUpModals() {
   let contents = document.getElementById("text-chapter-contents");
   let imgAnchors = contents.getElementsByClassName("a-img");

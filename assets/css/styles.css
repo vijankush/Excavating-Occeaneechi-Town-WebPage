@@ -233,18 +233,30 @@ li.sidebar-subsection > a:hover {
   color: #563D7C;
 }
 
-.carousel-item {
+/* .w-100 {
+  width: auto !important;
+} */
+/* .carousel-inner {
+  height: 650px !important;
+} */
+/* .carousel-inner img {
+  object-fit: contain !important;
+} */
+/* img.d-block.img-fluid {
+  min-height: -webkit-fill-available;
+} */
+/* .carousel-item {
   height:600px;
-}
+} */
 /* .carousel .carousel-indicators li {
   border-radius: 0%;
   margin-bottom: -100px;
 } */
 
-img.d-block.w-100.img-fluid {
+/* img.d-block.w-100.img-fluid {
   height: -webkit-fill-available;
   padding-block-end: 25px;
-}
+} */
 .text-light {
   font-family: 'Lithos Pro';
 }
