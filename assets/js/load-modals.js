@@ -1,6 +1,7 @@
-// MDB Lightbox Init
-$(function () {
-  $("#mdb-lightbox-ui").load("assets/mdb-addons/mdb-lightbox-ui.html");
+$(document).ready(function() {
+  $("#carousel-zoom").lightGallery({
+      selector: 'a'
+  });
 });
 
 function setUpModals() {
