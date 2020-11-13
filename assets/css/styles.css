@@ -127,8 +127,8 @@ nav[data-toggle=toc] .nav>li>a {
   color: black;
 }
 
-/* .carousel-item {
-  height: 500px;
+/* .carousel {
+  height:650px;
 } */
 .carousel .carousel-indicators li {
   border-radius: 0%;
@@ -138,12 +138,12 @@ nav[data-toggle=toc] .nav>li>a {
 .figure-caption {
   text-align: center;
 }
-/* img.d-block.w-100.img-fluid {
-  max-width: fit-content !important;
+img.d-block.w-100.img-fluid {
+  height: -webkit-fill-available;
 }
 
-.d-block {
+/* .d-block {
   display: block !important;
   margin: auto !important;
   margin-block-end: revert !important;
-} */
+}  */
