@@ -117,6 +117,10 @@ nav[data-toggle=toc] .nav>li>a {
   font-weight: bold !important;
 }
 
+a.nav-link {
+  display: none !important;
+}
+
 .col-md > h1 {
   font-family: 'Roboto';
   font-weight: bold;
