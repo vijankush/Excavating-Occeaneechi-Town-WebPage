@@ -215,6 +215,9 @@ ol.carousel-indicators li {
 .figure-caption {
   text-align: center;
   padding-top: 1%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 h2#description {
