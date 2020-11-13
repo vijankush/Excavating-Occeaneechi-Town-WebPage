@@ -127,9 +127,9 @@ nav[data-toggle=toc] .nav>li>a {
   color: black;
 }
 
-/* .carousel {
-  height:650px;
-} */
+.carousel-item {
+  height:600px;
+}
 .carousel .carousel-indicators li {
   border-radius: 0%;
   margin-bottom: -100px;
