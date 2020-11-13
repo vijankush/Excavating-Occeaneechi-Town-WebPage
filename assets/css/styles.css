@@ -126,3 +126,20 @@ nav[data-toggle=toc] .nav>li>a {
 .col-md > p {
   color: black;
 }
+
+.carousel-item {
+  height: 650px;
+}
+.carousel .carousel-indicators li {
+  border-radius: 0%;
+  margin-bottom: -100px;
+}
+/* img.d-block.w-100.img-fluid {
+  max-width: fit-content !important;
+}
+
+.d-block {
+  display: block !important;
+  margin: auto !important;
+  margin-block-end: revert !important;
+} */
