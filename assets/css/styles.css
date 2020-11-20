@@ -25,7 +25,7 @@ html, body {
     left: 0;
     background-color: #C4C4C4;
     width: 100%;
-    position: inherit;
+    position: relative !important;
     bottom: 0;
   }
 }
