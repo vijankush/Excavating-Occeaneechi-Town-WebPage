@@ -2,20 +2,15 @@ $(document).ready(function() {
   $("[id^=carousel-zoom]").lightGallery({ /* loop: select elements with id:"carousel-zoom" */
     selector: 'a'
   });
-  $("[id^=archaeology-images]").lightGallery({ /* loop: select elements with id:"carousel-zoom" */
-  selector: 'a'
-  });
 });
-
 
 function setUpModals() {
   let contents = document.getElementById("text-chapter-contents");
   let imgAnchors = contents.getElementsByClassName("a-img");
   let refAnchors = contents.getElementsByClassName("a-ref");
-  let tableAnchors = contents.getElementsByClassName("a-table");
-  let videoAnchors = contents.getElementsByClassName("a-video");
+  let tableAnchors = contents.getElementsByClassName("a-table")
   let modalBody = document.getElementById("modal-body");
-  let tableImgModalBody = document.getElementById("table-img-modal-body");
+  let tableImgModalBody = document.getElementById("table-img-modal-body")
   for (let anchor of imgAnchors) {
     anchor.onclick = function(e) {
       modalBody.innerHTML = `
@@ -54,21 +49,6 @@ function setUpModals() {
       modalBody.classList.remove('ref-modal-body');
     }
   }
-  for (let anchor of videoAnchors) {
-    anchor.onclick = function(e) {
-      modalBody.innerHTML = `
-      <video controls>
-        <source src="${anchor.getAttribute("data-figure-path")}" type="video/mp4">
-      </video>
-      <br>
-      <br>
-      ${anchor.getAttribute("data-figure-caption")}`;
-      modalBody.classList.add('img-modal-body');
-      modalBody.classList.remove('ref-modal-body');
-      modalBody.classList.remove('table-modal-body');
-    }
-  }
 };
-
 
 setUpModals();
