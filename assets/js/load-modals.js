@@ -8,6 +8,10 @@ $(document).ready(function() {
   $("[class^=a-img]").lightGallery({ /* loop: select elements with id:"carousel-zoom" */
   selector: 'this'
   });
+  $("[id^=video-gallery]").lightGallery({ /* loop: select elements with id:"carousel-zoom" */
+  loadYoutubeThumbnail: true,
+  youtubeThumbSize: 'default'
+  });
 });
 
 function setUpModals() {
