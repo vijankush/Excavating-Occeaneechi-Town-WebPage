@@ -222,6 +222,7 @@ a.nav-link.active {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  color: #000 !important;
 }
 
 h2#description {
@@ -242,10 +243,14 @@ li.sidebar-subsection > a:hover {
 
 .carousel-inner {
   max-height: 450px !important;
+  background-color: #EBEBEB;
+  padding: inherit;
+  border-radius: 10px;
 }
 
 .mx-auto.d-block.img-fluid {
   max-height: 400px !important;
+  box-shadow: 0px 0px 60px 40px lightgrey;
 }
 
 .text-light {
