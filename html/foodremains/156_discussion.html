@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,119 +7,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Discussion - Excavating Occaneechi Town</title>
-        <link href="../../assets/css/textpage.css" rel="stylesheet">
+    <link href="../../assets/css/lightgallery.min.css" rel="stylesheet">
+    <link href="../../assets/css/textpage.css" rel="stylesheet">
     <link href="../../assets/css/modals.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/css/mdb.min.css">
+    <link href="../../assets/css/lightgallery.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
 <link href="../../assets/css/styles.css" rel="stylesheet">
 <link rel="stylesheet" href="../../assets/css/Lithos%20Pro.css">
-<link rel="stylesheet" href="../../assets/css/Lithos%20Pro%20Extra.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-<link rel="stylesheet" href="../../assets/css/gradient-navbar-1.css">
 <link rel="stylesheet" href="../../assets/css/gradient-navbar.css">
-<link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link
-    rel="stylesheet"
-    href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
-/>        <link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+<link rel="stylesheet" href="../../assets/css/bootstrap-toc.min.css">
   </head>
 
   <body data-spy="scroll" data-target="#toc">
+    <header>
+      <div class="card" id="h-card">
         <div class="card-header">
-        <h5 class="mb-0"><strong><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#eot-sidebar" aria-expanded="false" aria-controls="eot-sidebar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button><a href="https://comp523eot.netlify.app/html" style="color:inherit">Excavating Occeaneechi Town</a></strong><br></h5>
-    </div>
-    
-        <div class="container-fluid">
+          <h5 class="mb-0"><strong><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#eot-sidebar" aria-expanded="false" aria-controls="eot-sidebar" aria-expanded="false" aria-label="Toggle navigation" id="sidebarButton">
+            <span class="navbar-toggler-icon"></span>
+          </button><a href="../index.html" style="color:inherit">Excavating Occaneechi Town</a></strong><br></h5>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 eot-sidebar collapse show" id="eot-sidebar">
-  <nav id="toc" data-toggle="toc" class="nav flex-column">
-          <div class="sidebar-chapter">
-      <a href="None">Getting Started</a>
+            <div class="col-md-4 col-lg-3 eot-sidebar collapse show" id="eot-sidebar">
+      <script>
+        // Collapse sidebar by default on mobile screens
+        if (window.matchMedia("(max-width: 767px)").matches) {
+          sidebar = document.getElementById("eot-sidebar");
+          sidebar.classList.remove("show");
+        }
+      </script>
+      <nav id="toc" data-toggle="toc" class="nav flex-column">
+        <div class="sidebar-chapter">
+          <a href="../gettingstarted/1_the_basics_of_using_excavating_occaneechi_town.html">Getting Started</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../primer/1_an_archaeology_primer.html">Archaeology Primer</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../introduction/prelims_01_title_page.html">Introduction</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../contents/prelims_06_table_of_contents.html">Contents</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../background/001_historical_background.html">Background</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../excavations/excavations.html">Excavations</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../artifacts/085_introduction_to_artifact_analyses.html">Artifacts</a>
+        </div>
+        <div class="sidebar-active sidebar-chapter"> <!-- Current chapter -->
+          <a href="135_research_questions.html">Food Remains</a>
+          <ul class="nav"> <!-- Current chapter modules list -->
+            <li class="sidebar-module">
+              <a href="135_research_questions.html">Animals 1983-1984</a>
+            </li>
+            <li class="sidebar-active sidebar-module">
+              <a href="153_introduction.html">Animal Remains: 1985 Excavations</a>
+<p id="author">by Mary Ann Holm</p>              <ul class="nav"> <!-- Current chapter section list-->
+                <li class="sidebar-section">
+                  <a href="153_introduction.html">Introduction</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="154_analytical_procedures.html">Analytical Procedures</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="155_animals_from_the_fredricks_site.html">Animals from the Fredricks Site</a>
+                </li>
+                <li class="sidebar-active sidebar-section">
+                  <a href="156_discussion.html">Discussion</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="157_conclusions.html">Conclusions</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="158_list_of_tables_and_figures.html">List of Tables and Figures</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="159_source.html">Source</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-module">
+              <a href="160_introduction.html">Animals 1986</a>
+            </li>
+            <li class="sidebar-module">
+              <a href="169_introduction.html">Plants 1983-1984</a>
+            </li>
+            <li class="sidebar-module">
+              <a href="187_introduction.html">Plants 1985</a>
+            </li>
+            <li class="sidebar-module">
+              <a href="199_introduction.html">Plants 1986</a>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../interpretations/205_introduction.html">Interpretations</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../references/250_a-g.html">References</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../appendixa/001_burial_1.html">Appendix A: Artifacts by Excavation Context</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../appendixb/001_beads.html">Appendix B: Artifacts by Category</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../data/1_introduction.html">Data Downloads</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="https://electronicdig.sites.oasis.unc.edu">Electronic Dig</a>
+        </div>
+      </nav>
     </div>
-              <div class="sidebar-chapter">
-      <a href="None">Archaeology Primer</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../introduction/prelims_01_title_page.html">Introduction</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../contents/prelims_06_table_of_contents.html">Contents</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../background/001_historical_background.html">Background</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../excavations/021_burial_1.html">Excavations</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../artifacts/085_introduction_to_artifact_analyses.html">Artifacts</a>
-    </div>
-              <div class="sidebar-active sidebar-chapter"> <!-- Current chapter -->
-      <a href="135_research_questions.html">Food Remains</a>
-      <ul class="nav"> <!-- Current chapter modules list -->
-                      <li class="sidebar-module">
-          <a href="135_research_questions.html">Animals 1983-1984</a>
-        </li>
-                              <li class="sidebar-active sidebar-module">
-          <a href="153_introduction.html">Animal Remains: 1985 Excavations</a>
-          <p id="author">by Mary Ann Holm</p>          <ul class="nav"> <!-- Current chapter section list-->
-                      <li class="sidebar-section">
-              <a href="153_introduction.html">Introduction</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="154_analytical_procedures.html">Analytical Procedures</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="155_animals_from_the_fredricks_site.html">Animals from the Fredricks Site</a>
-                          </li>
-                      <li class="sidebar-active sidebar-section">
-              <a href="156_discussion.html">Discussion</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="157_conclusions.html">Conclusions</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="158_list_of_tables_and_figures.html">List of Tables and Figures</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="159_source.html">Source</a>
-                          </li>
-                    </ul>
-        </li>
-                              <li class="sidebar-module">
-          <a href="160_introduction.html">Animals 1986</a>
-        </li>
-                              <li class="sidebar-module">
-          <a href="169_introduction.html">Plants 1983-1984</a>
-        </li>
-                              <li class="sidebar-module">
-          <a href="187_introduction.html">Plants 1985</a>
-        </li>
-                              <li class="sidebar-module">
-          <a href="199_introduction.html">Plants 1986</a>
-        </li>
-                    </ul>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../interpretations/205_introduction.html">Interpretations</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="https://electronicdig.sites.oasis.unc.edu">Electronic Dig</a>
-    </div>
-        </nav>
-</div>        <div class="col-md" id="text-chapter-contents" style="overflow-y: scroll;">
+
+        <div class="col-md" id="text-chapter-contents">
           <h1>Discussion</h1>
-                                  <p>The 1985 faunal assemblage was nearly twice as large as the 1983-1984 assemblage from the Fredricks site (31,901 fragments as opposed to 16,393 fragments). Despite this, the number of species and the number of individuals represented in the 1985 assemblage was far smaller than in the earlier assemblage. The following species and families represented in the 1983-1984 faunal remains were not present in the 1985 remains: striped skunk, hispid cotton rat, horse, pig, mountain lion, gray fox, Charadriidae (plovers), bobwhite, lesser scaup, musk turtle, mud turtle, Crotalid (poisonous snake), spadefoot toad, Bufo sp. (toads), and sunfish.</p>
-                                                          <p>Although the 1985 assemblage contained fewer species, it exhibited a higher diversity index. A Simpson's diversity index for the 1983-1984 assemblage is 0.73 (with a maximum of 0.97), and for the 1985 assemblage it is 0.83 (with a maximum of .95). The fact that the 1985 assemblage has a higher diversity but fewer species identified indicates that it displays greater equitability of representation of species than the assemblage analyzed earlier. The 1983-1984 assemblage, however, is richer.</p>
-                                                          <p>Fish and reptiles both appear less important in the 1985 assemblage than in the 1983-1984 assemblage. Whereas fish accounted for 50.0% of the individuals in the earlier assemblage, it accounted for only 32.1% of the total in the 1985 assemblage. Reptiles represented 12.0% of the total number of individuals in the earlier assemblage, and 8.9% of the individuals in the later assemblage. Amphibians also decreased in importance from 5.6% to only 0.9% of the individuals.</p>
-                                                          <p>Although fewer species of birds were represented in the 1985 assemblage, their importance in terms of MNI increased. Birds accounted for 11.9% of the individuals in the 1983-1984 assemblage, but they accounted for 17.8% in the 1985 assemblage. This increase in importance can largely be attributed to the increase in representation of turkeys from four to 15. Whereas 75.0% of the individuals identified in the first assemblage were males, only 20.0% of the individuals in the second assemblage were males. When data from the two assemblages are combined, the results indicate that 31.6% of the individuals identified as turkeys were males. The proportion of males to females is considerably higher than that found in a study of turkeys harvested in Virginia in which only 18.9% of the 6,000 turkeys captured during a five-year period were adult males (<a class="a-ref" data-author="Gwynn, John V." data-ref-text="1964  &lt;i&gt;Virginia Upland Game Investigations: Restoration of the Wild Turkey&lt;/i&gt;.  Annual Report, Virginia Pittman-Robertson Project." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Gwynn 1964</u></a>). It thus seems likely that Occaneechi hunters were selecting males over females, possibly because of the larger size of the males.</p>
-                                                          <p>Deer represented a significantly higher percentage of the total number of individuals in the 1985 assemblage than in the 1983-1984 assemblage (21.4% vs. 6.3% of the total number of individuals). Whereas 50.0% of the individuals that could be aged in the earlier assemblage were 4-1/2 years old or less, 87.5% of the individuals in the 1985 assemblage comprised this age category. When combined, the two assemblages contain individuals ranging in age from less than one year to 8-1/2 - 9-1/2 years. Individuals between 2-1/2 and 4-1/2 years accounted for 50.0% of the individuals identified. It was possible to determine the sex of only 10 of the 33 individuals identified. Five of these were males and five were females. This suggests that the Occaneechi were neither selecting male over female deer nor hunting primarily weaker animals (the very young or very old). It also indicates that the methods used to hunt deer were drives and surrounds rather than stalking (<a class="a-ref" data-author="Waselkov, Gregory A." data-ref-text="1977  &lt;i&gt;Prehistoric Dan River Hunting Strategies&lt;/i&gt;.  Unpublished M.A. thesis, Department of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Waselkov 1977</u></a>:120).</p>
-                                                          <p>Among some historic tribes of eastern North America "bear bones were often revered or given preferential treatment to propitiate the spirit of the animal, treatment which would eliminate them from the bone refuse ordinarily associated with an Indian village site" (<a class="a-ref" data-author="Guilday, John E., Paul W. Parmalee, and Donald P. Tanner" data-ref-text="1962  Aboriginal Butchering Techniques at the Eschelman Site (36La12), Lancaster, Pennsylvania.  &lt;i&gt;Pennsylvania Archaeologist&lt;/i&gt; 32(2):59-83." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Guilday et al. 1962</u></a>:65). In the 1985 assemblage from the Fredricks site, a total of 471 fragments identified as bear were found in seven different features. This widespread distribution, coupled with the fact that the bear remains were found mixed with the remains of other animals, indicates that bear bones may not have been given preferential treatment by the Occaneechi. However, 77.1% of the bear bones were burned whereas only 31.5% of the deer bones from the same assemblage were burned. The majority of those bear bones which were burned were foot bones (both broken and complete). It is interesting to note that six complete long bones (1 tibia, 3 ulnae, and 2 radii) were found that had not been cracked for their marrow but had been left intact. Of these six elements, three showed evidence of pathology. One radius and one ulna exhibited signs of inflammation with areas of bone deposition and pitting. Evidence of a small tumor was found on the shaft of the other ulna.</p>
-                                                          <p>No rabbits were identified in either the 1983-1984 or 1985 assemblage from the Fredricks site. Guilday et al. (<a class="a-ref" data-author="Guilday, John E., Paul W. Parmalee, and Donald P. Tanner" data-ref-text="1962  Aboriginal Butchering Techniques at the Eschelman Site (36La12), Lancaster, Pennsylvania.  &lt;i&gt;Pennsylvania Archaeologist&lt;/i&gt; 32(2):59-83." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>1962</u></a>:72) have hypothesized that the scarcity of rabbit remains in assemblages from Pennsylvania sites is due to the presence of dogs around Indian villages. At the late prehistoric Wall site (<a class="a-img" data-figure-caption="&lt;b&gt;Figure 8&lt;/b&gt;. Excavated sites in the Hillsborough archaeological district." data-figure-path="../../imgs/d/dist_map.gif" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>located 200 yards from the Fredricks site</u></a>) dogs were present, yet rabbit was the third most numerous mammal identified in the assemblage. Therefore, it is questionable whether the rabbit population around the Fredricks site would have been severely limited by the presence of dogs. Differential preservation does not seem to be a plausible explanation either, as more fragile bones (such as those from birds) and bones of smaller species (e.g., mice and fish) were found in abundance. Instead, it seems likely that some other factor, such as disease, limited the number of rabbits available at the time Occaneechi Town was occupied.</p>
-                                                          <p>The 1983-1984 and 1985 assemblages were compared in terms of the relative importance of the contribution made by each species to the diet of the inhabitants of the site. The calculations of available meat were based on estimations by Smith (<a class="a-ref" data-author="Smith, Bruce D." data-ref-text="1975a  Toward a More Accurate Estimation of Meat Yield of Animal Species at Archaeological Sites.  In &lt;i&gt;Archaeozoological Studies&lt;/i&gt;, edited by A. T. Clason, pp. 99-106.  North Holland, Amsterdam." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>1975a</u></a>), White (<a class="a-ref" data-author="White, P. S., and S. T. A. Pickett" data-ref-text="1985  Natural Disturbance and Patch Dynamics: An Introduction. In &lt;i&gt;The Ecology of Natural Disturbance and Patch Dynamics&lt;/i&gt;, edited by S. T. A. Pickett and P. S. White, pp. 3-13.  Academic Press, New York." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>1953</u></a>), and Cleland (<a class="a-ref" data-author="Cleland, Charles E." data-ref-text="1966  &lt;i&gt;The Prehistoric Animal Ecology of the Upper Great Lakes Region&lt;/i&gt;. Anthropological Papers No. 29.  Museum of Anthropology, University of Michigan, Ann Arbor." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>1966</u></a>). The results of these calculations for the 1985 assemblage are presented in <a class="a-table" data-table-header="&lt;b&gt;Table 14&lt;/b&gt;. Estimated meat yield in pounds (1985 excavations)." data-table-string="======================================================
+            <p>The 1985 faunal assemblage was nearly twice as large as the 1983-1984 assemblage from the Fredricks site (31,901 fragments as opposed to 16,393 fragments). Despite this, the number of species and the number of individuals represented in the 1985 assemblage was far smaller than in the earlier assemblage. The following species and families represented in the 1983-1984 faunal remains were not present in the 1985 remains: striped skunk, hispid cotton rat, horse, pig, mountain lion, gray fox, Charadriidae (plovers), bobwhite, lesser scaup, musk turtle, mud turtle, Crotalid (poisonous snake), spadefoot toad, Bufo sp. (toads), and sunfish.</p>
+            <p>Although the 1985 assemblage contained fewer species, it exhibited a higher diversity index. A Simpson's diversity index for the 1983-1984 assemblage is 0.73 (with a maximum of 0.97), and for the 1985 assemblage it is 0.83 (with a maximum of .95). The fact that the 1985 assemblage has a higher diversity but fewer species identified indicates that it displays greater equitability of representation of species than the assemblage analyzed earlier. The 1983-1984 assemblage, however, is richer.</p>
+            <p>Fish and reptiles both appear less important in the 1985 assemblage than in the 1983-1984 assemblage. Whereas fish accounted for 50.0% of the individuals in the earlier assemblage, it accounted for only 32.1% of the total in the 1985 assemblage. Reptiles represented 12.0% of the total number of individuals in the earlier assemblage, and 8.9% of the individuals in the later assemblage. Amphibians also decreased in importance from 5.6% to only 0.9% of the individuals.</p>
+            <p>Although fewer species of birds were represented in the 1985 assemblage, their importance in terms of MNI increased. Birds accounted for 11.9% of the individuals in the 1983-1984 assemblage, but they accounted for 17.8% in the 1985 assemblage. This increase in importance can largely be attributed to the increase in representation of turkeys from four to 15. Whereas 75.0% of the individuals identified in the first assemblage were males, only 20.0% of the individuals in the second assemblage were males. When data from the two assemblages are combined, the results indicate that 31.6% of the individuals identified as turkeys were males. The proportion of males to females is considerably higher than that found in a study of turkeys harvested in Virginia in which only 18.9% of the 6,000 turkeys captured during a five-year period were adult males (<a class="a-ref" data-author="Gwynn, John V." data-ref-text="1964  &lt;i&gt;Virginia Upland Game Investigations: Restoration of the Wild Turkey&lt;/i&gt;.  Annual Report, Virginia Pittman-Robertson Project." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Gwynn 1964</u></a>). It thus seems likely that Occaneechi hunters were selecting males over females, possibly because of the larger size of the males.</p>
+            <p>Deer represented a significantly higher percentage of the total number of individuals in the 1985 assemblage than in the 1983-1984 assemblage (21.4% vs. 6.3% of the total number of individuals). Whereas 50.0% of the individuals that could be aged in the earlier assemblage were 4-1/2 years old or less, 87.5% of the individuals in the 1985 assemblage comprised this age category. When combined, the two assemblages contain individuals ranging in age from less than one year to 8-1/2 - 9-1/2 years. Individuals between 2-1/2 and 4-1/2 years accounted for 50.0% of the individuals identified. It was possible to determine the sex of only 10 of the 33 individuals identified. Five of these were males and five were females. This suggests that the Occaneechi were neither selecting male over female deer nor hunting primarily weaker animals (the very young or very old). It also indicates that the methods used to hunt deer were drives and surrounds rather than stalking (<a class="a-ref" data-author="Waselkov, Gregory A." data-ref-text="1977  &lt;i&gt;Prehistoric Dan River Hunting Strategies&lt;/i&gt;.  Unpublished M.A. thesis, Department of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Waselkov 1977</u></a>:120).</p>
+            <p>Among some historic tribes of eastern North America "bear bones were often revered or given preferential treatment to propitiate the spirit of the animal, treatment which would eliminate them from the bone refuse ordinarily associated with an Indian village site" (<a class="a-ref" data-author="Guilday, John E., Paul W. Parmalee, and Donald P. Tanner" data-ref-text="1962  Aboriginal Butchering Techniques at the Eschelman Site (36La12), Lancaster, Pennsylvania.  &lt;i&gt;Pennsylvania Archaeologist&lt;/i&gt; 32(2):59-83." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Guilday et al. 1962</u></a>:65). In the 1985 assemblage from the Fredricks site, a total of 471 fragments identified as bear were found in seven different features. This widespread distribution, coupled with the fact that the bear remains were found mixed with the remains of other animals, indicates that bear bones may not have been given preferential treatment by the Occaneechi. However, 77.1% of the bear bones were burned whereas only 31.5% of the deer bones from the same assemblage were burned. The majority of those bear bones which were burned were foot bones (both broken and complete). It is interesting to note that six complete long bones (1 tibia, 3 ulnae, and 2 radii) were found that had not been cracked for their marrow but had been left intact. Of these six elements, three showed evidence of pathology. One radius and one ulna exhibited signs of inflammation with areas of bone deposition and pitting. Evidence of a small tumor was found on the shaft of the other ulna.</p>
+            <p>No rabbits were identified in either the 1983-1984 or 1985 assemblage from the Fredricks site. Guilday et al. (<a class="a-ref" data-author="Guilday, John E., Paul W. Parmalee, and Donald P. Tanner" data-ref-text="1962  Aboriginal Butchering Techniques at the Eschelman Site (36La12), Lancaster, Pennsylvania.  &lt;i&gt;Pennsylvania Archaeologist&lt;/i&gt; 32(2):59-83." data-target="#genModal" data-toggle="modal" href="#genModal"><u>1962</u></a>:72) have hypothesized that the scarcity of rabbit remains in assemblages from Pennsylvania sites is due to the presence of dogs around Indian villages. At the late prehistoric Wall site (<a class="a-img" data-src="../../imgs/d/DIST_MAP.bmp" data-sub-html="&lt;b&gt;Figure 8&lt;/b&gt;. Excavated sites in the Hillsborough archaeological district." href="../../imgs/d/DIST_MAP.bmp"><u>located 200 yards from the Fredricks site</u></a>) dogs were present, yet rabbit was the third most numerous mammal identified in the assemblage. Therefore, it is questionable whether the rabbit population around the Fredricks site would have been severely limited by the presence of dogs. Differential preservation does not seem to be a plausible explanation either, as more fragile bones (such as those from birds) and bones of smaller species (e.g., mice and fish) were found in abundance. Instead, it seems likely that some other factor, such as disease, limited the number of rabbits available at the time Occaneechi Town was occupied.</p>
+            <p>The 1983-1984 and 1985 assemblages were compared in terms of the relative importance of the contribution made by each species to the diet of the inhabitants of the site. The calculations of available meat were based on estimations by Smith (<a class="a-ref" data-author="Smith, Bruce D." data-ref-text="1975a  Toward a More Accurate Estimation of Meat Yield of Animal Species at Archaeological Sites.  In &lt;i&gt;Archaeozoological Studies&lt;/i&gt;, edited by A. T. Clason, pp. 99-106.  North Holland, Amsterdam." data-target="#genModal" data-toggle="modal" href="#genModal"><u>1975a</u></a>), White (<a class="a-ref" data-author="White, P. S., and S. T. A. Pickett" data-ref-text="1985  Natural Disturbance and Patch Dynamics: An Introduction. In &lt;i&gt;The Ecology of Natural Disturbance and Patch Dynamics&lt;/i&gt;, edited by S. T. A. Pickett and P. S. White, pp. 3-13.  Academic Press, New York." data-target="#genModal" data-toggle="modal" href="#genModal"><u>1953</u></a>), and Cleland (<a class="a-ref" data-author="Cleland, Charles E." data-ref-text="1966  &lt;i&gt;The Prehistoric Animal Ecology of the Upper Great Lakes Region&lt;/i&gt;. Anthropological Papers No. 29.  Museum of Anthropology, University of Michigan, Ann Arbor." data-target="#genModal" data-toggle="modal" href="#genModal"><u>1966</u></a>). The results of these calculations for the 1985 assemblage are presented in <a class="a-table" data-table-header="&lt;b&gt;Table 14&lt;/b&gt;. Estimated meat yield in pounds (1985 excavations)." data-table-string="======================================================
                          Estimated Meat
                         Yield/Individual     Total
  Species                     (lbs.)       lbs.     %
@@ -158,29 +180,29 @@
  
  Total                           -   2,912.0     99.6
  ======================================================
- * - less than .05." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 14</u></a>. In terms of estimated meat yield, the most important animals in the 1985 assemblage were deer (which provided 70.0% of the available meat), bear (2l.6%), turkey (4.4%), and catfish (1.8%). None of the other species represented provided more than 0.5% of the total estimated meat yield. The most important animals in the 1983-1984 assemblage were deer (providing 58.2% of the total estimated meat yield), bear (16.0%), catfish (7.9%), pig (5.7%), mountain lion (4.6%), turkey (2.6%), and raccoon (1.1%). The remaining species identified in this assemblage each contributed less than 1.0% of the estimated meat yield.</p>
-                                            <nav aria-label="Page navigation">
+ * - less than .05." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 14</u></a>. In terms of estimated meat yield, the most important animals in the 1985 assemblage were deer (which provided 70.0% of the available meat), bear (2l.6%), turkey (4.4%), and catfish (1.8%). None of the other species represented provided more than 0.5% of the total estimated meat yield. The most important animals in the 1983-1984 assemblage were deer (providing 58.2% of the total estimated meat yield), bear (16.0%), catfish (7.9%), pig (5.7%), mountain lion (4.6%), turkey (2.6%), and raccoon (1.1%). The remaining species identified in this assemblage each contributed less than 1.0% of the estimated meat yield.</p>
+<nav aria-label="Page navigation" class="page-navigation">
   <ul class="pagination justify-content-center">
-        <li class="page-item">
+    <li class="page-item">
       <a class="page-link" href="155_animals_from_the_fredricks_site.html">Previous</a>
     </li>
-        <li class="page-item active">
+    <li class="page-item active">
       <a class="page-link" id="pageNumClickable" data-toggle="popover">156</a>
     </li>
-        <li class="page-item">
+    <li class="page-item">
       <a class="page-link" href="157_conclusions.html">Next</a>
     </li>
-      </ul>
+  </ul>
 </nav>        </div>
       </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
-      <div class="modal" id="genModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+    <script src="../../assets/js/bootstrap-toc.min.js"></script>
+<div class="modal" id="genModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-lg modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header modal-header-generic-textpage">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -192,19 +214,22 @@
     </div>
   </div>
 </div>
-<div class="modal" id="tableImgModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<div class="modal" id="versionModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-lg modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header modal-header-generic-textpage">
+        <h5 class="modal-title">Version Information</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" id="table-img-modal-body">
+      <div class="modal-body" id="version-modal-body">
+          <p>The authors of Excavating Occaneechi Town (Web edition) recognize that, while all the information recovered in an archaeological excavation has scientific importance, it may be inappropriate to display or view some of that information, such as photographs of human bones, in a public or instructional context. Therefore, we have provided two versions of this edition. The Professional Version provides access to all of the information about the site; the Instructional Version provides access to all of the information except for photographs of human burials.</p>
       </div>
     </div>
   </div>
 </div>
+<script src="../../assets/js/lightgallery-all.js"></script>
 <script src="../../assets/js/load-modals.js"></script>  <script src="../../assets/js/page-num-navigation.js"></script>
   </body>
 </html>

@@ -1,0 +1,1666 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1004
+  9
+$EXTMIN
+ 10
+1.0685
+ 20
+0.5426
+  9
+$EXTMAX
+ 10
+2.0528
+ 20
+1.5657
+  9
+$LIMMIN
+ 10
+1.0685
+ 20
+0.5426
+  9
+$LIMMAX
+ 10
+2.0528
+ 20
+1.5657
+  9
+$INSBASE
+ 10
+0.0
+ 20
+0.0
+  9
+$VIEWCTR
+ 10
+7.21903
+ 20
+4.5
+  9
+$VIEWSIZE
+ 40
+9.0
+  9
+$SNAPMODE
+ 70
+     0
+  9
+$SNAPUNIT
+ 10
+1.0
+ 20
+1.0
+  9
+$SNAPBASE
+ 10
+0.0
+ 20
+0.0
+  9
+$SNAPANG
+ 50
+0.0
+  9
+$SNAPSTYLE
+ 70
+     0
+  9
+$SNAPISOPAIR
+ 70
+     0
+  9
+$GRIDMODE
+ 70
+     0
+  9
+$GRIDUNIT
+ 10
+0.0
+ 20
+0.0
+  9
+$ORTHOMODE
+ 70
+     0
+  9
+$REGENMODE
+ 70
+     1
+  9
+$FILLMODE
+ 70
+     1
+  9
+$QTEXTMODE
+ 70
+     0
+  9
+$DRAGMODE
+ 70
+     2
+  9
+$LTSCALE
+ 40
+1.0
+  9
+$OSMODE
+ 70
+     0
+  9
+$ATTMODE
+ 70
+     1
+  9
+$TEXTSIZE
+ 40
+0.2
+  9
+$TRACEWID
+ 40
+0.05
+  9
+$TEXTSTYLE
+  7
+STANDARD
+  9
+$CLAYER
+  8
+0
+  9
+$CELTYPE
+  6
+BYLAYER
+  9
+$CECOLOR
+ 62
+   256
+  9
+$DIMSCALE
+ 40
+1.0
+  9
+$DIMASZ
+ 40
+0.18
+  9
+$DIMEXO
+ 40
+0.0625
+  9
+$DIMDLI
+ 40
+0.38
+  9
+$DIMRND
+ 40
+0.0
+  9
+$DIMDLE
+ 40
+0.0
+  9
+$DIMEXE
+ 40
+0.18
+  9
+$DIMTP
+ 40
+0.0
+  9
+$DIMTM
+ 40
+0.0
+  9
+$DIMTXT
+ 40
+0.18
+  9
+$DIMCEN
+ 40
+0.09
+  9
+$DIMTSZ
+ 40
+0.0
+  9
+$DIMTOL
+ 70
+     0
+  9
+$DIMLIM
+ 70
+     0
+  9
+$DIMTIH
+ 70
+     1
+  9
+$DIMTOH
+ 70
+     1
+  9
+$DIMSE1
+ 70
+     0
+  9
+$DIMSE2
+ 70
+     0
+  9
+$DIMTAD
+ 70
+     0
+  9
+$DIMZIN
+ 70
+     0
+  9
+$DIMBLK
+  1
+
+  9
+$DIMASO
+ 70
+     1
+  9
+$DIMSHO
+ 70
+     0
+  9
+$DIMPOST
+  1
+
+  9
+$DIMAPOST
+  1
+
+  9
+$DIMALT
+ 70
+     0
+  9
+$DIMALTD
+ 70
+     2
+  9
+$DIMALTF
+ 40
+25.4
+  9
+$DIMLFAC
+ 40
+1.0
+  9
+$LUNITS
+ 70
+     2
+  9
+$LUPREC
+ 70
+     4
+  9
+$AXISMODE
+ 70
+     0
+  9
+$AXISUNIT
+ 10
+0.0
+ 20
+0.0
+  9
+$SKETCHINC
+ 40
+0.1
+  9
+$FILLETRAD
+ 40
+0.0
+  9
+$AUNITS
+ 70
+     0
+  9
+$AUPREC
+ 70
+     0
+  9
+$MENU
+  1
+acad
+  9
+$ELEVATION
+ 40
+0.0
+  9
+$THICKNESS
+ 40
+0.0
+  9
+$VIEWDIR
+ 10
+0.0
+ 20
+0.0
+ 30
+1.0
+  9
+$LIMCHECK
+ 70
+     0
+  9
+$BLIPMODE
+ 70
+     1
+  9
+$CHAMFERA
+ 40
+0.0
+  9
+$CHAMFERB
+ 40
+0.0
+  9
+$FASTZOOM
+ 70
+     1
+  9
+$SKPOLY
+ 70
+     0
+  9
+$TDCREATE
+ 40
+2447222.5666886573
+  9
+$TDUPDATE
+ 40
+2447222.5666886573
+  9
+$TDINDWG
+ 40
+0.0000000000
+  9
+$TDUSRTIMER
+ 40
+0.0000000000
+  9
+$USRTIMER
+ 70
+     1
+  9
+$ANGBASE
+ 50
+0.0
+  9
+$ANGDIR
+ 70
+     0
+  9
+$PDMODE
+ 70
+     0
+  9
+$PDSIZE
+ 40
+0.0
+  9
+$PLINEWID
+ 40
+0.0
+  9
+$COORDS
+ 70
+     0
+  9
+$SPLFRAME
+ 70
+     0
+  9
+$SPLINESEGS
+ 70
+     8
+  9
+$ATTDIA
+ 70
+     0
+  9
+$ATTREQ
+ 70
+     1
+  9
+$USERI1
+ 70
+     0
+  9
+$USERI2
+ 70
+     0
+  9
+$USERI3
+ 70
+     0
+  9
+$USERI4
+ 70
+     0
+  9
+$USERI5
+ 70
+     0
+  9
+$USERR1
+ 40
+0.0
+  9
+$USERR2
+ 40
+0.0
+  9
+$USERR3
+ 40
+0.0
+  9
+$USERR4
+ 40
+0.0
+  9
+$USERR5
+ 40
+0.0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LTYPE
+ 70
+     13
+  0
+LTYPE
+  2
+CONTINUOUS
+ 70
+    64
+  3
+Solid line
+ 72
+    65
+ 73
+     0
+ 40
+0.0
+  0
+LTYPE
+  2
+DASHED
+ 70
+    64
+  3
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __
+ 72
+    65
+ 73
+     2
+ 40
+0.75
+ 49
+0.5
+ 49
+-0.25
+  0
+LTYPE
+  2
+HIDDEN
+ 70
+    64
+  3
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ 72
+    65
+ 73
+     2
+ 40
+0.375
+ 49
+0.25
+ 49
+-0.125
+  0
+LTYPE
+  2
+CENTER
+ 70
+    64
+  3
+____ _ ____ _ ____ _ ____ _ ____ _ ____ _ ____
+ 72
+    65
+ 73
+     4
+ 40
+2.0
+ 49
+1.25
+ 49
+-0.25
+ 49
+0.25
+ 49
+-0.25
+  0
+LTYPE
+  2
+PHANTOM
+ 70
+    64
+  3
+_____ _ _ _____ _ _ _____ _ _ _____ _ _ ____
+ 72
+    65
+ 73
+     6
+ 40
+2.5
+ 49
+1.25
+ 49
+-0.25
+ 49
+0.25
+ 49
+-0.25
+ 49
+0.25
+ 49
+-0.25
+  0
+LTYPE
+  2
+DOT
+ 70
+    64
+  3
+...............................................
+ 72
+    65
+ 73
+     2
+ 40
+0.25
+ 49
+0.0
+ 49
+-0.25
+  0
+LTYPE
+  2
+DASHDOT
+ 70
+    64
+  3
+__ . __ . __ . __ . __ . __ . __ . __ . __ . __
+ 72
+    65
+ 73
+     4
+ 40
+1.0
+ 49
+0.5
+ 49
+-0.25
+ 49
+0.0
+ 49
+-0.25
+  0
+LTYPE
+  2
+BORDER
+ 70
+    64
+  3
+__ __ . __ __ . __ __ . __ __ . __ __ . __ __
+ 72
+    65
+ 73
+     6
+ 40
+1.75
+ 49
+0.5
+ 49
+-0.25
+ 49
+0.5
+ 49
+-0.25
+ 49
+0.0
+ 49
+-0.25
+  0
+LTYPE
+  2
+DIVIDE
+ 70
+    64
+  3
+__ . . __ . . __ . . __ . . __ . . __ . . __
+ 72
+    65
+ 73
+     6
+ 40
+1.25
+ 49
+0.5
+ 49
+-0.25
+ 49
+0.0
+ 49
+-0.25
+ 49
+0.0
+ 49
+-0.25
+  0
+LTYPE
+  2
+DCTYPE1
+ 70
+    64
+  3
+__ . . __ . . __ . . __ . . __ . . __ . . __
+ 72
+    65
+ 73
+     8
+ 40
+2.5
+ 49
+0.5
+ 49
+-0.25
+ 49
+0.125
+ 49
+-0.25
+ 49
+0.25
+ 49
+-0.25
+ 49
+0.125
+ 49
+-0.25
+  0
+LTYPE
+  2
+DCTYPE2
+ 70
+    64
+  3
+__ . . __ . . __ . . __ . . __ . . __ . . __
+ 72
+    65
+ 73
+     6
+ 40
+2.05
+ 49
+1.0
+ 49
+-0.3
+ 49
+0.15
+ 49
+-0.15
+ 49
+0.15
+ 49
+-0.3
+  0
+LTYPE
+  2
+DCTYPE3
+ 70
+    64
+  3
+__ . . __ . . __ . . __ . . __ . . __ . . __
+ 72
+    65
+ 73
+     6
+ 40
+2.5
+ 49
+0.8
+ 49
+-0.2
+ 49
+0.8
+ 49
+-0.2
+ 49
+0.3
+ 49
+-0.2
+  0
+LTYPE
+  2
+DCTYPE4
+ 70
+    64
+  3
+__ . . __ . . __ . . __ . . __ . . __ . . __
+ 72
+    65
+ 73
+     10
+ 40
+3.97
+ 49
+1.75
+ 49
+-0.3
+ 49
+0.3
+ 49
+-0.3
+ 49
+0.06
+ 49
+-0.3
+ 49
+0.06
+ 49
+-0.3
+ 49
+0.3
+ 49
+-0.3
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+ 70
+    153
+  0
+LAYER
+  2
+LAYER1
+ 70
+ 64
+ 62
+     7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+LAYER12
+ 70
+ 64
+ 62
+     5
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.2378
+ 20
+1.3944
+ 40
+0.0204
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.3814
+ 20
+1.5115
+ 40
+0.0161
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.3762
+ 20
+1.4430
+ 40
+0.0127
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.3811
+ 20
+1.3541
+ 40
+0.0051
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.4038
+ 20
+1.2880
+ 40
+0.0154
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.4188
+ 20
+1.2194
+ 40
+0.0080
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.4416
+ 20
+1.1889
+ 40
+0.0137
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.4871
+ 20
+1.1152
+ 40
+0.0102
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.4465
+ 20
+1.0924
+ 40
+0.0137
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.4615
+ 20
+1.0137
+ 40
+0.0114
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.4818
+ 20
+1.0086
+ 40
+0.0102
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.4665
+ 20
+0.9553
+ 40
+0.0127
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.5043
+ 20
+0.8663
+ 40
+0.0057
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.5245
+ 20
+0.8104
+ 40
+0.0105
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.5497
+ 20
+0.7342
+ 40
+0.0127
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.6003
+ 20
+0.6605
+ 40
+0.0108
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.6357
+ 20
+0.6045
+ 40
+0.0080
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.6712
+ 20
+0.5714
+ 40
+0.0105
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.6813
+ 20
+0.5536
+ 40
+0.0108
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.4302
+ 20
+0.6507
+ 40
+0.0178
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.3339
+ 20
+0.7144
+ 40
+0.0161
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.2704
+ 20
+0.7095
+ 40
+0.0170
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.4652
+ 20
+1.4935
+ 40
+0.0130
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.5079
+ 20
+1.3106
+ 40
+0.0229
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.6805
+ 20
+1.2722
+ 40
+0.0161
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.7006
+ 20
+1.1934
+ 40
+0.0127
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.6367
+ 20
+1.0209
+ 40
+0.0193
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.8191
+ 20
+0.8529
+ 40
+0.0148
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.9637
+ 20
+0.7942
+ 40
+0.0161
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.9889
+ 20
+0.6926
+ 40
+0.0161
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.7958
+ 20
+0.6600
+ 40
+0.0185
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.7250
+ 20
+0.7668
+ 40
+0.0229
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.8236
+ 20
+0.5787
+ 40
+0.0193
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.9496
+ 20
+1.2944
+ 40
+0.0137
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.9826
+ 20
+1.2841
+ 40
+0.0180
+  0
+ARC
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.3619
+ 20
+1.5613
+ 40
+0.0160
+ 50
+-108.4707
+ 51
+15.0292
+  0
+ARC
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.3619
+ 20
+1.5613
+ 40
+0.0160
+ 50
+164.1873
+ 51
+164.9706
+  0
+ARC
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+1.3619
+ 20
+1.5613
+ 40
+0.0160
+ 50
+164.9707
+ 51
+-108.4703
+  0
+ARC
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+2.0642
+ 20
+1.4312
+ 40
+0.0180
+ 50
+129.3307
+ 51
+-129.3304
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+1.0685
+ 20
+0.5426
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+2.0528
+ 20
+0.5426
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+2.0528
+ 20
+1.5657
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+2.0528
+ 20
+1.5657
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+2.0522
+ 20
+1.5655
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+2.0522
+ 20
+0.5426
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+1.0685
+ 20
+0.5426
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+1.0685
+ 20
+1.5655
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+2.0528
+ 20
+1.5657
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+1.0685
+ 20
+1.5657
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+2.0522
+ 20
+1.5657
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+2.0522
+ 20
+1.5655
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+1.0685
+ 20
+1.5655
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+1.0685
+ 20
+1.5657
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+1.0685
+ 20
+1.5657
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+1.0685
+ 20
+1.5657
+  0
+SEQEND
+  8
+LAYER12
+  0
+ENDSEC
+  0
+EOF

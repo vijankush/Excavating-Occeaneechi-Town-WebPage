@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,134 +7,154 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Fredricks Site Excavation - Excavating Occaneechi Town</title>
-        <link href="../../assets/css/textpage.css" rel="stylesheet">
+    <link href="../../assets/css/lightgallery.min.css" rel="stylesheet">
+    <link href="../../assets/css/textpage.css" rel="stylesheet">
     <link href="../../assets/css/modals.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/css/mdb.min.css">
+    <link href="../../assets/css/lightgallery.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
 <link href="../../assets/css/styles.css" rel="stylesheet">
 <link rel="stylesheet" href="../../assets/css/Lithos%20Pro.css">
-<link rel="stylesheet" href="../../assets/css/Lithos%20Pro%20Extra.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-<link rel="stylesheet" href="../../assets/css/gradient-navbar-1.css">
 <link rel="stylesheet" href="../../assets/css/gradient-navbar.css">
-<link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link
-    rel="stylesheet"
-    href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
-/>        <link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+<link rel="stylesheet" href="../../assets/css/bootstrap-toc.min.css">
   </head>
 
   <body data-spy="scroll" data-target="#toc">
+    <header>
+      <div class="card" id="h-card">
         <div class="card-header">
-        <h5 class="mb-0"><strong><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#eot-sidebar" aria-expanded="false" aria-controls="eot-sidebar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button><a href="https://comp523eot.netlify.app/html" style="color:inherit">Excavating Occeaneechi Town</a></strong><br></h5>
-    </div>
-    
-        <div class="container-fluid">
+          <h5 class="mb-0"><strong><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#eot-sidebar" aria-expanded="false" aria-controls="eot-sidebar" aria-expanded="false" aria-label="Toggle navigation" id="sidebarButton">
+            <span class="navbar-toggler-icon"></span>
+          </button><a href="../index.html" style="color:inherit">Excavating Occaneechi Town</a></strong><br></h5>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 eot-sidebar collapse show" id="eot-sidebar">
-  <nav id="toc" data-toggle="toc" class="nav flex-column">
-          <div class="sidebar-chapter">
-      <a href="None">Getting Started</a>
+            <div class="col-md-4 col-lg-3 eot-sidebar collapse show" id="eot-sidebar">
+      <script>
+        // Collapse sidebar by default on mobile screens
+        if (window.matchMedia("(max-width: 767px)").matches) {
+          sidebar = document.getElementById("eot-sidebar");
+          sidebar.classList.remove("show");
+        }
+      </script>
+      <nav id="toc" data-toggle="toc" class="nav flex-column">
+        <div class="sidebar-chapter">
+          <a href="../gettingstarted/1_the_basics_of_using_excavating_occaneechi_town.html">Getting Started</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../primer/1_an_archaeology_primer.html">Archaeology Primer</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../introduction/prelims_01_title_page.html">Introduction</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../contents/prelims_06_table_of_contents.html">Contents</a>
+        </div>
+        <div class="sidebar-active sidebar-chapter"> <!-- Current chapter -->
+          <a href="001_historical_background.html">Background</a>
+          <ul class="nav"> <!-- Current chapter modules list -->
+            <li class="sidebar-active sidebar-module">
+              <a href="001_historical_background.html">Archaeological Background</a>
+<p id="author">by Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr.</p>              <ul class="nav"> <!-- Current chapter section list-->
+                <li class="sidebar-section">
+                  <a href="001_historical_background.html">Historical Background</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="002_siouan_archaeology.html">Siouan Archaeology</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="003_fredricks_site_discovery.html">Fredricks Site Discovery</a>
+                </li>
+                <li class="sidebar-active sidebar-section">
+                  <a href="004_fredricks_site_excavation.html">Fredricks Site Excavation</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="005_list_of_figures.html">List of Figures</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="006_sources.html">Sources</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-module">
+              <a href="007_introduction.html">History (1525-1725)</a>
+            </li>
+            <li class="sidebar-module">
+              <a href="014_introduction.html">History (1725-present)</a>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../excavations/excavations.html">Excavations</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../artifacts/085_introduction_to_artifact_analyses.html">Artifacts</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../foodremains/135_research_questions.html">Food Remains</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../interpretations/205_introduction.html">Interpretations</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../references/250_a-g.html">References</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../appendixa/001_burial_1.html">Appendix A: Artifacts by Excavation Context</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../appendixb/001_beads.html">Appendix B: Artifacts by Category</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../data/1_introduction.html">Data Downloads</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="https://electronicdig.sites.oasis.unc.edu">Electronic Dig</a>
+        </div>
+      </nav>
     </div>
-              <div class="sidebar-chapter">
-      <a href="None">Archaeology Primer</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../introduction/prelims_01_title_page.html">Introduction</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../contents/prelims_06_table_of_contents.html">Contents</a>
-    </div>
-              <div class="sidebar-active sidebar-chapter"> <!-- Current chapter -->
-      <a href="001_historical_background.html">Background</a>
-      <ul class="nav"> <!-- Current chapter modules list -->
-                      <li class="sidebar-active sidebar-module">
-          <a href="001_historical_background.html">Archaeological Background</a>
-          <p id="author">by Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr.</p>          <ul class="nav"> <!-- Current chapter section list-->
-                      <li class="sidebar-section">
-              <a href="001_historical_background.html">Historical Background</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="002_siouan_archaeology.html">Siouan Archaeology</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="003_fredricks_site_discovery.html">Fredricks Site Discovery</a>
-                          </li>
-                      <li class="sidebar-active sidebar-section">
-              <a href="004_fredricks_site_excavation.html">Fredricks Site Excavation</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="005_list_of_figures.html">List of Figures</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="006_sources.html">Sources</a>
-                          </li>
-                    </ul>
-        </li>
-                              <li class="sidebar-module">
-          <a href="007_introduction.html">History (1525-1725)</a>
-        </li>
-                              <li class="sidebar-module">
-          <a href="014_introduction.html">History (1725-present)</a>
-        </li>
-                    </ul>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../excavations/021_burial_1.html">Excavations</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../artifacts/085_introduction_to_artifact_analyses.html">Artifacts</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../foodremains/135_research_questions.html">Food Remains</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../interpretations/205_introduction.html">Interpretations</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="https://electronicdig.sites.oasis.unc.edu">Electronic Dig</a>
-    </div>
-        </nav>
-</div>        <div class="col-md" id="text-chapter-contents" style="overflow-y: scroll;">
+
+        <div class="col-md" id="text-chapter-contents">
           <h1>Fredricks Site Excavation</h1>
-                                  <p>Because the Fredricks site was discovered late in the 1983 field season, investigations that summer were relatively brief. A limited excavation of 800 sq ft revealed a portion of a cemetery lying just outside the village (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 10&lt;/b&gt;. Sq. 280R90 at top of subsoil (view to north)." data-figure-path="../../imgs/x16/x6171.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>photo</u></a>) and a segment of the village palisade (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 11&lt;/b&gt;. Sq. 270R90 at top of subsoil (view to north)." data-figure-path="../../imgs/x16/x6158.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>photo</u></a>). Three human burials within the cemetery were excavated. All three pits were rectangular with sharp corners (indicating that they probably were excavated with metal tools) and contained numerous artifacts of Euroamerican manufacture. A fourth pit excavated within the cemetery contained neither human remains nor grave associations (see photos of <a class="a-img" data-figure-caption="&lt;b&gt;Figure 13&lt;/b&gt;. Beginning excavation at the Fredricks site in 1983." data-figure-path="../../imgs/x16/x6250.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>sifting plowed soil</u></a>, <a class="a-img" data-figure-caption="&lt;b&gt;Figure 14&lt;/b&gt;. Excavating Burial 1." data-figure-path="../../imgs/x16/x6176.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>burial excavation</u></a>).</p>
-                                                          <p>A second field season at the Fredricks site, conducted during the summer of 1984 and sponsored by the National Geographic Society, uncovered a much larger area of the cemetery and the adjacent village (<a class="a-ref" data-author="Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr." data-ref-text="1984  &lt;i&gt;The Historic Occaneechi: An Archaeological Investigation of Culture Change.  Preliminary Report of 1984 Investigations&lt;/i&gt;.  Research Laboratories of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Dickens et al. 1984</u></a>, [ed.] <a class="a-ref" data-author="Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr. (editors)" data-ref-text="1987  &lt;i&gt;The Siouan Project: Seasons I and II&lt;/i&gt;.  Monograph Series No. 1. Research Laboratories of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>1987</u></a>) (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 15&lt;/b&gt;. Aerial view of 1984 excavations at the Wall (foreground) and Fredricks (background) sites." data-figure-path="../../imgs/x16/x6987.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>aerial view</u></a> of Wall and Fredricks site excavations; see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 16&lt;/b&gt;. Aerial view of 1984 excavation." data-figure-path="../../imgs/x16/x6991.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>aerial view</u></a> of Fredricks site excavation). These investigations were designed to obtain additional data on mortuary behavior and to begin sampling domestic areas. In addition, systematic subsurface testing was undertaken on unexcavated portions of the site to delimit probable site boundaries and to make a preliminary assessment of internal site structure.</p>
-                                                          <p>During 1984, 27 new 10-ft by 10-ft units (2,700 ft<sup>2</sup>) were excavated, and six of the eight units excavated in 1983 were re-exposed (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 17&lt;/b&gt;. Excavating plowed soil at the Fredricks site in 1984." data-figure-path="../../imgs/x16/x6648.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>general view of excavation</u></a>). These excavations uncovered six additional burials within the cemetery, a 90-ft palisade segment, and approximately 2,250 ft<sup>2</sup> of the village area inside the palisade (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 18&lt;/b&gt;. Cleaning and photographing burial pits in the cemetery." data-figure-path="../../imgs/x16/x6947.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>cemetery</u></a>, <a class="a-img" data-figure-caption="&lt;b&gt;Figure 19&lt;/b&gt;. Mapping and excavating burials." data-figure-path="../../imgs/x16/x6752.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>burial excavation</u></a>). Mapping of postholes revealed two complete domestic structures. In addition, an oval, wall-trench sweat lodge with an interior fire pit was exposed in the southwesternmost corner of the excavation (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 20&lt;/b&gt;. Outlining Structure 1 and Feature 9 prior to mapping." data-figure-path="../../imgs/x16/x6804.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>sweat lodge</u></a>). Subsurface testing of unexcavated areas consisted of auger sampling at 2.5-ft intervals to identify archaeological features. This procedure proved to be highly reliable and was successful both in delimiting the remainder of the cemetery and in identifying areas of intensive domestic activity within the village. It was somewhat less effective, however, in providing a precise definition of site boundaries (see <a class="a-ref" data-author="Davis, R. P. Stephen, Jr., and H. Trawick Ward" data-ref-text="1987  A Comparison of Plowzone and In Situ Site Structure at the Fredricks Site, A Siouan Village in Piedmont North Carolina. Paper presented at the 44th Annual Meeting of the Southeastern Archaeological Conference, Charleston." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Davis and Ward 1987</u></a>) (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 21&lt;/b&gt;. The 1984 archaeological field crew at the Fredricks site." data-figure-path="../../imgs/x16/x6599.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>1984 crew</u></a>).</p>
-                                                          <p>In 1985, a third season of fieldwork was made possible by additional funding from the National Geographic Society (<a class="a-ref" data-author="Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr." data-ref-text="1985b  &lt;i&gt;The Historic Occaneechi: An Archaeological Investigation of Culture Change.  Preliminary Report of 1985 Investigations&lt;/i&gt;.  Research Laboratories of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Dickens et al. 1985</u></a>; <a class="a-ref" data-author="Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr. (editors)" data-ref-text="1986  &lt;i&gt;The Historic Occaneechi: An Archaeological Investigation of Culture Change.  Final Report of 1985 Investigations&lt;/i&gt;. Research Laboratories of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Dickens et al. [ed.] 1986</u></a>). These excavations exposed 62 10-ft by 10-ft units, more than doubling the total area uncovered during the previous two field seasons (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 22&lt;/b&gt;. View of excavations at the Fredricks site in 1985." data-figure-path="../../imgs/x16/x7507.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>general view of excavation</u></a>). The large excavated area made it possible to estimate the overall size of the village as well as to predict its internal spatial configuration. Twenty-five features and three burials were excavated (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 23&lt;/b&gt;. Excavating and cleaning archaeological features in 1985." data-figure-path="../../imgs/x16/x7445.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>feature excavation</u></a>). The burials were the last remaining in the cemetery, bringing the total to 12 with an additional probable burial. Six new structures also were defined as a result of the 1985 work, and approximately 100 ft of the palisade were exposed as it continued to encircle the habitation area (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 24&lt;/b&gt;. Cleaning Structure 6 (foreground) and Structure 5 (background) prior to mapping." data-figure-path="../../imgs/x16/x7563.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>cleaning house patterns</u></a>). At the end of the 1985 field season, it was estimated that the village compound within the palisade was small, comprising only about .25 acres. A total of 11-12 houses were estimated to have sheltered approximately 50-75 individuals (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 25&lt;/b&gt;. The 1985 archaeological field crew at the Fredricks site." data-figure-path="../../imgs/x16/x7548.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>1985 crew</u></a>).</p>
-                                                          <p>The 1986 excavation at the Fredricks site uncovered all the remaining village area enclosed within the palisade except for a small section in the southwest corner where large trees prevented soil removal (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 26&lt;/b&gt;. View of excavations at the Fredricks site in 1986." data-figure-path="../../imgs/x16/x7962.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>general view of excavation</u></a>). Although still small, the village shape was more irregular than predicted after the 1985 field season. The irregular outline resulted from the fact that the palisade "bowed-out" or expanded to the southwest, thus creating a D-shaped rather than oval configuration. Although much of the structural evidence continued to consist of vague posthole clusters, two additional wall-trench structures were defined and the 13 pit features associated with the structures were extremely rich. Their depositional character and contents added significant new data that aided in clarifying general as well as specific behavioral patterns within the village. In addition, two human burials, two possible burial pits, a possible hearth, and an irregular trench were excavated. Another probable pit (<a href="..\excavations\083_feature_60_burial_27.html" target="_top"><u>Feature 60</u></a>) and a shallow basin (<a href="..\excavations\075_feature_52.html" target="_top"><u>Feature 52</u></a>) were mapped but not excavated (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 27&lt;/b&gt;. The 1986 archaeological field crew at the Fredricks site." data-figure-path="../../imgs/x16/x7980.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>1986 crew</u></a>).</p>
-                                                          <p>In 1995, while excavating the nearby Jenrette site, <a href="..\excavations\083_feature_60_burial_27.html" target="_top"><u>Feature 60</u></a> and the three final 10-ft by 10-ft units at the Fredricks site were excavated.</p>
-                                                          <p>For a map showing the area excavated during each field season, <a class="a-img" data-figure-caption="&lt;b&gt;Figure 28&lt;/b&gt;. Map of areas excavated at the Fredricks site by field season." data-figure-path="../../imgs/e/exc_map.gif" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>click here</u></a>.</p>
-                                                                      <p><i>Field Methods</i></p>
-                                              <p>Archaeological field methods were consistent throughout all field seasons at the Fredricks site. Each season, preliminary site preparation consisted of bushhogging the work area and re-establishing the site grid and reference point for elevations. All plowzone (0.5-1.6 ft thick) was <a class="a-img" data-figure-caption="&lt;b&gt;Figure 29&lt;/b&gt;. Excavating and dry-sifting plowed soil." data-figure-path="../../imgs/x16/x7846.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>excavated</u></a> in 10-ft by 10-ft units, with soil being dry screened through 1/2-inch wire mesh using hand sifters. A 20-liter soil sample from the plowzone of each unit was waterscreened through 1/16-inch mesh to assess small artifact content.</p>
-                                                          <p>Following the removal of plowzone, the bottom of each excavation unit (top of subsoil) was carefully <a class="a-img" data-figure-caption="&lt;b&gt;Figure 30&lt;/b&gt;. Trowelling the top of subsoil to expose features for mapping." data-figure-path="../../imgs/x16/x7417.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>trowelled</u></a> in order to identify and record pits and postholes. The trowelled surface was documented by black-and-white and color photographs and was <a class="a-img" data-figure-caption="&lt;b&gt;Figure 31&lt;/b&gt;. Cleaning and mapping the top of subsoil." data-figure-path="../../imgs/x16/x7430.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>mapped</u></a> at a scale of 1 in=2 ft. The drawings of each excavation unit were subsequently combined to produce an overall plot of the excavation. Photographs were also made of all procedures and of the general progress of work. Horizontal and vertical control was maintained through reference to the site grid, using a transit and leveling rod to determine elevations.</p>
-                                                          <p><a class="a-img" data-figure-caption="&lt;b&gt;Figure 32&lt;/b&gt;. Excavating the fill dirt from an archaeological feature." data-figure-path="../../imgs/x16/x7441.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>Excavation of features and burials</u></a> was accomplished using trowels, grapefruit knives, brushes, and other small tools. Sunscreens, constructed of wooden frames and bedsheets, were erected over features during excavation to minimize the damage to feature contents by the summer sun. Feature fill was removed in natural zones, when evident, and all fill was <a class="a-img" data-figure-caption="&lt;b&gt;Figure 33&lt;/b&gt;. Sluices used to waterscreen soils at the Fredricks site." data-figure-path="../../imgs/x16/x6585.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>waterscreened</u></a> through <a class="a-img" data-figure-caption="&lt;b&gt;Figure 34&lt;/b&gt;. Washing fill dirt from an archaeological feature to recover artifacts." data-figure-path="../../imgs/x16/x6612.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>sluice boxes</u></a> having a sequence of 1/2-inch, 1/4-inch, and 1/16-inch <a class="a-img" data-figure-caption="&lt;b&gt;Figure 35&lt;/b&gt;. View of sluice showing series of 1/2-inch, 1/4-inch, and 1/16-inch screens." data-figure-path="../../imgs/x16/x6575.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>screens</u></a>. This technique permitted the recovery of <a class="a-img" data-figure-caption="&lt;b&gt;Figure 36&lt;/b&gt;. Close-up of items recovered by waterscreening." data-figure-path="../../imgs/x16/x6615.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>minute artifacts</u></a>, including shell and glass beads, lead shot, small animal bones, and carbonized plant remains. Standard 10-liter soil samples from each zone of each feature were simultaneously processed by <a class="a-img" data-figure-caption="&lt;b&gt;Figure 37&lt;/b&gt;. Students using a flotation tank to retrieve carbonized plant remains." data-figure-path="../../imgs/x16/x6600.jpeg" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>flotation</u></a> to retrieve very small, extremely fragile carbonized seeds and plant parts that might otherwise be lost in the waterscreening. Elevations were taken following the removal of each soil zone of a feature in order to establish precise provenience for zone contents and to permit the calculation of soil volume.</p>
-                                                          <p>After completion of excavation, all features and burials were extensively documented by black-and-white and color photography, and by drawings in profile and plan at a scale of 1 in=1 ft. Also, extensive notes were kept by all excavators in both field journals and on standardized feature and burial data forms.</p>
-                                                          <p>Following completion of each field season, the excavation was immediately backfilled using a front-end loader.</p>
-                                            <nav aria-label="Page navigation">
+            <p>Because the Fredricks site was discovered late in the 1983 field season, investigations that summer were relatively brief. A limited excavation of 800 sq ft revealed a portion of a cemetery lying just outside the village (see <a class="a-img" data-src="../../imgs/x16/X6171.jpg" data-sub-html="&lt;b&gt;Figure 10&lt;/b&gt;. Sq. 280R90 at top of subsoil (view to north)." href="../../imgs/x16/X6171.jpg"><u>photo</u></a>) and a segment of the village palisade (see <a class="a-img" data-src="../../imgs/x16/X6158.jpg" data-sub-html="&lt;b&gt;Figure 11&lt;/b&gt;. Sq. 270R90 at top of subsoil (view to north)." href="../../imgs/x16/X6158.jpg"><u>photo</u></a>). Three human burials within the cemetery were excavated. All three pits were rectangular with sharp corners (indicating that they probably were excavated with metal tools) and contained numerous artifacts of Euroamerican manufacture. A fourth pit excavated within the cemetery contained neither human remains nor grave associations (see photos of <a class="a-img" data-src="../../imgs/x16/X6250.jpg" data-sub-html="&lt;b&gt;Figure 13&lt;/b&gt;. Beginning excavation at the Fredricks site in 1983." href="../../imgs/x16/X6250.jpg"><u>sifting plowed soil</u></a>, <a class="a-img" data-src="../../imgs/x16/X6176.jpg" data-sub-html="&lt;b&gt;Figure 14&lt;/b&gt;. Excavating Burial 1." href="../../imgs/x16/X6176.jpg"><u>burial excavation</u></a>).</p>
+            <p>A second field season at the Fredricks site, conducted during the summer of 1984 and sponsored by the National Geographic Society, uncovered a much larger area of the cemetery and the adjacent village (<a class="a-ref" data-author="Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr." data-ref-text="1984  &lt;i&gt;The Historic Occaneechi: An Archaeological Investigation of Culture Change.  Preliminary Report of 1984 Investigations&lt;/i&gt;.  Research Laboratories of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Dickens et al. 1984</u></a>, [ed.] <a class="a-ref" data-author="Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr. (editors)" data-ref-text="1987  &lt;i&gt;The Siouan Project: Seasons I and II&lt;/i&gt;.  Monograph Series No. 1. Research Laboratories of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal"><u>1987</u></a>) (see <a class="a-img" data-src="../../imgs/x16/X6987.jpg" data-sub-html="&lt;b&gt;Figure 15&lt;/b&gt;. Aerial view of 1984 excavations at the Wall (foreground) and Fredricks (background) sites." href="../../imgs/x16/X6987.jpg"><u>aerial view</u></a> of Wall and Fredricks site excavations; see <a class="a-img" data-src="../../imgs/x16/X6991.jpg" data-sub-html="&lt;b&gt;Figure 16&lt;/b&gt;. Aerial view of 1984 excavation." href="../../imgs/x16/X6991.jpg"><u>aerial view</u></a> of Fredricks site excavation). These investigations were designed to obtain additional data on mortuary behavior and to begin sampling domestic areas. In addition, systematic subsurface testing was undertaken on unexcavated portions of the site to delimit probable site boundaries and to make a preliminary assessment of internal site structure.</p>
+            <p>During 1984, 27 new 10-ft by 10-ft units (2,700 ft<sup>2</sup>) were excavated, and six of the eight units excavated in 1983 were re-exposed (see <a class="a-img" data-src="../../imgs/x16/X6648.jpg" data-sub-html="&lt;b&gt;Figure 17&lt;/b&gt;. Excavating plowed soil at the Fredricks site in 1984." href="../../imgs/x16/X6648.jpg"><u>general view of excavation</u></a>). These excavations uncovered six additional burials within the cemetery, a 90-ft palisade segment, and approximately 2,250 ft<sup>2</sup> of the village area inside the palisade (see <a class="a-img" data-src="../../imgs/x16/X6947.jpg" data-sub-html="&lt;b&gt;Figure 18&lt;/b&gt;. Cleaning and photographing burial pits in the cemetery." href="../../imgs/x16/X6947.jpg"><u>cemetery</u></a>, <a class="a-img" data-src="../../imgs/x16/X6752.jpg" data-sub-html="&lt;b&gt;Figure 19&lt;/b&gt;. Mapping and excavating burials." href="../../imgs/x16/X6752.jpg"><u>burial excavation</u></a>). Mapping of postholes revealed two complete domestic structures. In addition, an oval, wall-trench sweat lodge with an interior fire pit was exposed in the southwesternmost corner of the excavation (see <a class="a-img" data-src="../../imgs/x16/X6804.jpg" data-sub-html="&lt;b&gt;Figure 20&lt;/b&gt;. Outlining Structure 1 and Feature 9 prior to mapping." href="../../imgs/x16/X6804.jpg"><u>sweat lodge</u></a>). Subsurface testing of unexcavated areas consisted of auger sampling at 2.5-ft intervals to identify archaeological features. This procedure proved to be highly reliable and was successful both in delimiting the remainder of the cemetery and in identifying areas of intensive domestic activity within the village. It was somewhat less effective, however, in providing a precise definition of site boundaries (see <a class="a-ref" data-author="Davis, R. P. Stephen, Jr., and H. Trawick Ward" data-ref-text="1987  A Comparison of Plowzone and In Situ Site Structure at the Fredricks Site, A Siouan Village in Piedmont North Carolina. Paper presented at the 44th Annual Meeting of the Southeastern Archaeological Conference, Charleston." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Davis and Ward 1987</u></a>) (see <a class="a-img" data-src="../../imgs/x16/X6599.jpg" data-sub-html="&lt;b&gt;Figure 21&lt;/b&gt;. The 1984 archaeological field crew at the Fredricks site." href="../../imgs/x16/X6599.jpg"><u>1984 crew</u></a>).</p>
+            <p>In 1985, a third season of fieldwork was made possible by additional funding from the National Geographic Society (<a class="a-ref" data-author="Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr." data-ref-text="1985b  &lt;i&gt;The Historic Occaneechi: An Archaeological Investigation of Culture Change.  Preliminary Report of 1985 Investigations&lt;/i&gt;.  Research Laboratories of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Dickens et al. 1985</u></a>; <a class="a-ref" data-author="Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr. (editors)" data-ref-text="1986  &lt;i&gt;The Historic Occaneechi: An Archaeological Investigation of Culture Change.  Final Report of 1985 Investigations&lt;/i&gt;. Research Laboratories of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Dickens et al. [ed.] 1986</u></a>). These excavations exposed 62 10-ft by 10-ft units, more than doubling the total area uncovered during the previous two field seasons (see <a class="a-img" data-src="../../imgs/x16/X7507.jpg" data-sub-html="&lt;b&gt;Figure 22&lt;/b&gt;. View of excavations at the Fredricks site in 1985." href="../../imgs/x16/X7507.jpg"><u>general view of excavation</u></a>). The large excavated area made it possible to estimate the overall size of the village as well as to predict its internal spatial configuration. Twenty-five features and three burials were excavated (see <a class="a-img" data-src="../../imgs/x16/X7445.jpg" data-sub-html="&lt;b&gt;Figure 23&lt;/b&gt;. Excavating and cleaning archaeological features in 1985." href="../../imgs/x16/X7445.jpg"><u>feature excavation</u></a>). The burials were the last remaining in the cemetery, bringing the total to 12 with an additional probable burial. Six new structures also were defined as a result of the 1985 work, and approximately 100 ft of the palisade were exposed as it continued to encircle the habitation area (see <a class="a-img" data-src="../../imgs/x16/X7563.jpg" data-sub-html="&lt;b&gt;Figure 24&lt;/b&gt;. Cleaning Structure 6 (foreground) and Structure 5 (background) prior to mapping." href="../../imgs/x16/X7563.jpg"><u>cleaning house patterns</u></a>). At the end of the 1985 field season, it was estimated that the village compound within the palisade was small, comprising only about .25 acres. A total of 11-12 houses were estimated to have sheltered approximately 50-75 individuals (see <a class="a-img" data-src="../../imgs/x16/X7548.jpg" data-sub-html="&lt;b&gt;Figure 25&lt;/b&gt;. The 1985 archaeological field crew at the Fredricks site." href="../../imgs/x16/X7548.jpg"><u>1985 crew</u></a>).</p>
+            <p>The 1986 excavation at the Fredricks site uncovered all the remaining village area enclosed within the palisade except for a small section in the southwest corner where large trees prevented soil removal (see <a class="a-img" data-src="../../imgs/x16/X7962.jpg" data-sub-html="&lt;b&gt;Figure 26&lt;/b&gt;. View of excavations at the Fredricks site in 1986." href="../../imgs/x16/X7962.jpg"><u>general view of excavation</u></a>). Although still small, the village shape was more irregular than predicted after the 1985 field season. The irregular outline resulted from the fact that the palisade "bowed-out" or expanded to the southwest, thus creating a D-shaped rather than oval configuration. Although much of the structural evidence continued to consist of vague posthole clusters, two additional wall-trench structures were defined and the 13 pit features associated with the structures were extremely rich. Their depositional character and contents added significant new data that aided in clarifying general as well as specific behavioral patterns within the village. In addition, two human burials, two possible burial pits, a possible hearth, and an irregular trench were excavated. Another probable pit (<a href="..\excavations\083_feature_60_burial_27.html"><u>Feature 60</u></a>) and a shallow basin (<a href="..\excavations\075_feature_52.html"><u>Feature 52</u></a>) were mapped but not excavated (see <a class="a-img" data-src="../../imgs/x16/X7980.jpg" data-sub-html="&lt;b&gt;Figure 27&lt;/b&gt;. The 1986 archaeological field crew at the Fredricks site." href="../../imgs/x16/X7980.jpg"><u>1986 crew</u></a>).</p>
+            <p>In 1995, while excavating the nearby Jenrette site, <a href="..\excavations\083_feature_60_burial_27.html"><u>Feature 60</u></a> and the three final 10-ft by 10-ft units at the Fredricks site were excavated.</p>
+            <p>For a map showing the area excavated during each field season, <a class="a-img" data-src="../../imgs/e/EXC_MAP.BMP" data-sub-html="&lt;b&gt;Figure 28&lt;/b&gt;. Map of areas excavated at the Fredricks site by field season." href="../../imgs/e/EXC_MAP.BMP"><u>click here</u></a>.</p>
+            <p><i>Field Methods</i></p>
+            <p>Archaeological field methods were consistent throughout all field seasons at the Fredricks site. Each season, preliminary site preparation consisted of bushhogging the work area and re-establishing the site grid and reference point for elevations. All plowzone (0.5-1.6 ft thick) was <a class="a-img" data-src="../../imgs/x16/X7846.jpg" data-sub-html="&lt;b&gt;Figure 29&lt;/b&gt;. Excavating and dry-sifting plowed soil." href="../../imgs/x16/X7846.jpg"><u>excavated</u></a> in 10-ft by 10-ft units, with soil being dry screened through 1/2-inch wire mesh using hand sifters. A 20-liter soil sample from the plowzone of each unit was waterscreened through 1/16-inch mesh to assess small artifact content.</p>
+            <p>Following the removal of plowzone, the bottom of each excavation unit (top of subsoil) was carefully <a class="a-img" data-src="../../imgs/x16/X7417.jpg" data-sub-html="&lt;b&gt;Figure 30&lt;/b&gt;. Trowelling the top of subsoil to expose features for mapping." href="../../imgs/x16/X7417.jpg"><u>trowelled</u></a> in order to identify and record pits and postholes. The trowelled surface was documented by black-and-white and color photographs and was <a class="a-img" data-src="../../imgs/x16/X7430.jpg" data-sub-html="&lt;b&gt;Figure 31&lt;/b&gt;. Cleaning and mapping the top of subsoil." href="../../imgs/x16/X7430.jpg"><u>mapped</u></a> at a scale of 1 in=2 ft. The drawings of each excavation unit were subsequently combined to produce an overall plot of the excavation. Photographs were also made of all procedures and of the general progress of work. Horizontal and vertical control was maintained through reference to the site grid, using a transit and leveling rod to determine elevations.</p>
+            <p><a class="a-img" data-src="../../imgs/x16/X7441.jpg" data-sub-html="&lt;b&gt;Figure 32&lt;/b&gt;. Excavating the fill dirt from an archaeological feature." href="../../imgs/x16/X7441.jpg"><u>Excavation of features and burials</u></a> was accomplished using trowels, grapefruit knives, brushes, and other small tools. Sunscreens, constructed of wooden frames and bedsheets, were erected over features during excavation to minimize the damage to feature contents by the summer sun. Feature fill was removed in natural zones, when evident, and all fill was <a class="a-img" data-src="../../imgs/x16/X6585.jpg" data-sub-html="&lt;b&gt;Figure 33&lt;/b&gt;. Sluices used to waterscreen soils at the Fredricks site." href="../../imgs/x16/X6585.jpg"><u>waterscreened</u></a> through <a class="a-img" data-src="../../imgs/x16/X6612.jpg" data-sub-html="&lt;b&gt;Figure 34&lt;/b&gt;. Washing fill dirt from an archaeological feature to recover artifacts." href="../../imgs/x16/X6612.jpg"><u>sluice boxes</u></a> having a sequence of 1/2-inch, 1/4-inch, and 1/16-inch <a class="a-img" data-src="../../imgs/x16/X6575.jpg" data-sub-html="&lt;b&gt;Figure 35&lt;/b&gt;. View of sluice showing series of 1/2-inch, 1/4-inch, and 1/16-inch screens." href="../../imgs/x16/X6575.jpg"><u>screens</u></a>. This technique permitted the recovery of <a class="a-img" data-src="../../imgs/x16/X6615.jpg" data-sub-html="&lt;b&gt;Figure 36&lt;/b&gt;. Close-up of items recovered by waterscreening." href="../../imgs/x16/X6615.jpg"><u>minute artifacts</u></a>, including shell and glass beads, lead shot, small animal bones, and carbonized plant remains. Standard 10-liter soil samples from each zone of each feature were simultaneously processed by <a class="a-img" data-src="../../imgs/x16/X6600.jpg" data-sub-html="&lt;b&gt;Figure 37&lt;/b&gt;. Students using a flotation tank to retrieve carbonized plant remains." href="../../imgs/x16/X6600.jpg"><u>flotation</u></a> to retrieve very small, extremely fragile carbonized seeds and plant parts that might otherwise be lost in the waterscreening. Elevations were taken following the removal of each soil zone of a feature in order to establish precise provenience for zone contents and to permit the calculation of soil volume.</p>
+            <p>After completion of excavation, all features and burials were extensively documented by black-and-white and color photography, and by drawings in profile and plan at a scale of 1 in=1 ft. Also, extensive notes were kept by all excavators in both field journals and on standardized feature and burial data forms.</p>
+            <p>Following completion of each field season, the excavation was immediately backfilled using a front-end loader.</p>
+<nav aria-label="Page navigation" class="page-navigation">
   <ul class="pagination justify-content-center">
-        <li class="page-item">
+    <li class="page-item">
       <a class="page-link" href="003_fredricks_site_discovery.html">Previous</a>
     </li>
-        <li class="page-item active">
+    <li class="page-item active">
       <a class="page-link" id="pageNumClickable" data-toggle="popover">4</a>
     </li>
-        <li class="page-item">
+    <li class="page-item">
       <a class="page-link" href="005_list_of_figures.html">Next</a>
     </li>
-      </ul>
+  </ul>
 </nav>        </div>
       </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
-      <div class="modal" id="genModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+    <script src="../../assets/js/bootstrap-toc.min.js"></script>
+<div class="modal" id="genModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-lg modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header modal-header-generic-textpage">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -144,19 +166,22 @@
     </div>
   </div>
 </div>
-<div class="modal" id="tableImgModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<div class="modal" id="versionModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-lg modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header modal-header-generic-textpage">
+        <h5 class="modal-title">Version Information</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" id="table-img-modal-body">
+      <div class="modal-body" id="version-modal-body">
+          <p>The authors of Excavating Occaneechi Town (Web edition) recognize that, while all the information recovered in an archaeological excavation has scientific importance, it may be inappropriate to display or view some of that information, such as photographs of human bones, in a public or instructional context. Therefore, we have provided two versions of this edition. The Professional Version provides access to all of the information about the site; the Instructional Version provides access to all of the information except for photographs of human burials.</p>
       </div>
     </div>
   </div>
 </div>
+<script src="../../assets/js/lightgallery-all.js"></script>
 <script src="../../assets/js/load-modals.js"></script>  <script src="../../assets/js/page-num-navigation.js"></script>
   </body>
 </html>

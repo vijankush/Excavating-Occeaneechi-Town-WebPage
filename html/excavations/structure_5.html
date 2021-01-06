@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,122 +7,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Structure 5 - Excavating Occaneechi Town</title>
-        <link href="../../assets/css/excavation_element.css" rel="stylesheet">
-        <link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+    <link href="../../assets/css/lightgallery.min.css" rel="stylesheet">
+    <link href="../../assets/css/excavation_element.css" rel="stylesheet">
+    <link href="../../assets/css/lightgallery.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+<link href="../../assets/css/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/Lithos%20Pro.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<link rel="stylesheet" href="../../assets/css/gradient-navbar.css">
+<link rel="stylesheet" href="../../assets/css/bootstrap-toc.min.css">
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-        <header class="container-fluid sticky-top bg-dark">
-      <div class="navbar navbar-dark flex-column flex-md-row align-items-start bg-dark eot-navbar">
-        <a class="navbar-brand" href="../index.html">Excavating Occaneechi Town</a>
-        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#eot-sidebar" aria-expanded="false" aria-controls="eot-sidebar">
-          Toggle Sidebar
-        </button>
-      </div>
-      <div class="row bg-secondary">
-        <div class="col-auto">
-          <a href="" class="text-light">Return to map view</a>
+    <header>
+      <div class="card" id="h-card">
+        <div class="card-header">
+            <h5 class="mb-0"><strong><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#eot-sidebar" aria-expanded="false" aria-controls="eot-sidebar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button><a href="../index.html" style="color:inherit">Excavating Occaneechi Town</a></strong><br></h5>
         </div>
-        <div class="col-auto ml-auto">
-          <a href="" class="text-light">View Structure 5 artifact inventory</a>
+        <div class="container-fluid">
+          <div class="row bg-secondary">
+            <div class="col-auto">
+              <a href="excavations.html" class="text-light">Return to map view</a>
+| <a href="../appendixa/226_structure_5.html" class="text-light">View Artifacts in Appendix A</a>             </div>
+          </div>
         </div>
       </div>
     </header>
-        <div class="container-fluid">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 eot-sidebar collapse" id="eot-sidebar">
-  <nav id="toc" data-toggle="toc" class="nav flex-column">
-          <div class="sidebar-chapter">
-      <a href="None">Getting Started</a>
+            <div class="col-md-4 col-lg-3 eot-sidebar collapse" id="eot-sidebar">
+      <script>
+        // Collapse sidebar by default on mobile screens
+        if (window.matchMedia("(max-width: 767px)").matches) {
+          sidebar = document.getElementById("eot-sidebar");
+          sidebar.classList.remove("show");
+        }
+      </script>
+      <nav id="toc" data-toggle="toc" class="nav flex-column">
+        <div class="sidebar-chapter">
+          <a href="../gettingstarted/1_the_basics_of_using_excavating_occaneechi_town.html">Getting Started</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../primer/1_an_archaeology_primer.html">Archaeology Primer</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../introduction/prelims_01_title_page.html">Introduction</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../contents/prelims_06_table_of_contents.html">Contents</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../background/001_historical_background.html">Background</a>
+        </div>
+        <div class="sidebar-active sidebar-chapter"> <!-- Current chapter -->
+          <a href="excavations.html">Excavations</a>
+          <ul class="nav"> <!-- Current chapter modules list -->
+            <li class="sidebar-module">
+              <a href="021_burial_1.html">Features</a>
+            </li>
+            <li class="sidebar-module">
+              <a href="sq_180r30.html">Squares</a>
+            </li>
+            <li class="sidebar-active sidebar-module">
+              <a href="structure_1.html">Structures</a>
+              <ul class="nav"> <!-- Current chapter section list-->
+                <li class="sidebar-section">
+                  <a href="structure_1.html">Structure 1</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="structure_2.html">Structure 2</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="structure_3.html">Structure 3</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="structure_4.html">Structure 4</a>
+                </li>
+                <li class="sidebar-active sidebar-section">
+                  <a href="structure_5.html">Structure 5</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="structure_6.html">Structure 6</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="structure_7.html">Structure 7</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="structure_8.html">Structure 8</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="structure_9.html">Structure 9</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="structure_10.html">Structure 10</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="structure_11.html">Structure 11</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="structure_12.html">Structure 12</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="structure_13.html">Structure 13</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../artifacts/085_introduction_to_artifact_analyses.html">Artifacts</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../foodremains/135_research_questions.html">Food Remains</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../interpretations/205_introduction.html">Interpretations</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../references/250_a-g.html">References</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../appendixa/001_burial_1.html">Appendix A: Artifacts by Excavation Context</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../appendixb/001_beads.html">Appendix B: Artifacts by Category</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../data/1_introduction.html">Data Downloads</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="https://electronicdig.sites.oasis.unc.edu">Electronic Dig</a>
+        </div>
+      </nav>
     </div>
-              <div class="sidebar-chapter">
-      <a href="None">Archaeology Primer</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../introduction/prelims_01_title_page.html">Introduction</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../contents/prelims_06_table_of_contents.html">Contents</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../background/001_historical_background.html">Background</a>
-    </div>
-              <div class="sidebar-active sidebar-chapter"> <!-- Current chapter -->
-      <a href="021_burial_1.html">Excavations</a>
-      <ul class="nav"> <!-- Current chapter modules list -->
-                      <li class="sidebar-module">
-          <a href="021_burial_1.html">Features</a>
-        </li>
-                              <li class="sidebar-module">
-          <a href="sq_180r30.html">Squares</a>
-        </li>
-                              <li class="sidebar-active sidebar-module">
-          <a href="structure_1.html">Structures</a>
-                    <ul class="nav"> <!-- Current chapter section list-->
-                      <li class="sidebar-section">
-              <a href="structure_1.html">Structure 1</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="structure_10.html">Structure 10</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="structure_11.html">Structure 11</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="structure_12.html">Structure 12</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="structure_13.html">Structure 13</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="structure_2.html">Structure 2</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="structure_3.html">Structure 3</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="structure_4.html">Structure 4</a>
-                          </li>
-                      <li class="sidebar-active sidebar-section">
-              <a href="structure_5.html">Structure 5</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="structure_6.html">Structure 6</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="structure_7.html">Structure 7</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="structure_8.html">Structure 8</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="structure_9.html">Structure 9</a>
-                          </li>
-                    </ul>
-        </li>
-                    </ul>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../artifacts/085_introduction_to_artifact_analyses.html">Artifacts</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../foodremains/135_research_questions.html">Food Remains</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../interpretations/205_introduction.html">Interpretations</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="https://electronicdig.sites.oasis.unc.edu">Electronic Dig</a>
-    </div>
-        </nav>
-</div>        <div class="col-md" style="overflow-y: scroll;">
+
+        <div class="col-md">
           <div class="row">
             <div class="col-md align-items-center">
-                            <figure class="figure d-block">
-                <img src="../../imgs/s/str5.gif" class="d-block w-100 img-fluid" alt="Figure 1047">
+              <div id="carousel-zoom">
+              <a href="../../imgs/s/Str5.jpg">
+              <figure class="figure d-block">
+                <img src="../../imgs/s/Str5.jpg" class="mx-auto d-block img-fluid" alt="Figure 1047. Structure 5, plan view (view to north).">
                 <figcaption class="figure-caption">Figure 1047. Structure 5, plan view (view to north).</figcaption>
-              </figure>
+              </figure></a></div>
               <div class="row">
                 <div class="col">
                   <p>Type: Structure</p>
@@ -135,31 +167,60 @@
                   <img src="../../imgs/l/l280r30.gif" class="img-fluid" alt="Excavation minimap">
                 </div>
                 <div class="col">
-                  <p>Related Elements:</p>
-                                    <p><a href="046_feature_23.html">Feature 23</a></p>
-                                    <p><a href="047_feature_24.html">Feature 24</a></p>
-                                    <p><a href="056_feature_33.html">Feature 33</a></p>
-                                    <p><a href="057_feature_34.html">Feature 34</a></p>
-                                    <p><a href="sq_270r20.html">Sq. 270R20</a></p>
-                                    <p><a href="sq_270r30.html">Sq. 270R30</a></p>
-                                    <p><a href="sq_280r20.html">Sq. 280R20</a></p>
-                                    <p><a href="sq_280r40.html">Sq. 280R40</a></p>
-                                    <p><a href="sq_290r20.html">Sq. 290R20</a></p>
-                                    <p><a href="sq_290r30.html">Sq. 290R30</a></p>
-                                  </div>
+                  <p>Related Contexts:</p>
+                  <p><a href="046_feature_23.html">Feature 23</a></p>
+                  <p><a href="047_feature_24.html">Feature 24</a></p>
+                  <p><a href="056_feature_33.html">Feature 33</a></p>
+                  <p><a href="057_feature_34.html">Feature 34</a></p>
+                  <p><a href="sq_270r20.html">Sq. 270R20</a></p>
+                  <p><a href="sq_270r30.html">Sq. 270R30</a></p>
+                  <p><a href="sq_280r20.html">Sq. 280R20</a></p>
+                  <p><a href="sq_280r40.html">Sq. 280R40</a></p>
+                  <p><a href="sq_290r20.html">Sq. 290R20</a></p>
+                  <p><a href="sq_290r30.html">Sq. 290R30</a></p>
+                </div>
               </div>
             </div>
             <div class="col-md">
               <h1>Structure 5</h1>
-                          </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
-      </body>
+    <script src="../../assets/js/bootstrap-toc.min.js"></script>
+<div class="modal" id="genModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-lg modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-header-generic-textpage">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" id="versionModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-lg modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-header-generic-textpage">
+        <h5 class="modal-title">Version Information</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="version-modal-body">
+          <p>The authors of Excavating Occaneechi Town (Web edition) recognize that, while all the information recovered in an archaeological excavation has scientific importance, it may be inappropriate to display or view some of that information, such as photographs of human bones, in a public or instructional context. Therefore, we have provided two versions of this edition. The Professional Version provides access to all of the information about the site; the Instructional Version provides access to all of the information except for photographs of human burials.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../../assets/js/lightgallery-all.js"></script>
+<script src="../../assets/js/load-modals.js"></script>  </body>
 </html>

@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,88 +7,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>List of Tables - Excavating Occaneechi Town</title>
-        <link href="../../assets/css/textpage.css" rel="stylesheet">
+    <link href="../../assets/css/lightgallery.min.css" rel="stylesheet">
+    <link href="../../assets/css/textpage.css" rel="stylesheet">
     <link href="../../assets/css/modals.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/css/mdb.min.css">
+    <link href="../../assets/css/lightgallery.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
 <link href="../../assets/css/styles.css" rel="stylesheet">
 <link rel="stylesheet" href="../../assets/css/Lithos%20Pro.css">
-<link rel="stylesheet" href="../../assets/css/Lithos%20Pro%20Extra.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-<link rel="stylesheet" href="../../assets/css/gradient-navbar-1.css">
 <link rel="stylesheet" href="../../assets/css/gradient-navbar.css">
-<link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link
-    rel="stylesheet"
-    href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
-/>        <link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+<link rel="stylesheet" href="../../assets/css/bootstrap-toc.min.css">
   </head>
 
   <body data-spy="scroll" data-target="#toc">
+    <header>
+      <div class="card" id="h-card">
         <div class="card-header">
-        <h5 class="mb-0"><strong><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#eot-sidebar" aria-expanded="false" aria-controls="eot-sidebar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button><a href="https://comp523eot.netlify.app/html" style="color:inherit">Excavating Occeaneechi Town</a></strong><br></h5>
-    </div>
-    
-        <div class="container-fluid">
+          <h5 class="mb-0"><strong><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#eot-sidebar" aria-expanded="false" aria-controls="eot-sidebar" aria-expanded="false" aria-label="Toggle navigation" id="sidebarButton">
+            <span class="navbar-toggler-icon"></span>
+          </button><a href="../index.html" style="color:inherit">Excavating Occaneechi Town</a></strong><br></h5>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 eot-sidebar collapse show" id="eot-sidebar">
-  <nav id="toc" data-toggle="toc" class="nav flex-column">
-          <div class="sidebar-chapter">
-      <a href="None">Getting Started</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="None">Archaeology Primer</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../introduction/prelims_01_title_page.html">Introduction</a>
-    </div>
-              <div class="sidebar-active sidebar-chapter"> <!-- Current chapter -->
-      <a href="prelims_06_table_of_contents.html">Contents</a>
-      <ul class="nav"> <!-- Current chapter modules list -->
-                      <li class="sidebar-module">
-          <a href="prelims_06_table_of_contents.html">Table of Contents</a>
-        </li>
-                              <li class="sidebar-module">
-          <a href="prelims_07_pages_i-xxxiii.html">Pages</a>
-        </li>
-                              <li class="sidebar-module">
-          <a href="prelims_17_figures_1-70.html">Figures</a>
-        </li>
-                              <li class="sidebar-active sidebar-module">
-          <a href="prelims_33_list_of_tables.html">List of Tables</a>
-                    <ul class="nav"> <!-- Current chapter section list-->
-                      <li class="sidebar-active sidebar-section">
+            <div class="col-md-4 col-lg-3 eot-sidebar collapse show" id="eot-sidebar">
+      <script>
+        // Collapse sidebar by default on mobile screens
+        if (window.matchMedia("(max-width: 767px)").matches) {
+          sidebar = document.getElementById("eot-sidebar");
+          sidebar.classList.remove("show");
+        }
+      </script>
+      <nav id="toc" data-toggle="toc" class="nav flex-column">
+        <div class="sidebar-chapter">
+          <a href="../gettingstarted/1_the_basics_of_using_excavating_occaneechi_town.html">Getting Started</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../primer/1_an_archaeology_primer.html">Archaeology Primer</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../introduction/prelims_01_title_page.html">Introduction</a>
+        </div>
+        <div class="sidebar-active sidebar-chapter"> <!-- Current chapter -->
+          <a href="prelims_06_table_of_contents.html">Contents</a>
+          <ul class="nav"> <!-- Current chapter modules list -->
+            <li class="sidebar-module">
+              <a href="prelims_06_table_of_contents.html">Table of Contents</a>
+            </li>
+            <li class="sidebar-module">
+              <a href="prelims_07_pages_i-xxxiii.html">Pages</a>
+            </li>
+            <li class="sidebar-module">
+              <a href="prelims_17_figures_1-70.html">Figures</a>
+            </li>
+            <li class="sidebar-active sidebar-module">
               <a href="prelims_33_list_of_tables.html">List of Tables</a>
-                          </li>
-                    </ul>
-        </li>
-                    </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../background/001_historical_background.html">Background</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../excavations/excavations.html">Excavations</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../artifacts/085_introduction_to_artifact_analyses.html">Artifacts</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../foodremains/135_research_questions.html">Food Remains</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../interpretations/205_introduction.html">Interpretations</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../references/250_a-g.html">References</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../appendixa/001_burial_1.html">Appendix A: Artifacts by Excavation Context</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../appendixb/001_beads.html">Appendix B: Artifacts by Category</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../data/1_introduction.html">Data Downloads</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="https://electronicdig.sites.oasis.unc.edu">Electronic Dig</a>
+        </div>
+      </nav>
     </div>
-              <div class="sidebar-chapter">
-      <a href="../background/001_historical_background.html">Background</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../excavations/021_burial_1.html">Excavations</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../artifacts/085_introduction_to_artifact_analyses.html">Artifacts</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../foodremains/135_research_questions.html">Food Remains</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../interpretations/205_introduction.html">Interpretations</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="https://electronicdig.sites.oasis.unc.edu">Electronic Dig</a>
-    </div>
-        </nav>
-</div>        <div class="col-md" id="text-chapter-contents" style="overflow-y: scroll;">
+
+        <div class="col-md" id="text-chapter-contents">
           <h1>List of Tables</h1>
-                                  <p><a class="a-table" data-table-header="&lt;b&gt;Table 1&lt;/b&gt;. Summary of pottery recovered from the Fredricks site." data-table-string="==========================================================
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 1&lt;/b&gt;. Summary of pottery recovered from the Fredricks site." data-table-string="==========================================================
  Excavation  Features/                          Total  
  Season      Burials  Structures  Plowzone    n        %
 ==========================================================
@@ -96,8 +113,8 @@
  1986        3,365         0     24,545   27,910    44.48
 
  Total       7,787        90     54,875   62,752   100.00
-==========================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 1</u></a>. Summary of pottery recovered from the Fredricks site.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 2&lt;/b&gt;. Distribution of pottery from features, burials, and structures." data-table-string="=======================================================================================
+==========================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 1</u></a>. Summary of pottery recovered from the Fredricks site.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 2&lt;/b&gt;. Distribution of pottery from features, burials, and structures." data-table-string="=======================================================================================
                               Fredricks
                                 Check       Cord                 Complicated
                                Stamped     Marked      Brushed     Stamped    
@@ -164,107 +181,107 @@
  Structure (Misc.)          -     1     -     -     -     -     -     -      -      1
                                                                                 
  Total                  1,213 1,874   222    83   409   137    15    15  3,909  7,877
-=======================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 2</u></a>. Distribution of pottery from features, burials, and structures.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 3&lt;/b&gt;. Formal attributes for whole vessels and reconstructed vessel sections from the Fredricks site." data-table-string='=======================================================================================
+=======================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 2</u></a>. Distribution of pottery from features, burials, and structures.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 3&lt;/b&gt;. Formal attributes for whole vessels and reconstructed vessel sections from the Fredricks site." data-table-string='=======================================================================================
  Vessel No. (click to view pot)
  |               Exterior     Interior Decoration/    Vessel  Rim     Lip     Base
  | Temper Type   Surface      Surface  Modification    Type  Profile  Form    Form
 =======================================================================================
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 156&amp;lt;/b&amp;gt;. Vessel 1, a Uwharrie Net Impressed jar from Feature 8 (RLA catalog no. 2351p2711)." data-figure-path="../../imgs/d16/d_3553.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;1&lt;/a&gt; Fine Quartz  Net Impressed  Scraped Incising (Neck) Jar  Everted  Rounded    -
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 134&amp;lt;/b&amp;gt;. Vessel 2, a Fredricks Check Stamped jar from Burial 1 (RLA catalog no. 2351p255/1)." data-figure-path="../../imgs/d16/d_3556.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;2&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat       -
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 135&amp;lt;/b&amp;gt;. Vessel 3, a Fredricks Check Stamped jar from Burial 2 (RLA catalog no. 2351p382/1)." data-figure-path="../../imgs/d16/d_3558.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;3&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat       -
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 136&amp;lt;/b&amp;gt;. Vessel 4, a Fredricks Check Stamped jar from Burial 3 (RLA catalog no. 2351p441/1)." data-figure-path="../../imgs/d16/d_3562.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;4&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat       -
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 121&amp;lt;/b&amp;gt;. Vessel 5, a Fredricks Plain bowl from Burial 3 (RLA catalog no. 2351p441/2)." data-figure-path="../../imgs/d16/d_3559.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;5&lt;/a&gt; Fine Sand    Plain          Smooth  None            Bowl Inverted Pointed    -
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 67&amp;lt;/b&amp;gt;. Vessel 6, a Fredricks Check Stamped jar from Burial 2 (RLA catalog no. 2351p428)." data-figure-path="../../imgs/d16/d_3552.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;6&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat    Rounded
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 107&amp;lt;/b&amp;gt;. Vessel 7, a Fredricks Check Stamped pot from Burial 6 (RLA catalog no. 2351p2240)." data-figure-path="../../imgs/d16/d_3166.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;7&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Rounded Pointed 
+ &lt;a data-src="../../imgs/d16/D_3553.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 156&amp;lt;/b&amp;gt;. Vessel 1, a Uwharrie Net Impressed jar from Feature 8 (RLA catalog no. 2351p2711)." data-thumbnail="../../imgs/d16/D_3553.BMP" href="../../imgs/d16/D_3553.BMP"&gt;1&lt;/a&gt; Fine Quartz  Net Impressed  Scraped Incising (Neck) Jar  Everted  Rounded    -
+ &lt;a data-src="../../imgs/d16/D_3556.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 134&amp;lt;/b&amp;gt;. Vessel 2, a Fredricks Check Stamped jar from Burial 1 (RLA catalog no. 2351p255/1)." data-thumbnail="../../imgs/d16/D_3556.BMP" href="../../imgs/d16/D_3556.BMP"&gt;2&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat       -
+ &lt;a data-src="../../imgs/d16/D_3558.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 135&amp;lt;/b&amp;gt;. Vessel 3, a Fredricks Check Stamped jar from Burial 2 (RLA catalog no. 2351p382/1)." data-thumbnail="../../imgs/d16/D_3558.BMP" href="../../imgs/d16/D_3558.BMP"&gt;3&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat       -
+ &lt;a data-src="../../imgs/d16/D_3562.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 136&amp;lt;/b&amp;gt;. Vessel 4, a Fredricks Check Stamped jar from Burial 3 (RLA catalog no. 2351p441/1)." data-thumbnail="../../imgs/d16/D_3562.BMP" href="../../imgs/d16/D_3562.BMP"&gt;4&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat       -
+ &lt;a data-src="../../imgs/d16/D_3559.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 121&amp;lt;/b&amp;gt;. Vessel 5, a Fredricks Plain bowl from Burial 3 (RLA catalog no. 2351p441/2)." data-thumbnail="../../imgs/d16/D_3559.BMP" href="../../imgs/d16/D_3559.BMP"&gt;5&lt;/a&gt; Fine Sand    Plain          Smooth  None            Bowl Inverted Pointed    -
+ &lt;a data-src="../../imgs/d16/D_3552.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 67&amp;lt;/b&amp;gt;. Vessel 6, a Fredricks Check Stamped jar from Burial 2 (RLA catalog no. 2351p428)." data-thumbnail="../../imgs/d16/D_3552.BMP" href="../../imgs/d16/D_3552.BMP"&gt;6&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat    Rounded
+ &lt;a data-src="../../imgs/d16/D_3166.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 107&amp;lt;/b&amp;gt;. Vessel 7, a Fredricks Check Stamped pot from Burial 6 (RLA catalog no. 2351p2240)." data-thumbnail="../../imgs/d16/D_3166.JPG" href="../../imgs/d16/D_3166.JPG"&gt;7&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Rounded Pointed 
                                         Incisions (Lip)
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 110&amp;lt;/b&amp;gt;. Vessel 8, a Fredricks Check Stamped jar from Burial 8 (RLA catalog no. 2351p2543)." data-figure-path="../../imgs/d16/d_2165.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;8&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Rounded Rounded
+ &lt;a data-src="../../imgs/d16/D_2165.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 110&amp;lt;/b&amp;gt;. Vessel 8, a Fredricks Check Stamped jar from Burial 8 (RLA catalog no. 2351p2543)." data-thumbnail="../../imgs/d16/D_2165.JPG" href="../../imgs/d16/D_2165.JPG"&gt;8&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Rounded Rounded
                                         Incisions (Lip)
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 109&amp;lt;/b&amp;gt;. Vessel 9, a cord-marked bowl from Burial 11 (RLA catalog no. 2351p6119)." data-figure-path="../../imgs/d16/d_2147.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;9&lt;/a&gt; Fine Sand    Cord Marked    Plain   None            Bowl Inverted Rounded Rounded
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 86&amp;lt;/b&amp;gt;. Vessel 10, a Fredricks Plain jar from Feature 17 (RLA catalog nos. 2351p6206/1,p6226/1)." data-figure-path="../../imgs/v16/vess_10.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;10&lt;/a&gt; Fine Sand    Rough Smoothed Plain   None            Jar  Everted  Flat       -
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 81&amp;lt;/b&amp;gt;. Vessel 11, a simple-stamped jar from Feature 18 (RLA catalog no. 2351p6275/1)." data-figure-path="../../imgs/v16/vess_11.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;11&lt;/a&gt; Medium       Simple Stamped Plain   V-Shaped        Jar  Everted  Flat       -
+ &lt;a data-src="../../imgs/d16/D_2147.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 109&amp;lt;/b&amp;gt;. Vessel 9, a cord-marked bowl from Burial 11 (RLA catalog no. 2351p6119)." data-thumbnail="../../imgs/d16/D_2147.JPG" href="../../imgs/d16/D_2147.JPG"&gt;9&lt;/a&gt; Fine Sand    Cord Marked    Plain   None            Bowl Inverted Rounded Rounded
+&lt;a data-src="../../imgs/v16/VESS_10.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 86&amp;lt;/b&amp;gt;. Vessel 10, a Fredricks Plain jar from Feature 17 (RLA catalog nos. 2351p6206/1,p6226/1)." data-thumbnail="../../imgs/v16/VESS_10.BMP" href="../../imgs/v16/VESS_10.BMP"&gt;10&lt;/a&gt; Fine Sand    Rough Smoothed Plain   None            Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/v16/VESS_11.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 81&amp;lt;/b&amp;gt;. Vessel 11, a simple-stamped jar from Feature 18 (RLA catalog no. 2351p6275/1)." data-thumbnail="../../imgs/v16/VESS_11.BMP" href="../../imgs/v16/VESS_11.BMP"&gt;11&lt;/a&gt; Medium       Simple Stamped Plain   V-Shaped        Jar  Everted  Flat       -
      Quartz                             Notches (Lip)
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 82&amp;lt;/b&amp;gt;. Vessel 12, a check-stamped jar from Feature 18 (RLA catalog nos. 2351p6275/2,p6283/1,p6295/1)." data-figure-path="../../imgs/v16/vess_12.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;12&lt;/a&gt; Medium       Check Stamped  Plain   None            Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/v16/VESS_12.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 82&amp;lt;/b&amp;gt;. Vessel 12, a check-stamped jar from Feature 18 (RLA catalog nos. 2351p6275/2,p6283/1,p6295/1)." data-thumbnail="../../imgs/v16/VESS_12.BMP" href="../../imgs/v16/VESS_12.BMP"&gt;12&lt;/a&gt; Medium       Check Stamped  Plain   None            Jar  Everted  Flat       -
      Quartz
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 83&amp;lt;/b&amp;gt;. Vessel 13, a Fredricks Check Stamped jar from Feature 20 (RLA catalog no. 2351p6481/1)." data-figure-path="../../imgs/v16/vess_13.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;13&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/v16/VESS_13.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 83&amp;lt;/b&amp;gt;. Vessel 13, a Fredricks Check Stamped jar from Feature 20 (RLA catalog no. 2351p6481/1)." data-thumbnail="../../imgs/v16/VESS_13.BMP" href="../../imgs/v16/VESS_13.BMP"&gt;13&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat       -
                                         Incisions (Lip)
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 87&amp;lt;/b&amp;gt;. Vessel 14, a Fredricks Check Stamped jar from Burial 10 (RLA catalog no. 2351a6768)." data-figure-path="../../imgs/d16/d_2377.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;14&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat    Rounded
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 88&amp;lt;/b&amp;gt;. Vessel 15, a Fredricks Plain bowl from Burial 10 (RLA catalog no. 2351p6769)." data-figure-path="../../imgs/v16/vess_15.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;15&lt;/a&gt; Fine Sand    Plain Smoothed Plain   None            Bowl Straight Rounded Rounded
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 89&amp;lt;/b&amp;gt;. Vessel 16, a Fredricks Check Stamped jar from Burial 10 (RLA catalog no. 2351p6770)." data-figure-path="../../imgs/d16/d_2170.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;16&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat    Rounded
+&lt;a data-src="../../imgs/d16/D_2377.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 87&amp;lt;/b&amp;gt;. Vessel 14, a Fredricks Check Stamped jar from Burial 10 (RLA catalog no. 2351a6768)." data-thumbnail="../../imgs/d16/D_2377.JPG" href="../../imgs/d16/D_2377.JPG"&gt;14&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat    Rounded
+&lt;a data-src="../../imgs/v16/VESS_15.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 88&amp;lt;/b&amp;gt;. Vessel 15, a Fredricks Plain bowl from Burial 10 (RLA catalog no. 2351p6769)." data-thumbnail="../../imgs/v16/VESS_15.BMP" href="../../imgs/v16/VESS_15.BMP"&gt;15&lt;/a&gt; Fine Sand    Plain Smoothed Plain   None            Bowl Straight Rounded Rounded
+&lt;a data-src="../../imgs/d16/D_2170.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 89&amp;lt;/b&amp;gt;. Vessel 16, a Fredricks Check Stamped jar from Burial 10 (RLA catalog no. 2351p6770)." data-thumbnail="../../imgs/d16/D_2170.JPG" href="../../imgs/d16/D_2170.JPG"&gt;16&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat    Rounded
                                         Incisions (Lip)
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 157&amp;lt;/b&amp;gt;. Vessel 17, a Uwharrie Net Impressed jar from Feature 30 (RLA catalog no. 2351p6985/1)." data-figure-path="../../imgs/d16/d_3554.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;17&lt;/a&gt; Fine Sand    Net Impressed  Scraped None            Jar  Everted  Rounded    -
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 80&amp;lt;/b&amp;gt;. Vessel 18, a Fredricks Check Stamped jar from Feature 33 (RLA catalog no. 2351p7068/1)." data-figure-path="../../imgs/v16/vess_18.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;18&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/d16/D_3554.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 157&amp;lt;/b&amp;gt;. Vessel 17, a Uwharrie Net Impressed jar from Feature 30 (RLA catalog no. 2351p6985/1)." data-thumbnail="../../imgs/d16/D_3554.BMP" href="../../imgs/d16/D_3554.BMP"&gt;17&lt;/a&gt; Fine Sand    Net Impressed  Scraped None            Jar  Everted  Rounded    -
+&lt;a data-src="../../imgs/v16/VESS_18.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 80&amp;lt;/b&amp;gt;. Vessel 18, a Fredricks Check Stamped jar from Feature 33 (RLA catalog no. 2351p7068/1)." data-thumbnail="../../imgs/v16/VESS_18.BMP" href="../../imgs/v16/VESS_18.BMP"&gt;18&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat       -
                                          Incisions (Lip)
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 77&amp;lt;/b&amp;gt;. Vessel 19, a Fredricks Plain jar from Feature 41 (RLA catalog nos. 2351p7225/1,p7253/1)." data-figure-path="../../imgs/v16/vess_19.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;19&lt;/a&gt; Quartz and   Plain Smoothed Plain   None            Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/v16/VESS_19.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 77&amp;lt;/b&amp;gt;. Vessel 19, a Fredricks Plain jar from Feature 41 (RLA catalog nos. 2351p7225/1,p7253/1)." data-thumbnail="../../imgs/v16/VESS_19.BMP" href="../../imgs/v16/VESS_19.BMP"&gt;19&lt;/a&gt; Quartz and   Plain Smoothed Plain   None            Jar  Everted  Flat       -
      Feldspar
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 78&amp;lt;/b&amp;gt;. Vessel 20, a Fredricks Plain jar from Feature 41 (RLA catalog nos. 2351p7194/1,p7225/2,p7253/2)." data-figure-path="../../imgs/v16/vess_20.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;20&lt;/a&gt; Fine Sand    Plain Smoothed Plain   Drill Hole(s)   Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/v16/VESS_20.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 78&amp;lt;/b&amp;gt;. Vessel 20, a Fredricks Plain jar from Feature 41 (RLA catalog nos. 2351p7194/1,p7225/2,p7253/2)." data-thumbnail="../../imgs/v16/VESS_20.BMP" href="../../imgs/v16/VESS_20.BMP"&gt;20&lt;/a&gt; Fine Sand    Plain Smoothed Plain   Drill Hole(s)   Jar  Everted  Flat       -
                                          on Body
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 137&amp;lt;/b&amp;gt;. Vessel 21, a Fredricks Check Stamped jar from Feature 44 (RLA catalog nos. 2378p152/1,p198/1)." data-figure-path="../../imgs/v16/vess_21.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;21&lt;/a&gt; Fine Sand    Check Stamped  Plain   Indeterminate    -      -      -         -
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 221&amp;lt;/b&amp;gt;. Vessel 22, a Fredricks Plain jar from Feature 44 (RLA catalog no. 2378p198/2)." data-figure-path="../../imgs/v16/vess_22.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;22&lt;/a&gt; Fine Sand    Rough Smoothed Plain   Indeterminate    -      -      -         -
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 122&amp;lt;/b&amp;gt;. Vessel 23, a Fredricks Plain jar from Feature 44 (RLA catalog nos. 2378p152/2,p198/3)." data-figure-path="../../imgs/v16/vess_23.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;23&lt;/a&gt; Fine Sand    Rough Smoothed Plain   Indeterminate    -      -      -         -
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 138&amp;lt;/b&amp;gt;. Vessel 24, a Fredricks Check Stamped jar from Feature 45 (RLA catalog no. 2378p248/2)." data-figure-path="../../imgs/d16/d_3555.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;24&lt;/a&gt; Fine Sand    Check Stamped  Plain   Drill Hole(s)   Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/v16/VESS_21.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 137&amp;lt;/b&amp;gt;. Vessel 21, a Fredricks Check Stamped jar from Feature 44 (RLA catalog nos. 2378p152/1,p198/1)." data-thumbnail="../../imgs/v16/VESS_21.BMP" href="../../imgs/v16/VESS_21.BMP"&gt;21&lt;/a&gt; Fine Sand    Check Stamped  Plain   Indeterminate    -      -      -         -
+&lt;a data-src="../../imgs/v16/VESS_22.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 221&amp;lt;/b&amp;gt;. Vessel 22, a Fredricks Plain jar from Feature 44 (RLA catalog no. 2378p198/2)." data-thumbnail="../../imgs/v16/VESS_22.BMP" href="../../imgs/v16/VESS_22.BMP"&gt;22&lt;/a&gt; Fine Sand    Rough Smoothed Plain   Indeterminate    -      -      -         -
+&lt;a data-src="../../imgs/v16/VESS_23.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 122&amp;lt;/b&amp;gt;. Vessel 23, a Fredricks Plain jar from Feature 44 (RLA catalog nos. 2378p152/2,p198/3)." data-thumbnail="../../imgs/v16/VESS_23.BMP" href="../../imgs/v16/VESS_23.BMP"&gt;23&lt;/a&gt; Fine Sand    Rough Smoothed Plain   Indeterminate    -      -      -         -
+&lt;a data-src="../../imgs/d16/D_3555.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 138&amp;lt;/b&amp;gt;. Vessel 24, a Fredricks Check Stamped jar from Feature 45 (RLA catalog no. 2378p248/2)." data-thumbnail="../../imgs/d16/D_3555.BMP" href="../../imgs/d16/D_3555.BMP"&gt;24&lt;/a&gt; Fine Sand    Check Stamped  Plain   Drill Hole(s)   Jar  Everted  Flat       -
                                          on Neck
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 79&amp;lt;/b&amp;gt;. Vessel 25, a Fredricks Check Stamped jar from Feature 45 (RLA catalog nos. 2378p248/3,p258/1)." data-figure-path="../../imgs/v16/vess_25.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;25&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat    Rounded
+&lt;a data-src="../../imgs/v16/VESS_25.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 79&amp;lt;/b&amp;gt;. Vessel 25, a Fredricks Check Stamped jar from Feature 45 (RLA catalog nos. 2378p248/3,p258/1)." data-thumbnail="../../imgs/v16/VESS_25.BMP" href="../../imgs/v16/VESS_25.BMP"&gt;25&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat    Rounded
                                          Incisions (Lip)
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 139&amp;lt;/b&amp;gt;. Vessel 26, a Fredricks Check Stamped jar from Feature 47 (RLA catalog no. 2378p348/1)." data-figure-path="../../imgs/d16/d_3565.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;26&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/d16/D_3565.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 139&amp;lt;/b&amp;gt;. Vessel 26, a Fredricks Check Stamped jar from Feature 47 (RLA catalog no. 2378p348/1)." data-thumbnail="../../imgs/d16/D_3565.BMP" href="../../imgs/d16/D_3565.BMP"&gt;26&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat       -
                                          Incisions (Lip)
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 153&amp;lt;/b&amp;gt;. Vessel 27, a cord-marked pot from Feature 51 (RLA catalog no. 2378p507/1)." data-figure-path="../../imgs/d16/d_3557.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;27&lt;/a&gt; Fine FeldsparCord Marked    Plain   None             -      -      -         -
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 84&amp;lt;/b&amp;gt;. Vessel 28, a cord-marked jar from Feature 53 (RLA catalog nos. 2378p577/1,p619/1)." data-figure-path="../../imgs/v16/vess_28.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;28&lt;/a&gt; Fine Sand    Cord Marked    Plain   Drill Hole(s)   Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/d16/D_3557.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 153&amp;lt;/b&amp;gt;. Vessel 27, a cord-marked pot from Feature 51 (RLA catalog no. 2378p507/1)." data-thumbnail="../../imgs/d16/D_3557.BMP" href="../../imgs/d16/D_3557.BMP"&gt;27&lt;/a&gt; Fine FeldsparCord Marked    Plain   None             -      -      -         -
+&lt;a data-src="../../imgs/v16/VESS_28.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 84&amp;lt;/b&amp;gt;. Vessel 28, a cord-marked jar from Feature 53 (RLA catalog nos. 2378p577/1,p619/1)." data-thumbnail="../../imgs/v16/VESS_28.BMP" href="../../imgs/v16/VESS_28.BMP"&gt;28&lt;/a&gt; Fine Sand    Cord Marked    Plain   Drill Hole(s)   Jar  Everted  Flat       -
                                           on Neck
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 123&amp;lt;/b&amp;gt;. Vessel 29, a Fredricks Plain jar from Feature 53 (RLA catalog nos. 2378p577/2,p619/2,p646/5,p679)." data-figure-path="../../imgs/d16/d_3005.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;29&lt;/a&gt; Fine Sand    Plain Smoothed Plain   None            Jar  Everted  Rounded Rounded
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 124&amp;lt;/b&amp;gt;. Vessel 30, a Fredricks Plain jar from Feature 53 (RLA catalog nos. 2378p554/1,p577/3,p619/3)." data-figure-path="../../imgs/d16/d_3564.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;30&lt;/a&gt; Fine Sand    Plain Smoothed Plain   None            Jar  Everted  Rounded    -
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 140&amp;lt;/b&amp;gt;. Vessel 31, a Fredricks Check Stamped jar from Feature 53 (RLA catalog nos. 2378p577/4,p619/4,p647/1)." data-figure-path="../../imgs/d16/d_3566.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;31&lt;/a&gt; Fine Sand    Check Stamped  Plain   Drill Hole(s)   Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/d16/D_3005.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 123&amp;lt;/b&amp;gt;. Vessel 29, a Fredricks Plain jar from Feature 53 (RLA catalog nos. 2378p577/2,p619/2,p646/5,p679)." data-thumbnail="../../imgs/d16/D_3005.JPG" href="../../imgs/d16/D_3005.JPG"&gt;29&lt;/a&gt; Fine Sand    Plain Smoothed Plain   None            Jar  Everted  Rounded Rounded
+&lt;a data-src="../../imgs/d16/D_3564.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 124&amp;lt;/b&amp;gt;. Vessel 30, a Fredricks Plain jar from Feature 53 (RLA catalog nos. 2378p554/1,p577/3,p619/3)." data-thumbnail="../../imgs/d16/D_3564.BMP" href="../../imgs/d16/D_3564.BMP"&gt;30&lt;/a&gt; Fine Sand    Plain Smoothed Plain   None            Jar  Everted  Rounded    -
+&lt;a data-src="../../imgs/d16/D_3566.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 140&amp;lt;/b&amp;gt;. Vessel 31, a Fredricks Check Stamped jar from Feature 53 (RLA catalog nos. 2378p577/4,p619/4,p647/1)." data-thumbnail="../../imgs/d16/D_3566.BMP" href="../../imgs/d16/D_3566.BMP"&gt;31&lt;/a&gt; Fine Sand    Check Stamped  Plain   Drill Hole(s)   Jar  Everted  Flat       -
                                           on Neck
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 85&amp;lt;/b&amp;gt;. Vessel 32, a Fredricks Check Stamped jar from Feature 53 (RLA catalog nos. 2378p577/5,p619/5,p647/2)." data-figure-path="../../imgs/v16/vess_32.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;32&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat       -
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 141&amp;lt;/b&amp;gt;. Vessel 33, a Fredricks Check Stamped jar from Feature 61 (RLA catalog no. 2378p1026/1)." data-figure-path="../../imgs/d16/d_3563.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;33&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/v16/VESS_32.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 85&amp;lt;/b&amp;gt;. Vessel 32, a Fredricks Check Stamped jar from Feature 53 (RLA catalog nos. 2378p577/5,p619/5,p647/2)." data-thumbnail="../../imgs/v16/VESS_32.BMP" href="../../imgs/v16/VESS_32.BMP"&gt;32&lt;/a&gt; Fine Sand    Check Stamped  Plain   None            Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/d16/D_3563.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 141&amp;lt;/b&amp;gt;. Vessel 33, a Fredricks Check Stamped jar from Feature 61 (RLA catalog no. 2378p1026/1)." data-thumbnail="../../imgs/d16/D_3563.BMP" href="../../imgs/d16/D_3563.BMP"&gt;33&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat       -
                                           Incisions (Lip)
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 150&amp;lt;/b&amp;gt;. Vessel 34, a simple-stamped jar from Feature 20 (RLA catalog no. 2351p6481/2)." data-figure-path="../../imgs/d16/d_3560.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;34&lt;/a&gt; Fine Sand    Simple Stamped Plain   Oblique         Jar  Everted  Rounded    -
+&lt;a data-src="../../imgs/d16/D_3560.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 150&amp;lt;/b&amp;gt;. Vessel 34, a simple-stamped jar from Feature 20 (RLA catalog no. 2351p6481/2)." data-thumbnail="../../imgs/d16/D_3560.BMP" href="../../imgs/d16/D_3560.BMP"&gt;34&lt;/a&gt; Fine Sand    Simple Stamped Plain   Oblique         Jar  Everted  Rounded    -
                                           Incisions (Lip)
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 142&amp;lt;/b&amp;gt;. Vessel 35, a Fredricks Check Stamped jar from Feature 20 (RLA catalog no. 2351p6481/3)." data-figure-path="../../imgs/d16/d_3561.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;35&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat       -
+&lt;a data-src="../../imgs/d16/D_3561.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 142&amp;lt;/b&amp;gt;. Vessel 35, a Fredricks Check Stamped jar from Feature 20 (RLA catalog no. 2351p6481/3)." data-thumbnail="../../imgs/d16/D_3561.BMP" href="../../imgs/d16/D_3561.BMP"&gt;35&lt;/a&gt; Fine Sand    Check Stamped  Plain   Oblique         Jar  Everted  Flat       -
                                           Incisions (Lip)
-=====================================================================================' data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 3</u></a>. Formal attributes for the whole vessels and reconstructed vessel sections from the Fredricks site.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 4&lt;/b&gt;. Metric attributes and contexts for whole vessels and reconstructed vessel sections from the Fredricks site." data-table-string='===================================================================================
+=====================================================================================' data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 3</u></a>. Formal attributes for the whole vessels and reconstructed vessel sections from the Fredricks site.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 4&lt;/b&gt;. Metric attributes and contexts for whole vessels and reconstructed vessel sections from the Fredricks site." data-table-string='===================================================================================
  Vessel No. (click to view pot)
  |   % of    Rim      Neck   Shoulder            Wall
  |   Rim   Diameter Diameter Diameter  Height  Thickness       Location
 ===================================================================================
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 156&amp;lt;/b&amp;gt;. Vessel 1, a Uwharrie Net Impressed jar from Feature 8 (RLA catalog no. 2351p2711)." data-figure-path="../../imgs/d16/d_3553.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;1&lt;/a&gt;   15%    16 cm    16 cm        -        -   8-10 mm   Feature 8, Cleaning Top
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 134&amp;lt;/b&amp;gt;. Vessel 2, a Fredricks Check Stamped jar from Burial 1 (RLA catalog no. 2351p255/1)." data-figure-path="../../imgs/d16/d_3556.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;2&lt;/a&gt;    6%    28 cm        -        -        -    4-6 mm   Burial 1, Zone 1
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 135&amp;lt;/b&amp;gt;. Vessel 3, a Fredricks Check Stamped jar from Burial 2 (RLA catalog no. 2351p382/1)." data-figure-path="../../imgs/d16/d_3558.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;3&lt;/a&gt;   12%    16 cm    13 cm    15 cm        -    2-4 mm   Burial 2, Zone 1
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 136&amp;lt;/b&amp;gt;. Vessel 4, a Fredricks Check Stamped jar from Burial 3 (RLA catalog no. 2351p441/1)." data-figure-path="../../imgs/d16/d_3562.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;4&lt;/a&gt;    6%    34 cm        -        -        -    4-6 mm   Burial 3, Zone 1
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 121&amp;lt;/b&amp;gt;. Vessel 5, a Fredricks Plain bowl from Burial 3 (RLA catalog no. 2351p441/2)." data-figure-path="../../imgs/d16/d_3559.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;5&lt;/a&gt;    9%    10 cm        -        -        -    6-8 mm   Burial 3, Zone 1
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 67&amp;lt;/b&amp;gt;. Vessel 6, a Fredricks Check Stamped jar from Burial 2 (RLA catalog no. 2351p428)." data-figure-path="../../imgs/d16/d_3552.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;6&lt;/a&gt;  100%    14 cm    11 cm    12 cm    12 cm    4-6 mm   Burial 2, Association
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 107&amp;lt;/b&amp;gt;. Vessel 7, a Fredricks Check Stamped pot from Burial 6 (RLA catalog no. 2351p2240)." data-figure-path="../../imgs/d16/d_3166.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;7&lt;/a&gt;  100%    17 cm    14 cm    16 cm    18 cm    4-6 mm   Burial 6, Association
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 110&amp;lt;/b&amp;gt;. Vessel 8, a Fredricks Check Stamped jar from Burial 8 (RLA catalog no. 2351p2543)." data-figure-path="../../imgs/d16/d_2165.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;8&lt;/a&gt;  100%    14 cm    11 cm    12 cm    12 cm    4-6 mm   Burial 8, Association
- &lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 109&amp;lt;/b&amp;gt;. Vessel 9, a cord-marked bowl from Burial 11 (RLA catalog no. 2351p6119)." data-figure-path="../../imgs/d16/d_2147.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;9&lt;/a&gt;  100%    19 cm        -        -    10 cm    &amp;gt;10 mm   Burial 11, Association
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 86&amp;lt;/b&amp;gt;. Vessel 10, a Fredricks Plain jar from Feature 17 (RLA catalog nos. 2351p6206/1,p6226/1)." data-figure-path="../../imgs/v16/vess_10.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;10&lt;/a&gt;   35%    12 cm    11 cm    11 cm        -    4-6 mm   Feature 17, Zone 1
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 81&amp;lt;/b&amp;gt;. Vessel 11, a simple-stamped jar from Feature 18 (RLA catalog no. 2351p6275/1)." data-figure-path="../../imgs/v16/vess_11.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;11&lt;/a&gt;  100%    27 cm    27 cm    31 cm        -   8-10 mm   Feature 18, Zone 1
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 82&amp;lt;/b&amp;gt;. Vessel 12, a check-stamped jar from Feature 18 (RLA catalog nos. 2351p6275/2,p6283/1,p6295/1)." data-figure-path="../../imgs/v16/vess_12.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;12&lt;/a&gt;  100%    32 cm    29 cm    30 cm        -    6-8 mm   Feature 18, Zone 1
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 83&amp;lt;/b&amp;gt;. Vessel 13, a Fredricks Check Stamped jar from Feature 20 (RLA catalog no. 2351p6481/1)." data-figure-path="../../imgs/v16/vess_13.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;13&lt;/a&gt;   26%    30 cm    27 cm    28 cm        -    4-6 mm   Feature 20, Zone 2
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 87&amp;lt;/b&amp;gt;. Vessel 14, a Fredricks Check Stamped jar from Burial 10 (RLA catalog no. 2351a6768)." data-figure-path="../../imgs/d16/d_2377.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;14&lt;/a&gt;  100%    12 cm    10 cm    10 cm    11 cm    4-6 mm   Burial 10, Association
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 88&amp;lt;/b&amp;gt;. Vessel 15, a Fredricks Plain bowl from Burial 10 (RLA catalog no. 2351p6769)." data-figure-path="../../imgs/v16/vess_15.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;15&lt;/a&gt;  100%     9 cm        -        -     7 cm    4-6 mm   Burial 10, Association
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 89&amp;lt;/b&amp;gt;. Vessel 16, a Fredricks Check Stamped jar from Burial 10 (RLA catalog no. 2351p6770)." data-figure-path="../../imgs/d16/d_2170.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;16&lt;/a&gt;  100%    16 cm    14 cm    15 cm    18 cm    4-6 mm   Burial 10, Association
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 157&amp;lt;/b&amp;gt;. Vessel 17, a Uwharrie Net Impressed jar from Feature 30 (RLA catalog no. 2351p6985/1)." data-figure-path="../../imgs/d16/d_3554.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;17&lt;/a&gt;   10%    22 cm    21 cm    22 cm        -   8-10 mm   Feature 30, Zone 1
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 80&amp;lt;/b&amp;gt;. Vessel 18, a Fredricks Check Stamped jar from Feature 33 (RLA catalog no. 2351p7068/1)." data-figure-path="../../imgs/v16/vess_18.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;18&lt;/a&gt;   26%    18 cm    18 cm    19 cm        -    6-8 mm   Feature 33, Zone 3
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 77&amp;lt;/b&amp;gt;. Vessel 19, a Fredricks Plain jar from Feature 41 (RLA catalog nos. 2351p7225/1,p7253/1)." data-figure-path="../../imgs/v16/vess_19.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;19&lt;/a&gt;   26%    18 cm    18 cm    19 cm        -    6-8 mm   Feature 41, Zone 3
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 78&amp;lt;/b&amp;gt;. Vessel 20, a Fredricks Plain jar from Feature 41 (RLA catalog nos. 2351p7194/1,p7225/2,p7253/2)." data-figure-path="../../imgs/v16/vess_20.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;20&lt;/a&gt;   51%    30 cm    27 cm    30 cm        -    6-8 mm   Feature 41, Zone 3
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 137&amp;lt;/b&amp;gt;. Vessel 21, a Fredricks Check Stamped jar from Feature 44 (RLA catalog nos. 2378p152/1,p198/1)." data-figure-path="../../imgs/v16/vess_21.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;21&lt;/a&gt;     -        -        -        -        -    4-6 mm   Feature 44, Zone 2
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 221&amp;lt;/b&amp;gt;. Vessel 22, a Fredricks Plain jar from Feature 44 (RLA catalog no. 2378p198/2)." data-figure-path="../../imgs/v16/vess_22.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;22&lt;/a&gt;     -        -        -        -        -    6-8 mm   Feature 44, Zone 4
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 122&amp;lt;/b&amp;gt;. Vessel 23, a Fredricks Plain jar from Feature 44 (RLA catalog nos. 2378p152/2,p198/3)." data-figure-path="../../imgs/v16/vess_23.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;23&lt;/a&gt;     -        -        -        -        -    4-6 mm   Feature 44, Zone 2
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 138&amp;lt;/b&amp;gt;. Vessel 24, a Fredricks Check Stamped jar from Feature 45 (RLA catalog no. 2378p248/2)." data-figure-path="../../imgs/d16/d_3555.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;24&lt;/a&gt;   16%    20 cm    16 cm        -        -    2-4 mm   Feature 45, Zone 1
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 79&amp;lt;/b&amp;gt;. Vessel 25, a Fredricks Check Stamped jar from Feature 45 (RLA catalog nos. 2378p248/3,p258/1)." data-figure-path="../../imgs/v16/vess_25.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;25&lt;/a&gt;   18%    25 cm    22 cm    25 cm    36 cm    4-6 mm   Feature 45, Zone 1
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 139&amp;lt;/b&amp;gt;. Vessel 26, a Fredricks Check Stamped jar from Feature 47 (RLA catalog no. 2378p348/1)." data-figure-path="../../imgs/d16/d_3565.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;26&lt;/a&gt;   30%    30 cm    25 cm    28 cm        -    4-6 mm   Feature 47, Zone 2
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 153&amp;lt;/b&amp;gt;. Vessel 27, a cord-marked pot from Feature 51 (RLA catalog no. 2378p507/1)." data-figure-path="../../imgs/d16/d_3557.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;27&lt;/a&gt;     -        -        -    18 cm        -    2-4 mm   Feature 51, Zone 1
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 84&amp;lt;/b&amp;gt;. Vessel 28, a cord-marked jar from Feature 53 (RLA catalog nos. 2378p577/1,p619/1)." data-figure-path="../../imgs/v16/vess_28.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;28&lt;/a&gt;   50%    26 cm    24 cm    23 cm    22 cm    6-8 mm   Feature 53, Zone 1
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 123&amp;lt;/b&amp;gt;. Vessel 29, a Fredricks Plain jar from Feature 53 (RLA catalog nos. 2378p577/2,p619/2,p646/5,p679)." data-figure-path="../../imgs/d16/d_3005.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;29&lt;/a&gt;  100%    11 cm     9 cm    10 cm    11 cm    6-8 mm   Feature 53, Zone 2
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 124&amp;lt;/b&amp;gt;. Vessel 30, a Fredricks Plain jar from Feature 53 (RLA catalog nos. 2378p554/1,p577/3,p619/3)." data-figure-path="../../imgs/d16/d_3564.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;30&lt;/a&gt;   45%    23 cm    21 cm    21 cm    21 cm    6-8 mm   Feature 53, Zone 1
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 140&amp;lt;/b&amp;gt;. Vessel 31, a Fredricks Check Stamped jar from Feature 53 (RLA catalog nos. 2378p577/4,p619/4,p647/1)." data-figure-path="../../imgs/d16/d_3566.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;31&lt;/a&gt;   75%    32 cm    30 cm    31 cm    35 cm    2-4 mm   Feature 53, Zone 2
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 85&amp;lt;/b&amp;gt;. Vessel 32, a Fredricks Check Stamped jar from Feature 53 (RLA catalog nos. 2378p577/5,p619/5,p647/2)." data-figure-path="../../imgs/v16/vess_32.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;32&lt;/a&gt;  100%    34 cm    31 cm    33 cm    35 cm    4-6 mm   Feature 53, Zone 2
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 141&amp;lt;/b&amp;gt;. Vessel 33, a Fredricks Check Stamped jar from Feature 61 (RLA catalog no. 2378p1026/1)." data-figure-path="../../imgs/d16/d_3563.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;33&lt;/a&gt;   15%    26 cm    22 cm    22 cm        -    4-6 mm   Feature 61, Zone 1
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 150&amp;lt;/b&amp;gt;. Vessel 34, a simple-stamped jar from Feature 20 (RLA catalog no. 2351p6481/2)." data-figure-path="../../imgs/d16/d_3560.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;34&lt;/a&gt;   17%    14 cm    12 cm    12 cm        -    6-8 mm   Feature 20, Zone 2
-&lt;a data-figure-caption="&amp;lt;b&amp;gt;Figure 142&amp;lt;/b&amp;gt;. Vessel 35, a Fredricks Check Stamped jar from Feature 20 (RLA catalog no. 2351p6481/3)." data-figure-path="../../imgs/d16/d_3561.jpeg" data-target="#tableImgModal" data-toggle="modal" href="#tableImgModal"&gt;35&lt;/a&gt;   10%    30 cm    27 cm        -        -    4-6 mm   Feature 20, Zone 2
-================================================================================' data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 4</u></a>. Metric attributes and contexts for whole vessels and reconstructed vessel sections from the Fredricks site.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 5&lt;/b&gt;. Distribution of pottery by feature and burila clusters." data-table-string="=========================================================================================================================
+ &lt;a data-src="../../imgs/d16/D_3553.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 156&amp;lt;/b&amp;gt;. Vessel 1, a Uwharrie Net Impressed jar from Feature 8 (RLA catalog no. 2351p2711)." data-thumbnail="../../imgs/d16/D_3553.BMP" href="../../imgs/d16/D_3553.BMP"&gt;1&lt;/a&gt;   15%    16 cm    16 cm        -        -   8-10 mm   Feature 8, Cleaning Top
+ &lt;a data-src="../../imgs/d16/D_3556.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 134&amp;lt;/b&amp;gt;. Vessel 2, a Fredricks Check Stamped jar from Burial 1 (RLA catalog no. 2351p255/1)." data-thumbnail="../../imgs/d16/D_3556.BMP" href="../../imgs/d16/D_3556.BMP"&gt;2&lt;/a&gt;    6%    28 cm        -        -        -    4-6 mm   Burial 1, Zone 1
+ &lt;a data-src="../../imgs/d16/D_3558.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 135&amp;lt;/b&amp;gt;. Vessel 3, a Fredricks Check Stamped jar from Burial 2 (RLA catalog no. 2351p382/1)." data-thumbnail="../../imgs/d16/D_3558.BMP" href="../../imgs/d16/D_3558.BMP"&gt;3&lt;/a&gt;   12%    16 cm    13 cm    15 cm        -    2-4 mm   Burial 2, Zone 1
+ &lt;a data-src="../../imgs/d16/D_3562.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 136&amp;lt;/b&amp;gt;. Vessel 4, a Fredricks Check Stamped jar from Burial 3 (RLA catalog no. 2351p441/1)." data-thumbnail="../../imgs/d16/D_3562.BMP" href="../../imgs/d16/D_3562.BMP"&gt;4&lt;/a&gt;    6%    34 cm        -        -        -    4-6 mm   Burial 3, Zone 1
+ &lt;a data-src="../../imgs/d16/D_3559.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 121&amp;lt;/b&amp;gt;. Vessel 5, a Fredricks Plain bowl from Burial 3 (RLA catalog no. 2351p441/2)." data-thumbnail="../../imgs/d16/D_3559.BMP" href="../../imgs/d16/D_3559.BMP"&gt;5&lt;/a&gt;    9%    10 cm        -        -        -    6-8 mm   Burial 3, Zone 1
+ &lt;a data-src="../../imgs/d16/D_3552.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 67&amp;lt;/b&amp;gt;. Vessel 6, a Fredricks Check Stamped jar from Burial 2 (RLA catalog no. 2351p428)." data-thumbnail="../../imgs/d16/D_3552.BMP" href="../../imgs/d16/D_3552.BMP"&gt;6&lt;/a&gt;  100%    14 cm    11 cm    12 cm    12 cm    4-6 mm   Burial 2, Association
+ &lt;a data-src="../../imgs/d16/D_3166.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 107&amp;lt;/b&amp;gt;. Vessel 7, a Fredricks Check Stamped pot from Burial 6 (RLA catalog no. 2351p2240)." data-thumbnail="../../imgs/d16/D_3166.JPG" href="../../imgs/d16/D_3166.JPG"&gt;7&lt;/a&gt;  100%    17 cm    14 cm    16 cm    18 cm    4-6 mm   Burial 6, Association
+ &lt;a data-src="../../imgs/d16/D_2165.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 110&amp;lt;/b&amp;gt;. Vessel 8, a Fredricks Check Stamped jar from Burial 8 (RLA catalog no. 2351p2543)." data-thumbnail="../../imgs/d16/D_2165.JPG" href="../../imgs/d16/D_2165.JPG"&gt;8&lt;/a&gt;  100%    14 cm    11 cm    12 cm    12 cm    4-6 mm   Burial 8, Association
+ &lt;a data-src="../../imgs/d16/D_2147.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 109&amp;lt;/b&amp;gt;. Vessel 9, a cord-marked bowl from Burial 11 (RLA catalog no. 2351p6119)." data-thumbnail="../../imgs/d16/D_2147.JPG" href="../../imgs/d16/D_2147.JPG"&gt;9&lt;/a&gt;  100%    19 cm        -        -    10 cm    &amp;gt;10 mm   Burial 11, Association
+&lt;a data-src="../../imgs/v16/VESS_10.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 86&amp;lt;/b&amp;gt;. Vessel 10, a Fredricks Plain jar from Feature 17 (RLA catalog nos. 2351p6206/1,p6226/1)." data-thumbnail="../../imgs/v16/VESS_10.BMP" href="../../imgs/v16/VESS_10.BMP"&gt;10&lt;/a&gt;   35%    12 cm    11 cm    11 cm        -    4-6 mm   Feature 17, Zone 1
+&lt;a data-src="../../imgs/v16/VESS_11.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 81&amp;lt;/b&amp;gt;. Vessel 11, a simple-stamped jar from Feature 18 (RLA catalog no. 2351p6275/1)." data-thumbnail="../../imgs/v16/VESS_11.BMP" href="../../imgs/v16/VESS_11.BMP"&gt;11&lt;/a&gt;  100%    27 cm    27 cm    31 cm        -   8-10 mm   Feature 18, Zone 1
+&lt;a data-src="../../imgs/v16/VESS_12.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 82&amp;lt;/b&amp;gt;. Vessel 12, a check-stamped jar from Feature 18 (RLA catalog nos. 2351p6275/2,p6283/1,p6295/1)." data-thumbnail="../../imgs/v16/VESS_12.BMP" href="../../imgs/v16/VESS_12.BMP"&gt;12&lt;/a&gt;  100%    32 cm    29 cm    30 cm        -    6-8 mm   Feature 18, Zone 1
+&lt;a data-src="../../imgs/v16/VESS_13.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 83&amp;lt;/b&amp;gt;. Vessel 13, a Fredricks Check Stamped jar from Feature 20 (RLA catalog no. 2351p6481/1)." data-thumbnail="../../imgs/v16/VESS_13.BMP" href="../../imgs/v16/VESS_13.BMP"&gt;13&lt;/a&gt;   26%    30 cm    27 cm    28 cm        -    4-6 mm   Feature 20, Zone 2
+&lt;a data-src="../../imgs/d16/D_2377.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 87&amp;lt;/b&amp;gt;. Vessel 14, a Fredricks Check Stamped jar from Burial 10 (RLA catalog no. 2351a6768)." data-thumbnail="../../imgs/d16/D_2377.JPG" href="../../imgs/d16/D_2377.JPG"&gt;14&lt;/a&gt;  100%    12 cm    10 cm    10 cm    11 cm    4-6 mm   Burial 10, Association
+&lt;a data-src="../../imgs/v16/VESS_15.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 88&amp;lt;/b&amp;gt;. Vessel 15, a Fredricks Plain bowl from Burial 10 (RLA catalog no. 2351p6769)." data-thumbnail="../../imgs/v16/VESS_15.BMP" href="../../imgs/v16/VESS_15.BMP"&gt;15&lt;/a&gt;  100%     9 cm        -        -     7 cm    4-6 mm   Burial 10, Association
+&lt;a data-src="../../imgs/d16/D_2170.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 89&amp;lt;/b&amp;gt;. Vessel 16, a Fredricks Check Stamped jar from Burial 10 (RLA catalog no. 2351p6770)." data-thumbnail="../../imgs/d16/D_2170.JPG" href="../../imgs/d16/D_2170.JPG"&gt;16&lt;/a&gt;  100%    16 cm    14 cm    15 cm    18 cm    4-6 mm   Burial 10, Association
+&lt;a data-src="../../imgs/d16/D_3554.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 157&amp;lt;/b&amp;gt;. Vessel 17, a Uwharrie Net Impressed jar from Feature 30 (RLA catalog no. 2351p6985/1)." data-thumbnail="../../imgs/d16/D_3554.BMP" href="../../imgs/d16/D_3554.BMP"&gt;17&lt;/a&gt;   10%    22 cm    21 cm    22 cm        -   8-10 mm   Feature 30, Zone 1
+&lt;a data-src="../../imgs/v16/VESS_18.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 80&amp;lt;/b&amp;gt;. Vessel 18, a Fredricks Check Stamped jar from Feature 33 (RLA catalog no. 2351p7068/1)." data-thumbnail="../../imgs/v16/VESS_18.BMP" href="../../imgs/v16/VESS_18.BMP"&gt;18&lt;/a&gt;   26%    18 cm    18 cm    19 cm        -    6-8 mm   Feature 33, Zone 3
+&lt;a data-src="../../imgs/v16/VESS_19.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 77&amp;lt;/b&amp;gt;. Vessel 19, a Fredricks Plain jar from Feature 41 (RLA catalog nos. 2351p7225/1,p7253/1)." data-thumbnail="../../imgs/v16/VESS_19.BMP" href="../../imgs/v16/VESS_19.BMP"&gt;19&lt;/a&gt;   26%    18 cm    18 cm    19 cm        -    6-8 mm   Feature 41, Zone 3
+&lt;a data-src="../../imgs/v16/VESS_20.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 78&amp;lt;/b&amp;gt;. Vessel 20, a Fredricks Plain jar from Feature 41 (RLA catalog nos. 2351p7194/1,p7225/2,p7253/2)." data-thumbnail="../../imgs/v16/VESS_20.BMP" href="../../imgs/v16/VESS_20.BMP"&gt;20&lt;/a&gt;   51%    30 cm    27 cm    30 cm        -    6-8 mm   Feature 41, Zone 3
+&lt;a data-src="../../imgs/v16/VESS_21.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 137&amp;lt;/b&amp;gt;. Vessel 21, a Fredricks Check Stamped jar from Feature 44 (RLA catalog nos. 2378p152/1,p198/1)." data-thumbnail="../../imgs/v16/VESS_21.BMP" href="../../imgs/v16/VESS_21.BMP"&gt;21&lt;/a&gt;     -        -        -        -        -    4-6 mm   Feature 44, Zone 2
+&lt;a data-src="../../imgs/v16/VESS_22.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 221&amp;lt;/b&amp;gt;. Vessel 22, a Fredricks Plain jar from Feature 44 (RLA catalog no. 2378p198/2)." data-thumbnail="../../imgs/v16/VESS_22.BMP" href="../../imgs/v16/VESS_22.BMP"&gt;22&lt;/a&gt;     -        -        -        -        -    6-8 mm   Feature 44, Zone 4
+&lt;a data-src="../../imgs/v16/VESS_23.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 122&amp;lt;/b&amp;gt;. Vessel 23, a Fredricks Plain jar from Feature 44 (RLA catalog nos. 2378p152/2,p198/3)." data-thumbnail="../../imgs/v16/VESS_23.BMP" href="../../imgs/v16/VESS_23.BMP"&gt;23&lt;/a&gt;     -        -        -        -        -    4-6 mm   Feature 44, Zone 2
+&lt;a data-src="../../imgs/d16/D_3555.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 138&amp;lt;/b&amp;gt;. Vessel 24, a Fredricks Check Stamped jar from Feature 45 (RLA catalog no. 2378p248/2)." data-thumbnail="../../imgs/d16/D_3555.BMP" href="../../imgs/d16/D_3555.BMP"&gt;24&lt;/a&gt;   16%    20 cm    16 cm        -        -    2-4 mm   Feature 45, Zone 1
+&lt;a data-src="../../imgs/v16/VESS_25.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 79&amp;lt;/b&amp;gt;. Vessel 25, a Fredricks Check Stamped jar from Feature 45 (RLA catalog nos. 2378p248/3,p258/1)." data-thumbnail="../../imgs/v16/VESS_25.BMP" href="../../imgs/v16/VESS_25.BMP"&gt;25&lt;/a&gt;   18%    25 cm    22 cm    25 cm    36 cm    4-6 mm   Feature 45, Zone 1
+&lt;a data-src="../../imgs/d16/D_3565.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 139&amp;lt;/b&amp;gt;. Vessel 26, a Fredricks Check Stamped jar from Feature 47 (RLA catalog no. 2378p348/1)." data-thumbnail="../../imgs/d16/D_3565.BMP" href="../../imgs/d16/D_3565.BMP"&gt;26&lt;/a&gt;   30%    30 cm    25 cm    28 cm        -    4-6 mm   Feature 47, Zone 2
+&lt;a data-src="../../imgs/d16/D_3557.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 153&amp;lt;/b&amp;gt;. Vessel 27, a cord-marked pot from Feature 51 (RLA catalog no. 2378p507/1)." data-thumbnail="../../imgs/d16/D_3557.BMP" href="../../imgs/d16/D_3557.BMP"&gt;27&lt;/a&gt;     -        -        -    18 cm        -    2-4 mm   Feature 51, Zone 1
+&lt;a data-src="../../imgs/v16/VESS_28.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 84&amp;lt;/b&amp;gt;. Vessel 28, a cord-marked jar from Feature 53 (RLA catalog nos. 2378p577/1,p619/1)." data-thumbnail="../../imgs/v16/VESS_28.BMP" href="../../imgs/v16/VESS_28.BMP"&gt;28&lt;/a&gt;   50%    26 cm    24 cm    23 cm    22 cm    6-8 mm   Feature 53, Zone 1
+&lt;a data-src="../../imgs/d16/D_3005.JPG" data-sub-html="&amp;lt;b&amp;gt;Figure 123&amp;lt;/b&amp;gt;. Vessel 29, a Fredricks Plain jar from Feature 53 (RLA catalog nos. 2378p577/2,p619/2,p646/5,p679)." data-thumbnail="../../imgs/d16/D_3005.JPG" href="../../imgs/d16/D_3005.JPG"&gt;29&lt;/a&gt;  100%    11 cm     9 cm    10 cm    11 cm    6-8 mm   Feature 53, Zone 2
+&lt;a data-src="../../imgs/d16/D_3564.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 124&amp;lt;/b&amp;gt;. Vessel 30, a Fredricks Plain jar from Feature 53 (RLA catalog nos. 2378p554/1,p577/3,p619/3)." data-thumbnail="../../imgs/d16/D_3564.BMP" href="../../imgs/d16/D_3564.BMP"&gt;30&lt;/a&gt;   45%    23 cm    21 cm    21 cm    21 cm    6-8 mm   Feature 53, Zone 1
+&lt;a data-src="../../imgs/d16/D_3566.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 140&amp;lt;/b&amp;gt;. Vessel 31, a Fredricks Check Stamped jar from Feature 53 (RLA catalog nos. 2378p577/4,p619/4,p647/1)." data-thumbnail="../../imgs/d16/D_3566.BMP" href="../../imgs/d16/D_3566.BMP"&gt;31&lt;/a&gt;   75%    32 cm    30 cm    31 cm    35 cm    2-4 mm   Feature 53, Zone 2
+&lt;a data-src="../../imgs/v16/VESS_32.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 85&amp;lt;/b&amp;gt;. Vessel 32, a Fredricks Check Stamped jar from Feature 53 (RLA catalog nos. 2378p577/5,p619/5,p647/2)." data-thumbnail="../../imgs/v16/VESS_32.BMP" href="../../imgs/v16/VESS_32.BMP"&gt;32&lt;/a&gt;  100%    34 cm    31 cm    33 cm    35 cm    4-6 mm   Feature 53, Zone 2
+&lt;a data-src="../../imgs/d16/D_3563.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 141&amp;lt;/b&amp;gt;. Vessel 33, a Fredricks Check Stamped jar from Feature 61 (RLA catalog no. 2378p1026/1)." data-thumbnail="../../imgs/d16/D_3563.BMP" href="../../imgs/d16/D_3563.BMP"&gt;33&lt;/a&gt;   15%    26 cm    22 cm    22 cm        -    4-6 mm   Feature 61, Zone 1
+&lt;a data-src="../../imgs/d16/D_3560.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 150&amp;lt;/b&amp;gt;. Vessel 34, a simple-stamped jar from Feature 20 (RLA catalog no. 2351p6481/2)." data-thumbnail="../../imgs/d16/D_3560.BMP" href="../../imgs/d16/D_3560.BMP"&gt;34&lt;/a&gt;   17%    14 cm    12 cm    12 cm        -    6-8 mm   Feature 20, Zone 2
+&lt;a data-src="../../imgs/d16/D_3561.BMP" data-sub-html="&amp;lt;b&amp;gt;Figure 142&amp;lt;/b&amp;gt;. Vessel 35, a Fredricks Check Stamped jar from Feature 20 (RLA catalog no. 2351p6481/3)." data-thumbnail="../../imgs/d16/D_3561.BMP" href="../../imgs/d16/D_3561.BMP"&gt;35&lt;/a&gt;   10%    30 cm    27 cm        -        -    4-6 mm   Feature 20, Zone 2
+================================================================================' data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 4</u></a>. Metric attributes and contexts for whole vessels and reconstructed vessel sections from the Fredricks site.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 5&lt;/b&gt;. Distribution of pottery by feature and burila clusters." data-table-string="=========================================================================================================================
                  Fredricks     Fredricks   Simple       Cord     Uwharrie                  Cob     Complicated
  Feature/Burial    Plain     Check Stamped Stamped     Marked  Net Impressed  Brushed   Impressed    Stamped     Total
  Cluster          n     %       n    %      n   %      n   %     n    %        n    %    n    %       n    %     n    %
@@ -291,8 +308,8 @@
                  48   21.99   485  72.07    2  0.30   31  4.61   7   1.04      0   0.00  0   0.00     0   0.00 673 100.00
 
  Total        1,139         1,780         197         76       297     126    14        15        3,644            100.00
-=========================================================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 5</u></a>. Distribution of pottery by feature and burial clusters.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 6&lt;/b&gt;. Analyzed stone tools from the Fredricks site." data-table-string="===========================================================
+=========================================================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 5</u></a>. Distribution of pottery by feature and burial clusters.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 6&lt;/b&gt;. Analyzed stone tools from the Fredricks site." data-table-string="===========================================================
  Artifact Type                                  Total
 ===========================================================
  
@@ -335,8 +352,8 @@
      Core                                          26
 
  Total                                          2,896
-===========================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 6</u></a>. Analyzed stone tools from the Fredricks site.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 7&lt;/b&gt;. Historic artifacts found at the Fredricks site." data-table-string="===================================================================
+===========================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 6</u></a>. Analyzed stone tools from the Fredricks site.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 7&lt;/b&gt;. Historic artifacts found at the Fredricks site." data-table-string="===================================================================
  Functional Group               Plowzone and
    Class/Artifact Type            Features   Burials    Total
 ===================================================================
@@ -476,8 +493,8 @@
                         
  Totals (excluding                1,539     13,480    15,020
   unidentified artifacts)                  
-=================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 7</u></a>. Historic artifacts found at the Fredricks site.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 8&lt;/b&gt;. Summary of glass trade beads from the Fredricks site." data-table-string="========================================================================================
+=================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 7</u></a>. Historic artifacts found at the Fredricks site.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 8&lt;/b&gt;. Summary of glass trade beads from the Fredricks site." data-table-string="========================================================================================
               Small        Medium       Large    Very Large      Not
              (&amp;lt;4 mm)      (4-6 mm)    (6-10 mm)   (&amp;gt;10 mm)     Measured        Total
  Category    n     %      n      %     n      %    n     %     n      %       n     %
@@ -498,8 +515,8 @@
  Indeterminate
              -   0.00    17    3.66   19    2.59   -   0.00    -    0.00     36   0.29
  Total  11,232 100.00   465  100.00  735  100.00  45 100.00   11  100.00 12,488 100.00
-========================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 8</u></a>. Summary of glass trade beads from the Fredricks site.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 9&lt;/b&gt;. Animal remains from the Wall site (1983 and 1984 excavations)." data-table-string="=====================================================================================
+========================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 8</u></a>. Summary of glass trade beads from the Fredricks site.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 9&lt;/b&gt;. Animal remains from the Wall site (1983 and 1984 excavations)." data-table-string="=====================================================================================
  Species                                   Frag. % Frag.   Wt.(g)  % Wt. MNI   % MNI
 =====================================================================================
  &lt;i&gt;Odocoileus virginianus&lt;/i&gt;,
@@ -551,8 +568,8 @@
  Sub-Total (Identified to Class)        17,545  57.99  19,302.02  89.10   -        -
  Sub-Total (Unidentified)               12,712  42.01   2,361.62  10.90   -        -
  Total                                  30,257 100.00  21,663.64 100.00 288   100.04
-=====================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 9</u></a>. Animal remains from the Wall Site (1983 and 1984 excavations).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 10&lt;/b&gt;. Animal remains from the Fredricks site (1983 and 1984 excavations)." data-table-string="=====================================================================================
+=====================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 9</u></a>. Animal remains from the Wall Site (1983 and 1984 excavations).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 10&lt;/b&gt;. Animal remains from the Fredricks site (1983 and 1984 excavations)." data-table-string="=====================================================================================
  Species                                  Frag. % Frag.   Wt.(g)  % Wt.  MNI   % MNI
 =====================================================================================
  &lt;i&gt;Odocoileus virginianus&lt;/i&gt;,
@@ -608,8 +625,8 @@
  Sub-Total (Identified to Class)         8,643   52.76  8,363.21  87.66   -        -
  Sub-Total (Unidentified)                7,750   47.28  1,178.30  12.35   -        -
  Total                                  16,393  100.04  9,541.51 100.01 142    99.90 
-=====================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 10</u></a>. Animal remains from the Fredricks site (1983 and 1984 excavations).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 11&lt;/b&gt;. Expected and actual representation of deer skeletal elements (1983 and 1984 excavations)." data-table-string="==========================================================================
+=====================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 10</u></a>. Animal remains from the Fredricks site (1983 and 1984 excavations).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 11&lt;/b&gt;. Expected and actual representation of deer skeletal elements (1983 and 1984 excavations)." data-table-string="==========================================================================
                           Expected         Wall Site       Fredricks Site
  Element           Frequency/Individuals (36 Individuals) (9 Individuals)
 ==========================================================================
@@ -644,8 +661,8 @@
  Proximal Phalanx             8               17.4             54.2
  Second Phalanx               8                8.3             27.8
  Distal Phalanx               8               16.3             23.6
-========================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 11</u></a>. Expected and actual representation of deer skeletal elements (1983 and 1984 excavations).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 12&lt;/b&gt;. Estimated meat yield in pounds (1983 and 1984 excavations)." data-table-string="=========================================================================
+========================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 11</u></a>. Expected and actual representation of deer skeletal elements (1983 and 1984 excavations).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 12&lt;/b&gt;. Estimated meat yield in pounds (1983 and 1984 excavations)." data-table-string="=========================================================================
                      Estimated Meat
                     Yield/Individual   Wall Site       Fredricks Site
  Species                 (lbs.)       lbs.     %        lbs.      %
@@ -705,8 +722,8 @@
  
  Total                       -     3,719.7   99.6    1,315.3   100.1
 ======================================================================
- * - less than .05." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 12</u></a>. Estimated meat yield in pounds (1983 and 1984 excavations).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 13&lt;/b&gt;. Animal remains from the Fredricks site (1985 excavations)." data-table-string="=================================================================================
+ * - less than .05." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 12</u></a>. Estimated meat yield in pounds (1983 and 1984 excavations).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 13&lt;/b&gt;. Animal remains from the Fredricks site (1985 excavations)." data-table-string="=================================================================================
  Species                                 Frag. % Frag.   Wt.(g) % Wt.  MNI  % MNI
 =================================================================================
  &lt;i&gt;Odocoileus virginianus&lt;/i&gt;,
@@ -746,8 +763,8 @@
  Sub-Total (Identified to Class)        28,259  88.58 24,646.56 97.53    -      -
  Sub-Total (Unidentified)                3,642  11.42    616.50  2.44    -      -
  Total                                  31,901 100.00 25,263.06 99.97  112  99.95
-=================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 13</u></a>. Animal remains from the Fredricks site (1985 excavations).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 14&lt;/b&gt;. Estimated meat yield in pounds (1985 excavations)." data-table-string="======================================================
+=================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 13</u></a>. Animal remains from the Fredricks site (1985 excavations).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 14&lt;/b&gt;. Estimated meat yield in pounds (1985 excavations)." data-table-string="======================================================
                          Estimated Meat
                         Yield/Individual     Total
  Species                     (lbs.)       lbs.     %
@@ -788,8 +805,8 @@
  
  Total                           -   2,912.0     99.6
  ======================================================
- * - less than .05." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 14</u></a>. Estimated meat yield in pounds (1985 excavations).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 15&lt;/b&gt;. Animal remains from the Fredricks site (1986 excavations)." data-table-string="====================================================================================
+ * - less than .05." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 14</u></a>. Estimated meat yield in pounds (1985 excavations).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 15&lt;/b&gt;. Animal remains from the Fredricks site (1986 excavations)." data-table-string="====================================================================================
 Species                                 Frag. % Frag.   Wt.(g)  %  Wt.  MNI  % MNI
 ====================================================================================
  &lt;i&gt;Odocoileus virginianus&lt;/i&gt;,
@@ -829,8 +846,8 @@ Species                                 Frag. % Frag.   Wt.(g)  %  Wt.  MNI  % M
  Sub-Total (Identified to Class)        16,717  64.71 24,432.41  94.86    -      -
  Sub-Total (Unidentified)                9,115  35.28  1,322.70   5.14    -      -
  Total                                  25,832  99.99 25,755.11 100.00  107  99.96
-==================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 15</u></a>. Animal remains from the Fredricks site (1986 excavations).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 16&lt;/b&gt;. Age of deer from the Fredricks site." data-table-string="=============================================================
+==================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 15</u></a>. Animal remains from the Fredricks site (1986 excavations).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 16&lt;/b&gt;. Age of deer from the Fredricks site." data-table-string="=============================================================
                          Excavation Season         Total
  Age                  1983-1984  1985   1986      n      %
 =============================================================
@@ -846,8 +863,8 @@ Species                                 Frag. % Frag.   Wt.(g)  %  Wt.  MNI  % M
  8-1/2 to 9-1/2 years     1        -      -       1     4.8
 
  Total                    4        7     10      21    100.1
-=============================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 16</u></a>. Age of deer from the Fredricks site.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 17&lt;/b&gt;. Estimated meat yield in pounds (1986 excavations)." data-table-string="======================================================
+=============================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 16</u></a>. Age of deer from the Fredricks site.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 17&lt;/b&gt;. Estimated meat yield in pounds (1986 excavations)." data-table-string="======================================================
                         Estimated Meat
                        Yield/Individual      Total
  Species                     (lbs.)      lbs.      %
@@ -889,8 +906,8 @@ Species                                 Frag. % Frag.   Wt.(g)  %  Wt.  MNI  % M
  
  Total                           -    2,579.6  100.01
  ======================================================
- * - less than .05." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 17</u></a>. Estimated meat yield in pounds (1986 excavations).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 18&lt;/b&gt;. Summary of plant remains from the Wall, Fredricks, and Mitchum sites (weights in grams)." data-table-string="================================================================================================================================
+ * - less than .05." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 17</u></a>. Estimated meat yield in pounds (1986 excavations).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 18&lt;/b&gt;. Summary of plant remains from the Wall, Fredricks, and Mitchum sites (weights in grams)." data-table-string="================================================================================================================================
                                  Wood       Rhizome/        Hickory       Acorn         Walnut        Total         Seeds
                                Charcoal      Tuber          Nutshell      Meat          Shell         Corn            |
             Soil Volume  Total    |            |    Plant      |            |             |             |             |
@@ -935,8 +952,8 @@ Sample Type (Flotation) Remains   |   Plant    |    Remains    |   Shell    |   
   Bu. Fill             184.01  158.23   4.24  0.20   21.34   11.19  0.04      -      -      -   5.81   3.84   0.05   0.39   0.02
     Total              473.89  333.38  13.88  0.20  126.43   62.07  0.52   0.05      -   0.70   9.03  51.88   0.63   1.51   0.04
 ================================================================================================================================
-Notes: * - less than 0.005 grams; LF=light fraction. Does not include cob-filled pits." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 18</u></a>. Summary of plant remains from the Wall, Fredricks, and Mitchum sites (weights in grams).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 19&lt;/b&gt;. Percent of plant food remains from the Wall, Fredricks, and Mitchum sites." data-table-string="=======================================================================================
+Notes: * - less than 0.005 grams; LF=light fraction. Does not include cob-filled pits." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 18</u></a>. Summary of plant remains from the Wall, Fredricks, and Mitchum sites (weights in grams).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 19&lt;/b&gt;. Percent of plant food remains from the Wall, Fredricks, and Mitchum sites." data-table-string="=======================================================================================
                 Soil Vol.
                 in Liters        Hickory    Acorn    Walnut
                (Flot only)       Nutshell    Meat     Shell      Corn      Seeds
@@ -982,8 +999,8 @@ Notes: * - less than 0.005 grams; LF=light fraction. Does not include cob-filled
    Burial Fill            21.34   52.4  0.2   -    -    -  27.2  18.0   -   1.8  0.2
      Total               126.43   49.1  0.4   *    -   0.6  7.1  41.0  0.5  1.2   *
 =====================================================================================
- Notes: * - trace; LF=light fraction." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 19</u></a>. Percent of plant food remains from the Wall, Fredricks, and Mitchum sites.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 20&lt;/b&gt;. Ubiquity of plant remains, as precent of flotation samples, at the Wall, Fredricks, and Mitchum sites." data-table-string="=================================================================================================================
+ Notes: * - trace; LF=light fraction." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 19</u></a>. Percent of plant food remains from the Wall, Fredricks, and Mitchum sites.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 20&lt;/b&gt;. Ubiquity of plant remains, as precent of flotation samples, at the Wall, Fredricks, and Mitchum sites." data-table-string="=================================================================================================================
                                 Wall Site       Fredricks Site                                     Mitchum Site
  Taxon           Features    Burial    Midden    Total      Burials  Fea.10-13 Fea.9/Str.1  Total Burial/Features
 =================================================================================================================
@@ -1022,8 +1039,8 @@ Notes: * - less than 0.005 grams; LF=light fraction. Does not include cob-filled
 
  # of samples          8         2        20        30           45        10        15        70        17
 =================================================================================================================
-Notes: Based on flotation samples from which both lght and heavy fractions were analyzed." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 20</u></a>. Ubiquity of plant remains, as percent of flotation samples at the Wall, Fredricks, and Mitchum sites.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 21&lt;/b&gt;. Seed counts from the Fredricks site." data-table-string='=====================================================================================
+Notes: Based on flotation samples from which both lght and heavy fractions were analyzed." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 20</u></a>. Ubiquity of plant remains, as percent of flotation samples at the Wall, Fredricks, and Mitchum sites.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 21&lt;/b&gt;. Seed counts from the Fredricks site." data-table-string='=====================================================================================
                                            Flotation
                                   Burial   Features  Feature 9/  Waterscreen
  Taxon                             Fill     10-13   Structure 1     Total      Total
@@ -1055,8 +1072,8 @@ Notes: Based on flotation samples from which both lght and heavy fractions were 
    Embryos                           -         -        12            -          12
  &lt;i&gt;Phaseolus vulgaris&lt;/i&gt; L.,
    Common Bean (&lt;i&gt;Cotyledons&lt;/i&gt;)          4         -        14            2          20
-=====================================================================================' data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 21</u></a>. Seed counts from the Fredricks site.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 22&lt;/b&gt;. Seed counts from the Wall and Mitchum sites." data-table-string="================================================================================================================================
+=====================================================================================' data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 21</u></a>. Seed counts from the Fredricks site.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 22&lt;/b&gt;. Seed counts from the Wall and Mitchum sites." data-table-string="================================================================================================================================
                                 -------------------------&lt;b&gt;Wall Site&lt;/b&gt;-------------------------------------&lt;b&gt;Mitchum Site&lt;/b&gt;------------
                                |           Flotation                                     |                                     |
                                | Flotation  Midden   Flotation Flotation  Water-         | Flotation  Flotation  Water-        |
@@ -1091,8 +1108,8 @@ Notes: Based on flotation samples from which both lght and heavy fractions were 
     Kernels                         26         1         -         1       21      49          1          6       11      18
  &lt;i&gt;Phaseolus vulgaris&lt;/i&gt; L., Common Bean
     (&lt;i&gt;Cotyledons&lt;/i&gt;)                     8         -         -         -        1       9          -          -        -       -
-================================================================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 22</u></a>. Seed counts from the Wall and Mitchum sites.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 23&lt;/b&gt;. Percent of nutshell from the Wall, Mitchum, and Fredricks sites." data-table-string="=============================================================================
+================================================================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 22</u></a>. Seed counts from the Wall and Mitchum sites.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 23&lt;/b&gt;. Percent of nutshell from the Wall, Mitchum, and Fredricks sites." data-table-string="=============================================================================
                  Nutshell         Hickory         Acorn       Walnut
  Context           (g)               %              %            %
 =============================================================================
@@ -1111,8 +1128,8 @@ Notes: Based on flotation samples from which both lght and heavy fractions were 
    Flotation      51.69            97.7             0.9         1.4
    Waterscreen    11.23            99.6             0.4         0.0
    Total          62.92            98.1             0.8         1.1
-=============================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 23</u></a>. Percent of nutshell from the Wall, Mitchum, and Fredricks sites.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 24&lt;/b&gt;. Comparison of plant remains from burials, features, and structures at the Fredricks site." data-table-string='=================================================================================================================================
+=============================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 23</u></a>. Percent of nutshell from the Wall, Mitchum, and Fredricks sites.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 24&lt;/b&gt;. Comparison of plant remains from burials, features, and structures at the Fredricks site." data-table-string='=================================================================================================================================
                           Upper Burial Fill        Lower Burial Fill                Feature 9
                     |  Bu. 4   Bu. 5    Bu. 8  |                      |                                  | Features | Structure
                     |  Zone 1  Zone 2   Zone 3 | Bu.4    Bu.5    Bu.8 |  Zone 1  Zone 2  Zone 3  Zone 3b |  10-13   |     1
@@ -1153,8 +1170,8 @@ Notes: Based on flotation samples from which both lght and heavy fractions were 
  Nightshade                -       -       -        -       -       -        -       -       -       -          1          -
  Morning Glory             -       -       -        -       -       -        -       -       -       -          2          -
 =================================================================================================================================
-Note: * - trace.' data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 24</u></a>. Comparison of plant remains from burials, features, and structures at the Fredricks site.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 25&lt;/b&gt;. Distribution of seeds from the Wall, Mitchum, and Fredricks sites (number per gram of plant food remains)." data-table-string="===================================================================================
+Note: * - trace.' data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 24</u></a>. Comparison of plant remains from burials, features, and structures at the Fredricks site.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 25&lt;/b&gt;. Distribution of seeds from the Wall, Mitchum, and Fredricks sites (number per gram of plant food remains)." data-table-string="===================================================================================
  Seed Type                Wall Site          Mitchum Site      Fredricks Site
 ===================================================================================
  &lt;i&gt;Plant Food Remains (g)&lt;/i&gt;     32.63                4.78              105.09
@@ -1196,8 +1213,8 @@ Note: * - trace.' data-target="#genModal" data-toggle="modal" href="#genModal" t
    Morning Glory                -                   -                0.02
 ===================================================================================
  Notes: Based on flotation samples from which both light and heavy fractions were
- analyzed; * - trace." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 25</u></a>. Distribution of seeds from the Wall, Mitchum, and Fredricks sites (number per gram of plant food remains).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 26&lt;/b&gt;. Plant remains from 1985 flotation samples (weights in grams)." data-table-string="=======================================================================================
+ analyzed; * - trace." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 25</u></a>. Distribution of seeds from the Wall, Mitchum, and Fredricks sites (number per gram of plant food remains).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 26&lt;/b&gt;. Plant remains from 1985 flotation samples (weights in grams)." data-table-string="=======================================================================================
                     Total Plant                 Wood/     Root/   Pedicel/  Plant Food 
  Context              Remains     Unknown       Stem      Tuber   Peduncle   Remains
 =======================================================================================
@@ -1228,8 +1245,8 @@ Note: * - trace.' data-target="#genModal" data-toggle="modal" href="#genModal" t
                                                                               
  &lt;b&gt;Total&lt;/b&gt;                 260.27      13.53      194.64      0.04     0.01     52.05
 ====================================================================================
- * - trace (&amp;lt;.005)." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 26</u></a>. Plant remains from 1985 flotation samples (weights in grams).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 27&lt;/b&gt;. Plant food remains from 1985 flotation samples (weights in grams)." data-table-string="======================================================================================
+ * - trace (&amp;lt;.005)." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 26</u></a>. Plant remains from 1985 flotation samples (weights in grams).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 27&lt;/b&gt;. Plant food remains from 1985 flotation samples (weights in grams)." data-table-string="======================================================================================
                      Hickory       Walnut       Acorn       Cucurbit      Seeds
                       Shell         Shell        Meat         Rind          |   Soil
            Plant Food   |    Acorn    |  Peach    |  Common    |            |  Volume
@@ -1262,8 +1279,8 @@ Note: * - trace.' data-target="#genModal" data-toggle="modal" href="#genModal" t
                                                                                    
  &lt;b&gt;Total&lt;/b&gt;        52.05  29.19    3.40  1.26  4.29  1.61  0.26      *   9.47   2.57  550
 =====================================================================================
- * - trace (&amp;lt;.005)." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 27</u></a>. Plant food remains from 1985 flotation samples (weights in grams).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 28&lt;/b&gt;. Percentage of plant food remains from 1985 flotation samples." data-table-string="================================================================================
+ * - trace (&amp;lt;.005)." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 27</u></a>. Plant food remains from 1985 flotation samples (weights in grams).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 28&lt;/b&gt;. Percentage of plant food remains from 1985 flotation samples." data-table-string="================================================================================
                     Hickory       Walnut       Acorn       Cucurbit       Seeds
                      Shell         Shell        Meat         Rind           |   
            Plant Food  |    Acorn    |   Peach   |   Common    |            | 
@@ -1278,8 +1295,8 @@ Context      Remains   |    Shell    |    Pit    |    Bean     |    Corn    |
 
  Total        52.05   56.1    6.5   2.4   8.2   3.1   0.5      *    18.2    4.9
 =================================================================================
- * - trace." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 28</u></a>. Percentage of plant food remains from 1985 flotation samples.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 29&lt;/b&gt;. Seed/fruit counts for burials, features, and structure from 1985 flotation samples." data-table-string="===========================================================================
+ * - trace." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 28</u></a>. Percentage of plant food remains from 1985 flotation samples.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 29&lt;/b&gt;. Seed/fruit counts for burials, features, and structure from 1985 flotation samples." data-table-string="===========================================================================
                  Burials                     Features                   Str.
                 ----------  ------------------------------------------  ---
  Taxon          10  11  13  15  17  18  19  20  23  24  28  29  33  41   5
@@ -1319,8 +1336,8 @@ Context      Remains   |    Shell    |    Pit    |    Bean     |    Corn    |
  Beggar's Lice?  -   -   -   -   -   -   -   -   -   -   -   -   1   -   -
  Unknown         1   1   -   -   2   -   2   2   2   -  15   3   1  10   2
 ===========================================================================
-Note: Scientific names for each taxon are given in the text." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 29</u></a>. Seed/fruit counts for burials, features, and structure from 1985 flotation samples.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 30&lt;/b&gt;. Plant ubiquity at the Fredricks site as percentage of features (1985 samples)." data-table-string="===============================================
+Note: Scientific names for each taxon are given in the text." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 29</u></a>. Seed/fruit counts for burials, features, and structure from 1985 flotation samples.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 30&lt;/b&gt;. Plant ubiquity at the Fredricks site as percentage of features (1985 samples)." data-table-string="===============================================
  Taxon            Ubiquity    Ubiquity Rank 
 ===============================================
  
@@ -1349,8 +1366,8 @@ Note: Scientific names for each taxon are given in the text." data-target="#genM
  Bearsfoot           5.3           10
  Beggar's Lice?      5.3           10
  Wood Sorrel         5.3           10
-=============================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 30</u></a>. Plant ubiquity at the Fredricks site as percentage of features (1985 samples).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 31&lt;/b&gt;. Percentages of nutshell from 1983, 1984, and 1985 flotation samples." data-table-string="=================================================
+=============================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 30</u></a>. Plant ubiquity at the Fredricks site as percentage of features (1985 samples).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 31&lt;/b&gt;. Percentages of nutshell from 1983, 1984, and 1985 flotation samples." data-table-string="=================================================
                Nutshell   Acorn  Hickory   Walnut
  Sample          (g)        %        %        %
 =================================================
@@ -1360,8 +1377,8 @@ Note: Scientific names for each taxon are given in the text." data-target="#genM
  1985 Sample    33.85     10.0     86.2      3.7
                                                 
  Total          85.91      4.5     93.2      2.3
-=================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 31</u></a>. Percentages of nutshell from 1983, 1984, and 1985 flotation samples.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 32&lt;/b&gt;. Percentages of plant food remains from 1983, 1984, and 1985 flotation samples." data-table-string="=========================================================================================
+=================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 31</u></a>. Percentages of nutshell from 1983, 1984, and 1985 flotation samples.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 32&lt;/b&gt;. Percentages of plant food remains from 1983, 1984, and 1985 flotation samples." data-table-string="=========================================================================================
  Plant Food        Hickory  Acorn  Walnut  Peach   Acorn  Common  Cucurbit  Corn   Seeds 
  Remains (g)        Shell   Shell  Shell    Pit    Meat    Bean     Rind                 
 =========================================================================================
@@ -1369,8 +1386,8 @@ Note: Scientific names for each taxon are given in the text." data-target="#genM
  157.14               51     2.5    1.2     4.8     1.1    0.5      &amp;lt;0.1    36.6    2.3
 
 =========================================================================================
- Note: Excludes Features 30, 35, 36, and 37." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 32</u></a>. Percentages of plant food remains from 1983, 1984, and 1985 flotation samples.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 33&lt;/b&gt;. Seed/fruit counts and proportions from 1985 flotation samples." data-table-string="=================================================================
+ Note: Excludes Features 30, 35, 36, and 37." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 32</u></a>. Percentages of plant food remains from 1983, 1984, and 1985 flotation samples.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 33&lt;/b&gt;. Seed/fruit counts and proportions from 1985 flotation samples." data-table-string="=================================================================
                            Percent of Total   Number per Gram of
  Taxon             Total   Identified Seeds   Plant Food Remains
 =================================================================
@@ -1409,8 +1426,8 @@ Note: Scientific names for each taxon are given in the text." data-target="#genM
  Beggar's Lice?       1           0.5               0.02
 ===============================================================
  Notes: Excludes Features 30, 35, 36, and 37; Percent of Total
- Identified Seeds excludes corn cupules." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 33</u></a>. Seed/fruit counts and proportions from 1985 flotation samples.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 34&lt;/b&gt;. Seed/fruit counts and proportions from 1983, 1984, and 1985 flotation samples." data-table-string="=================================================================
+ Identified Seeds excludes corn cupules." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 33</u></a>. Seed/fruit counts and proportions from 1985 flotation samples.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 34&lt;/b&gt;. Seed/fruit counts and proportions from 1983, 1984, and 1985 flotation samples." data-table-string="=================================================================
                            Percent of Total   Number per Gram of
  Taxon             Total   Identified Seeds   Plant Food Remains
 =================================================================
@@ -1454,8 +1471,8 @@ Note: Scientific names for each taxon are given in the text." data-target="#genM
  Morning Glory        2           0.3               0.01
 ===============================================================
  Notes: Excludes Features 30, 35, 36, and 37; Percent of Total
- Identified Seeds excludes corn cupules." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 34</u></a>. Seed/fruit counts and proportions from 1983, 1984, and 1985 flotation samples.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 35&lt;/b&gt;. Plant remains from Features 35 and 37 (1985 flotation samples; weights in grams)." data-table-string="==============================================================================
+ Identified Seeds excludes corn cupules." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 34</u></a>. Seed/fruit counts and proportions from 1983, 1984, and 1985 flotation samples.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 35&lt;/b&gt;. Plant remains from Features 35 and 37 (1985 flotation samples; weights in grams)." data-table-string="==============================================================================
  Feature            Total Plant            Wood/     Total Plant     Hickory
     Fraction Type     Remains   Unknown    Stem      Food Remains    Nutshell
 ==============================================================================
@@ -1469,8 +1486,8 @@ Note: Scientific names for each taxon are given in the text." data-target="#genM
    Light Fraction      1.23         -      1.23          0.00            -
    Heavy Fraction      9.92      0.03      9.87          0.02          0.02
    Total              11.15      0.03     11.10          0.02          0.02
-=============================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 35</u></a>. Plant remains from Features 35 and 37 (1985 flotation samples; weights in grams).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 36&lt;/b&gt;. Plant remains from Feature 36 (1985 flotation sample; weights in grams)." data-table-string="==============================================================================
+=============================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 35</u></a>. Plant remains from Features 35 and 37 (1985 flotation samples; weights in grams).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 36&lt;/b&gt;. Plant remains from Feature 36 (1985 flotation sample; weights in grams)." data-table-string="==============================================================================
                             Size &amp;gt;2.38 mm                        Size &amp;lt;2.58 mm
           Total Plant Wood/         Total Food  Corn     Corn        
  Fraction   Remains   Bark  Unknown   Remains  Kernels  Cupules     Residue
@@ -1480,8 +1497,8 @@ Note: Scientific names for each taxon are given in the text." data-target="#genM
  Heavy        9.26    8.16   0.03       1.07    0.03     1.04        15.18
                                                                         
  Total       65.62   53.30   1.00      11.32    0.03    11.29        99.75
-==============================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 36</u></a>. Plant remains from Feature 36 (1985 flotation sample; weights in grams).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 37&lt;/b&gt;. Plant remains from Feature 30 (1985 flotation sample)." data-table-string="==============================================================================
+==============================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 36</u></a>. Plant remains from Feature 36 (1985 flotation sample; weights in grams).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 37&lt;/b&gt;. Plant remains from Feature 30 (1985 flotation sample)." data-table-string="==============================================================================
             Total Plant           Wood/     Total    Hickory  Acorn  Common              
              Remains     Unknown  Stem  Food Remains  Shell   Shell   Bean   Corn   Seeds
 =========================================================================================
@@ -1492,8 +1509,8 @@ Note: Scientific names for each taxon are given in the text." data-target="#genM
  Food Remains    -           -       -     100.0      86.4    8.7     0.2       *   4.7
 ========================================================================================
  Notes: * - trace.  One cotyledon for the common bean; one cupule fragment for the corn;
- 94 bedstraw, 23 henbit(?), 6 bearsfoot, and 2 unknown for the seeds." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 37</u></a>. Plant remains from Feature 30 (1985 flotation sample).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 38&lt;/b&gt;. Plant remains from 1986 flotation samples (weights in grams)." data-table-string="==============================================================================
+ 94 bedstraw, 23 henbit(?), 6 bearsfoot, and 2 unknown for the seeds." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 37</u></a>. Plant remains from Feature 30 (1985 flotation sample).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 38&lt;/b&gt;. Plant remains from 1986 flotation samples (weights in grams)." data-table-string="==============================================================================
                     Soil  
                    Volume    Plant    Wood/              Other        Weight   Plant Food
  Context             (l)    Remains   Stem   Unknown      Type          (g)      Remains
@@ -1523,8 +1540,8 @@ Note: Scientific names for each taxon are given in the text." data-target="#genM
  &lt;b&gt;Total&lt;/b&gt;              500    504.62   396.52   19.90         -           0.14      88.06
 ======================================================================================
  Notes: * - trace (&amp;lt;0.005 g); Feature 53 includes one heavy fraction sampled at 50%;
- Feature 56 includes two heavy fractions sampled at 50%." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 38</u></a>. Plant remains from 1986 flotation samples (weights in grams).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 39&lt;/b&gt;. Weights (in grams) of plant food remains from 1986 flotation samples." data-table-string="=========================================================================================
+ Feature 56 includes two heavy fractions sampled at 50%." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 38</u></a>. Plant remains from 1986 flotation samples (weights in grams).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 39&lt;/b&gt;. Weights (in grams) of plant food remains from 1986 flotation samples." data-table-string="=========================================================================================
               Hickory      Acorn   Juglandaceae    Maize                  Common 
                Shell        Meat       Shell      Kernels      Seeds       Bean  
                  |           |           |           |           |           | 
@@ -1556,8 +1573,8 @@ Note: Scientific names for each taxon are given in the text." data-target="#genM
                                                                                      
  &lt;b&gt;Total&lt;/b&gt;         74.96  1.31  4.42  0.69  0.27  1.18  2.20  1.92  1.10    *  0.01  88.06
 ======================================================================================
- Note: * - trace." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 39</u></a>. Weights (in grams) of plant food remains from 1986 flotation samples.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 40&lt;/b&gt;. Percentage of plant food remains from 1986 flotation samples." data-table-string="=========================================================================================
+ Note: * - trace." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 39</u></a>. Weights (in grams) of plant food remains from 1986 flotation samples.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 40&lt;/b&gt;. Percentage of plant food remains from 1986 flotation samples." data-table-string="=========================================================================================
                            Hickory      Acorn   Juglandaceae    Total     Cucurbit
                             Shell        Meat       Shell       Maize       Rind     
                      Plant    |           |           |           |           |      
@@ -1588,8 +1605,8 @@ Note: Scientific names for each taxon are given in the text." data-target="#genM
                                                                                 
  &lt;b&gt;Total&lt;/b&gt;              88.06   85.1   1.5   5.0   0.8   0.3   1.3   4.7   1.2     *     *
 =======================================================================================
-Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 40</u></a>. Percentage of plant food remains from 1986 flotation samples.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 41&lt;/b&gt;. Densities of plant remains in features (1986 flotation samples)." data-table-string="=============================================================================
+Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 40</u></a>. Percentage of plant food remains from 1986 flotation samples.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 41&lt;/b&gt;. Densities of plant remains in features (1986 flotation samples)." data-table-string="=============================================================================
                     Liters     Plant Remains   Plant Food Remains     Seeds
  Context            of Fill      per Liter          per Liter       per Liter
 =============================================================================
@@ -1617,8 +1634,8 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
                                                              
  &lt;b&gt;Total&lt;/b&gt;               500           1.01               0.18            0.75
 ============================================================================
- Note: * - trace." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 41</u></a>. Densities of plant remains in features (1986 flotation samples).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 42&lt;/b&gt;. Seed and fruit counts from 1986 flotation samples." data-table-string="================================================================================================================
+ Note: * - trace." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 41</u></a>. Densities of plant remains in features (1986 flotation samples).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 42&lt;/b&gt;. Seed and fruit counts from 1986 flotation samples." data-table-string="================================================================================================================
                       Fea.  Fea.   Bu.  Fea.  Fea.  Fea.  Fea.  Fea.  Fea.  Fea.  Fea.  Fea.  Fea.  Fea.
  Taxon                 31    49    14    42    44    45    46    47    51    53    56    58    59    61   Total
 ================================================================================================================
@@ -1658,8 +1675,8 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
  Unknown                -     9     -     -     -     1     3     5     3    14     5     1     1     -     42
 
  Total                  6    37     4    17    36    10    18    38    29   126    23    14    16     2    376
-================================================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 42</u></a>. Seed and fruit counts from 1986 flotation samples.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 43&lt;/b&gt;. Absolute and relative quantities of nutshell." data-table-string="====================================================================
+================================================================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 42</u></a>. Seed and fruit counts from 1986 flotation samples.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 43&lt;/b&gt;. Absolute and relative quantities of nutshell." data-table-string="====================================================================
                            1986                     1983-1986
                      Excavation Season         Excavation Seasons 
  Nutshell Type        (g)          (%)           (g)          (%)
@@ -1670,8 +1687,8 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
  Juglandaceae        0.27          0.3          0.27          0.2
                                                                 
  Total              77.23        100.0        163.36        100.0
-====================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 43</u></a>. Absolute and relative quantities of nutshell.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 44&lt;/b&gt;. Ubiquity of plant taxa from the Fredricks site as percentage of features." data-table-string='==============================================
+====================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 43</u></a>. Absolute and relative quantities of nutshell.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 44&lt;/b&gt;. Ubiquity of plant taxa from the Fredricks site as percentage of features." data-table-string='==============================================
                     Number of         
  Taxon              Features   Percent   Rank 
 ==============================================
@@ -1728,8 +1745,8 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
 =============================================
  Note: Includes seed counts from all flotation
  samples analyzed from the 1983-1986 seasons
- except Feature 30.' data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 44</u></a>. Ubiquity of plant taxa from the Fredricks site as percentage of features.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 45&lt;/b&gt;. Percentage of plant food remains from the Fredricks site (1983-1986 flotation samples)." data-table-string="============================================================================================================================
+ except Feature 30.' data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 44</u></a>. Ubiquity of plant taxa from the Fredricks site as percentage of features.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 45&lt;/b&gt;. Percentage of plant food remains from the Fredricks site (1983-1986 flotation samples)." data-table-string="============================================================================================================================
                  Liters    Number     Total                                   Jugland-
                    of        of    Plant Food  Hickory  Acorn  Walnut  Acorn   aceae  Peach Cucurbit                 Common
  Feature Type     Fill    Features   Remains   Shell    Shell   Shell  Meat    Shell   Pit    Rind     Maize  Seeds   Bean
@@ -1763,8 +1780,8 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
  Percent                                 100    60.50      2       1   2.40    0.10    3.40      *    28.40   1.90    0.30
  Totals         1807.50       52
 ============================================================================================================================
-* - trace." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 45</u></a>. Percentage of plant food remains from the Fredricks site (1983-1986 flotation samples).</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 46&lt;/b&gt;. Percentage of seeds and fruits from the Fredricks site, 1983-1986." data-table-string='========================================================
+* - trace." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 45</u></a>. Percentage of plant food remains from the Fredricks site (1983-1986 flotation samples).</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 46&lt;/b&gt;. Percentage of seeds and fruits from the Fredricks site, 1983-1986." data-table-string='========================================================
                       Total    Percent of Total        
  Taxon                Number   Identified Seeds  Rank
 ========================================================
@@ -1815,8 +1832,8 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
  Total                1004         100.2   
 ======================================================
  Note: Total percentage may vary due to rounding
- error.' data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 46</u></a>. Percentage of seeds and fruits from the Fredricks site, 1983-1986.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 47&lt;/b&gt;. Acculturation indices for Fredricks site burial groupings." data-table-string="==============================================================================
+ error.' data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 46</u></a>. Percentage of seeds and fruits from the Fredricks site, 1983-1986.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 47&lt;/b&gt;. Acculturation indices for Fredricks site burial groupings." data-table-string="==============================================================================
      Group 1             Group 2              Group 3              Group 4
  Burial   Index      Burial    Index      Burial    Index      Burial    Index
 ==============================================================================
@@ -1828,8 +1845,8 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
 
  Mean Index = 25.3   Mean Index = 4.5     Mean = 10.7      
  Std. Dev. = 12.6    Std. Dev. = 0.5      Std. Dev. = 3.4  
-==============================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 47</u></a>. Acculturation indices for Fredricks site burial groupings.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 48&lt;/b&gt;. Distribution by age category of utilitarian (U) and ornamental (O) artifacts associated with the Fredricks site burials." data-table-string="=======================================================================
+==============================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 47</u></a>. Acculturation indices for Fredricks site burial groupings.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 48&lt;/b&gt;. Distribution by age category of utilitarian (U) and ornamental (O) artifacts associated with the Fredricks site burials." data-table-string="=======================================================================
     Subadults                  Adults                      Shared
  =======================================================================
  Spoons          U        Smoking Pipes    U        Knives           U
@@ -1843,8 +1860,8 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
  Shell-Beaded    O
    Garments
  U=3, O=6                 U=6, O=2                  U=6, O=2
- =======================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 48</u></a>. Distribution by age category of utilitarian (U) and ornamental (O) artifacts associated with the Fredricks site burials.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 49&lt;/b&gt;. Wall post densities at the Wall site." data-table-string="====================================================================
+ =======================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 48</u></a>. Distribution by age category of utilitarian (U) and ornamental (O) artifacts associated with the Fredricks site burials.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 49&lt;/b&gt;. Wall post densities at the Wall site." data-table-string="====================================================================
               Number of     Diameter   Circumference     Density
  Structure    Wall Posts      (ft)         (ft)       (posts per ft)
 ====================================================================
@@ -1855,8 +1872,8 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
 ===================================================================
  Notes: Only clearly defined structures were used in calculations.
  The ratio of maximum density to minimum density=1.9÷0.9=2.1 (see
- Warrick 1988:38)." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 49</u></a>. Wall post densities at the Wall site.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 50&lt;/b&gt;. Wall post densities at Upper Saratown." data-table-string="====================================================================
+ Warrick 1988:38)." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 49</u></a>. Wall post densities at the Wall site.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 50&lt;/b&gt;. Wall post densities at Upper Saratown." data-table-string="====================================================================
                Number of     Diameter   Circumference    Density
  Structure     Wall Posts      (ft)         (ft)      (posts per ft)
 ====================================================================
@@ -1868,8 +1885,8 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
 ===================================================================
  Note: Only clearly defined structures were used in calculations.
  The ratio of maximum density to minimum density=1.7÷0.9=1.9 (see
- Warrick 1988:38)." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 50</u></a>. Wall post densities at Upper Saratown.</p>
-                                                          <p><a class="a-table" data-table-header="&lt;b&gt;Table 51&lt;/b&gt;. Inventory of European trade artifacts from feature and burial contexts at Upper Saratown and the Fredricks site." data-table-string="=====================================================================
+ Warrick 1988:38)." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 50</u></a>. Wall post densities at Upper Saratown.</p>
+            <p><a class="a-table" data-table-header="&lt;b&gt;Table 51&lt;/b&gt;. Inventory of European trade artifacts from feature and burial contexts at Upper Saratown and the Fredricks site." data-table-string="=====================================================================
  Artifact Type              Material     Upper Saratown    Fredricks 
 =====================================================================
  Awls                       Iron                 -              2
@@ -1940,26 +1957,26 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
  Wire Fragments             Copper/Brass         -             12
                                                         
  Total                                     325,716         12,911
-====================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 51</u></a>. Inventory of European trade artifacts from feature and burial contexts at Upper Saratown and the Fredricks site.</p>
-                                            <nav aria-label="Page navigation">
+====================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 51</u></a>. Inventory of European trade artifacts from feature and burial contexts at Upper Saratown and the Fredricks site.</p>
+<nav aria-label="Page navigation" class="page-navigation">
   <ul class="pagination justify-content-center">
-        <li class="page-item">
+    <li class="page-item">
       <a class="page-link" href="prelims_32_figures_1051-1053.html">Previous</a>
     </li>
-        <li class="page-item active">
+    <li class="page-item active">
       <a class="page-link" id="pageNumClickable" data-toggle="popover">xxxiii</a>
     </li>
-      </ul>
+  </ul>
 </nav>        </div>
       </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
-      <div class="modal" id="genModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+    <script src="../../assets/js/bootstrap-toc.min.js"></script>
+<div class="modal" id="genModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-lg modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header modal-header-generic-textpage">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -1971,19 +1988,22 @@ Note: * - trace (&amp;lt;.05%)." data-target="#genModal" data-toggle="modal" hre
     </div>
   </div>
 </div>
-<div class="modal" id="tableImgModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<div class="modal" id="versionModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-lg modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header modal-header-generic-textpage">
+        <h5 class="modal-title">Version Information</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" id="table-img-modal-body">
+      <div class="modal-body" id="version-modal-body">
+          <p>The authors of Excavating Occaneechi Town (Web edition) recognize that, while all the information recovered in an archaeological excavation has scientific importance, it may be inappropriate to display or view some of that information, such as photographs of human bones, in a public or instructional context. Therefore, we have provided two versions of this edition. The Professional Version provides access to all of the information about the site; the Instructional Version provides access to all of the information except for photographs of human burials.</p>
       </div>
     </div>
   </div>
 </div>
+<script src="../../assets/js/lightgallery-all.js"></script>
 <script src="../../assets/js/load-modals.js"></script>  <script src="../../assets/js/page-num-navigation.js"></script>
   </body>
 </html>

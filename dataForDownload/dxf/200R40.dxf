@@ -1,0 +1,3644 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1004
+  9
+$EXTMIN
+ 10
+6.0657
+ 20
+-1.4248
+  9
+$EXTMAX
+ 10
+7.0493
+ 20
+-0.4398
+  9
+$LIMMIN
+ 10
+6.0657
+ 20
+-1.4248
+  9
+$LIMMAX
+ 10
+7.0493
+ 20
+-0.4398
+  9
+$INSBASE
+ 10
+0.0
+ 20
+0.0
+  9
+$VIEWCTR
+ 10
+7.21903
+ 20
+4.5
+  9
+$VIEWSIZE
+ 40
+9.0
+  9
+$SNAPMODE
+ 70
+     0
+  9
+$SNAPUNIT
+ 10
+1.0
+ 20
+1.0
+  9
+$SNAPBASE
+ 10
+0.0
+ 20
+0.0
+  9
+$SNAPANG
+ 50
+0.0
+  9
+$SNAPSTYLE
+ 70
+     0
+  9
+$SNAPISOPAIR
+ 70
+     0
+  9
+$GRIDMODE
+ 70
+     0
+  9
+$GRIDUNIT
+ 10
+0.0
+ 20
+0.0
+  9
+$ORTHOMODE
+ 70
+     0
+  9
+$REGENMODE
+ 70
+     1
+  9
+$FILLMODE
+ 70
+     1
+  9
+$QTEXTMODE
+ 70
+     0
+  9
+$DRAGMODE
+ 70
+     2
+  9
+$LTSCALE
+ 40
+1.0
+  9
+$OSMODE
+ 70
+     0
+  9
+$ATTMODE
+ 70
+     1
+  9
+$TEXTSIZE
+ 40
+0.2
+  9
+$TRACEWID
+ 40
+0.05
+  9
+$TEXTSTYLE
+  7
+STANDARD
+  9
+$CLAYER
+  8
+0
+  9
+$CELTYPE
+  6
+BYLAYER
+  9
+$CECOLOR
+ 62
+   256
+  9
+$DIMSCALE
+ 40
+1.0
+  9
+$DIMASZ
+ 40
+0.18
+  9
+$DIMEXO
+ 40
+0.0625
+  9
+$DIMDLI
+ 40
+0.38
+  9
+$DIMRND
+ 40
+0.0
+  9
+$DIMDLE
+ 40
+0.0
+  9
+$DIMEXE
+ 40
+0.18
+  9
+$DIMTP
+ 40
+0.0
+  9
+$DIMTM
+ 40
+0.0
+  9
+$DIMTXT
+ 40
+0.18
+  9
+$DIMCEN
+ 40
+0.09
+  9
+$DIMTSZ
+ 40
+0.0
+  9
+$DIMTOL
+ 70
+     0
+  9
+$DIMLIM
+ 70
+     0
+  9
+$DIMTIH
+ 70
+     1
+  9
+$DIMTOH
+ 70
+     1
+  9
+$DIMSE1
+ 70
+     0
+  9
+$DIMSE2
+ 70
+     0
+  9
+$DIMTAD
+ 70
+     0
+  9
+$DIMZIN
+ 70
+     0
+  9
+$DIMBLK
+  1
+
+  9
+$DIMASO
+ 70
+     1
+  9
+$DIMSHO
+ 70
+     0
+  9
+$DIMPOST
+  1
+
+  9
+$DIMAPOST
+  1
+
+  9
+$DIMALT
+ 70
+     0
+  9
+$DIMALTD
+ 70
+     2
+  9
+$DIMALTF
+ 40
+25.4
+  9
+$DIMLFAC
+ 40
+1.0
+  9
+$LUNITS
+ 70
+     2
+  9
+$LUPREC
+ 70
+     4
+  9
+$AXISMODE
+ 70
+     0
+  9
+$AXISUNIT
+ 10
+0.0
+ 20
+0.0
+  9
+$SKETCHINC
+ 40
+0.1
+  9
+$FILLETRAD
+ 40
+0.0
+  9
+$AUNITS
+ 70
+     0
+  9
+$AUPREC
+ 70
+     0
+  9
+$MENU
+  1
+acad
+  9
+$ELEVATION
+ 40
+0.0
+  9
+$THICKNESS
+ 40
+0.0
+  9
+$VIEWDIR
+ 10
+0.0
+ 20
+0.0
+ 30
+1.0
+  9
+$LIMCHECK
+ 70
+     0
+  9
+$BLIPMODE
+ 70
+     1
+  9
+$CHAMFERA
+ 40
+0.0
+  9
+$CHAMFERB
+ 40
+0.0
+  9
+$FASTZOOM
+ 70
+     1
+  9
+$SKPOLY
+ 70
+     0
+  9
+$TDCREATE
+ 40
+2447222.5666886573
+  9
+$TDUPDATE
+ 40
+2447222.5666886573
+  9
+$TDINDWG
+ 40
+0.0000000000
+  9
+$TDUSRTIMER
+ 40
+0.0000000000
+  9
+$USRTIMER
+ 70
+     1
+  9
+$ANGBASE
+ 50
+0.0
+  9
+$ANGDIR
+ 70
+     0
+  9
+$PDMODE
+ 70
+     0
+  9
+$PDSIZE
+ 40
+0.0
+  9
+$PLINEWID
+ 40
+0.0
+  9
+$COORDS
+ 70
+     0
+  9
+$SPLFRAME
+ 70
+     0
+  9
+$SPLINESEGS
+ 70
+     8
+  9
+$ATTDIA
+ 70
+     0
+  9
+$ATTREQ
+ 70
+     1
+  9
+$USERI1
+ 70
+     0
+  9
+$USERI2
+ 70
+     0
+  9
+$USERI3
+ 70
+     0
+  9
+$USERI4
+ 70
+     0
+  9
+$USERI5
+ 70
+     0
+  9
+$USERR1
+ 40
+0.0
+  9
+$USERR2
+ 40
+0.0
+  9
+$USERR3
+ 40
+0.0
+  9
+$USERR4
+ 40
+0.0
+  9
+$USERR5
+ 40
+0.0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LTYPE
+ 70
+     13
+  0
+LTYPE
+  2
+CONTINUOUS
+ 70
+    64
+  3
+Solid line
+ 72
+    65
+ 73
+     0
+ 40
+0.0
+  0
+LTYPE
+  2
+DASHED
+ 70
+    64
+  3
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __
+ 72
+    65
+ 73
+     2
+ 40
+0.75
+ 49
+0.5
+ 49
+-0.25
+  0
+LTYPE
+  2
+HIDDEN
+ 70
+    64
+  3
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ 72
+    65
+ 73
+     2
+ 40
+0.375
+ 49
+0.25
+ 49
+-0.125
+  0
+LTYPE
+  2
+CENTER
+ 70
+    64
+  3
+____ _ ____ _ ____ _ ____ _ ____ _ ____ _ ____
+ 72
+    65
+ 73
+     4
+ 40
+2.0
+ 49
+1.25
+ 49
+-0.25
+ 49
+0.25
+ 49
+-0.25
+  0
+LTYPE
+  2
+PHANTOM
+ 70
+    64
+  3
+_____ _ _ _____ _ _ _____ _ _ _____ _ _ ____
+ 72
+    65
+ 73
+     6
+ 40
+2.5
+ 49
+1.25
+ 49
+-0.25
+ 49
+0.25
+ 49
+-0.25
+ 49
+0.25
+ 49
+-0.25
+  0
+LTYPE
+  2
+DOT
+ 70
+    64
+  3
+...............................................
+ 72
+    65
+ 73
+     2
+ 40
+0.25
+ 49
+0.0
+ 49
+-0.25
+  0
+LTYPE
+  2
+DASHDOT
+ 70
+    64
+  3
+__ . __ . __ . __ . __ . __ . __ . __ . __ . __
+ 72
+    65
+ 73
+     4
+ 40
+1.0
+ 49
+0.5
+ 49
+-0.25
+ 49
+0.0
+ 49
+-0.25
+  0
+LTYPE
+  2
+BORDER
+ 70
+    64
+  3
+__ __ . __ __ . __ __ . __ __ . __ __ . __ __
+ 72
+    65
+ 73
+     6
+ 40
+1.75
+ 49
+0.5
+ 49
+-0.25
+ 49
+0.5
+ 49
+-0.25
+ 49
+0.0
+ 49
+-0.25
+  0
+LTYPE
+  2
+DIVIDE
+ 70
+    64
+  3
+__ . . __ . . __ . . __ . . __ . . __ . . __
+ 72
+    65
+ 73
+     6
+ 40
+1.25
+ 49
+0.5
+ 49
+-0.25
+ 49
+0.0
+ 49
+-0.25
+ 49
+0.0
+ 49
+-0.25
+  0
+LTYPE
+  2
+DCTYPE1
+ 70
+    64
+  3
+__ . . __ . . __ . . __ . . __ . . __ . . __
+ 72
+    65
+ 73
+     8
+ 40
+2.5
+ 49
+0.5
+ 49
+-0.25
+ 49
+0.125
+ 49
+-0.25
+ 49
+0.25
+ 49
+-0.25
+ 49
+0.125
+ 49
+-0.25
+  0
+LTYPE
+  2
+DCTYPE2
+ 70
+    64
+  3
+__ . . __ . . __ . . __ . . __ . . __ . . __
+ 72
+    65
+ 73
+     6
+ 40
+2.05
+ 49
+1.0
+ 49
+-0.3
+ 49
+0.15
+ 49
+-0.15
+ 49
+0.15
+ 49
+-0.3
+  0
+LTYPE
+  2
+DCTYPE3
+ 70
+    64
+  3
+__ . . __ . . __ . . __ . . __ . . __ . . __
+ 72
+    65
+ 73
+     6
+ 40
+2.5
+ 49
+0.8
+ 49
+-0.2
+ 49
+0.8
+ 49
+-0.2
+ 49
+0.3
+ 49
+-0.2
+  0
+LTYPE
+  2
+DCTYPE4
+ 70
+    64
+  3
+__ . . __ . . __ . . __ . . __ . . __ . . __
+ 72
+    65
+ 73
+     10
+ 40
+3.97
+ 49
+1.75
+ 49
+-0.3
+ 49
+0.3
+ 49
+-0.3
+ 49
+0.06
+ 49
+-0.3
+ 49
+0.06
+ 49
+-0.3
+ 49
+0.3
+ 49
+-0.3
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+ 70
+    153
+  0
+LAYER
+  2
+LAYER1
+ 70
+ 64
+ 62
+     7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+LAYER10
+ 70
+ 64
+ 62
+     1
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+LAYER12
+ 70
+ 64
+ 62
+     5
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.2210
+ 20
+-0.4928
+ 40
+0.0127
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.2991
+ 20
+-0.7520
+ 40
+0.0180
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.1814
+ 20
+-1.1325
+ 40
+0.0129
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.1383
+ 20
+-1.1020
+ 40
+0.0178
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.8050
+ 20
+-1.3593
+ 40
+0.0142
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.6265
+ 20
+-1.3587
+ 40
+0.0203
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.6619
+ 20
+-1.3110
+ 40
+0.0079
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.6015
+ 20
+-1.3159
+ 40
+0.0128
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.5215
+ 20
+-1.1873
+ 40
+0.0272
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.6925
+ 20
+-1.1779
+ 40
+0.0126
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.8160
+ 20
+-1.1030
+ 40
+0.0256
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.5501
+ 20
+-0.9210
+ 40
+0.0142
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.9016
+ 20
+-1.0555
+ 40
+0.0153
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+7.0175
+ 20
+-0.9956
+ 40
+0.0203
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.9228
+ 20
+-0.7564
+ 40
+0.0112
+  0
+CIRCLE
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.9449
+ 20
+-0.8998
+ 40
+0.0178
+  0
+ARC
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.6338
+ 20
+-1.4316
+ 40
+0.0215
+ 50
+20.3456
+ 51
+24.0917
+  0
+ARC
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.6338
+ 20
+-1.4316
+ 40
+0.0215
+ 50
+24.0917
+ 51
+155.9077
+  0
+ARC
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+7.0409
+ 20
+-0.7694
+ 40
+0.0320
+ 50
+75.3502
+ 51
+134.7950
+  0
+ARC
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.6338
+ 20
+-1.4316
+ 40
+0.0215
+ 50
+155.9073
+ 51
+161.6219
+  0
+ARC
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+6.6338
+ 20
+-1.4316
+ 40
+0.0215
+ 50
+18.3816
+ 51
+20.3456
+  0
+ARC
+  8
+LAYER1
+ 62
+     7
+  6
+CONTINUOUS
+ 10
+7.0409
+ 20
+-0.7694
+ 40
+0.0320
+ 50
+134.7952
+ 51
+-75.3493
+  0
+POLYLINE
+  8
+LAYER10
+ 62
+     1
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4737
+ 20
+-0.4418
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4720
+ 20
+-0.4425
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4702
+ 20
+-0.4432
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4685
+ 20
+-0.4438
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4668
+ 20
+-0.4444
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4652
+ 20
+-0.4448
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4636
+ 20
+-0.4452
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4621
+ 20
+-0.4453
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4607
+ 20
+-0.4453
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4595
+ 20
+-0.4451
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4583
+ 20
+-0.4447
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4573
+ 20
+-0.4439
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4564
+ 20
+-0.4430
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4563
+ 20
+-0.4429
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4562
+ 20
+-0.4428
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4562
+ 20
+-0.4427
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4561
+ 20
+-0.4426
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4561
+ 20
+-0.4425
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4560
+ 20
+-0.4424
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4559
+ 20
+-0.4423
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4559
+ 20
+-0.4422
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4558
+ 20
+-0.4421
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4558
+ 20
+-0.4420
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4557
+ 20
+-0.4419
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4556
+ 20
+-0.4418
+  0
+SEQEND
+  8
+LAYER10
+  0
+POLYLINE
+  8
+LAYER10
+ 62
+     1
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+SEQEND
+  8
+LAYER10
+  0
+POLYLINE
+  8
+LAYER10
+ 62
+     1
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+SEQEND
+  8
+LAYER10
+  0
+POLYLINE
+  8
+LAYER10
+ 62
+     1
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+SEQEND
+  8
+LAYER10
+  0
+POLYLINE
+  8
+LAYER10
+ 62
+     1
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4783
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4778
+ 20
+-0.4400
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4773
+ 20
+-0.4402
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4768
+ 20
+-0.4404
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4764
+ 20
+-0.4406
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4760
+ 20
+-0.4408
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4755
+ 20
+-0.4410
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4752
+ 20
+-0.4412
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4748
+ 20
+-0.4414
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4745
+ 20
+-0.4415
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4742
+ 20
+-0.4416
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4739
+ 20
+-0.4417
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4737
+ 20
+-0.4418
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4736
+ 20
+-0.4419
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4735
+ 20
+-0.4419
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4734
+ 20
+-0.4420
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4734
+ 20
+-0.4420
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4733
+ 20
+-0.4420
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4734
+ 20
+-0.4420
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4734
+ 20
+-0.4420
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4734
+ 20
+-0.4420
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4735
+ 20
+-0.4419
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4736
+ 20
+-0.4419
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4736
+ 20
+-0.4419
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4737
+ 20
+-0.4418
+  0
+SEQEND
+  8
+LAYER10
+  0
+POLYLINE
+  8
+LAYER10
+ 62
+     1
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4556
+ 20
+-0.4418
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4555
+ 20
+-0.4416
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4554
+ 20
+-0.4414
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4553
+ 20
+-0.4412
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4552
+ 20
+-0.4411
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4551
+ 20
+-0.4409
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4550
+ 20
+-0.4407
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4548
+ 20
+-0.4405
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4547
+ 20
+-0.4404
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4547
+ 20
+-0.4402
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4546
+ 20
+-0.4401
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4545
+ 20
+-0.4399
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4543
+ 20
+-0.4396
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4542
+ 20
+-0.4395
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4542
+ 20
+-0.4394
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4541
+ 20
+-0.4394
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4541
+ 20
+-0.4393
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4541
+ 20
+-0.4394
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4541
+ 20
+-0.4394
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4542
+ 20
+-0.4395
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4542
+ 20
+-0.4395
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4543
+ 20
+-0.4396
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4397
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+SEQEND
+  8
+LAYER10
+  0
+POLYLINE
+  8
+LAYER10
+ 62
+     1
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER10
+ 62
+     1
+  6
+CONTINUOUS
+ 10
+6.4544
+ 20
+-0.4398
+  0
+SEQEND
+  8
+LAYER10
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+7.0493
+ 20
+-1.4228
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+7.0493
+ 20
+-0.4418
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+6.0657
+ 20
+-1.4248
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+7.0490
+ 20
+-1.4248
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+7.0490
+ 20
+-0.4411
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+6.0657
+ 20
+-0.4411
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+6.0657
+ 20
+-0.4398
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+6.0657
+ 20
+-0.4418
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+6.0657
+ 20
+-0.4418
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+6.0657
+ 20
+-1.4228
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+6.0657
+ 20
+-1.4228
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+6.0657
+ 20
+-1.4248
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+7.0493
+ 20
+-1.4248
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+7.0493
+ 20
+-1.4228
+  0
+SEQEND
+  8
+LAYER12
+  0
+POLYLINE
+  8
+LAYER12
+ 62
+     5
+ 66
+     1
+  6
+CONTINUOUS
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+7.0493
+ 20
+-0.4418
+  0
+VERTEX
+  8
+LAYER12
+ 62
+     5
+  6
+CONTINUOUS
+ 10
+7.0493
+ 20
+-0.4398
+  0
+SEQEND
+  8
+LAYER12
+  0
+ENDSEC
+  0
+EOF

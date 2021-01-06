@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,110 +7,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Archaeological Evidence - Excavating Occaneechi Town</title>
-        <link href="../../assets/css/textpage.css" rel="stylesheet">
+    <link href="../../assets/css/lightgallery.min.css" rel="stylesheet">
+    <link href="../../assets/css/textpage.css" rel="stylesheet">
     <link href="../../assets/css/modals.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/css/mdb.min.css">
+    <link href="../../assets/css/lightgallery.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
 <link href="../../assets/css/styles.css" rel="stylesheet">
 <link rel="stylesheet" href="../../assets/css/Lithos%20Pro.css">
-<link rel="stylesheet" href="../../assets/css/Lithos%20Pro%20Extra.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-<link rel="stylesheet" href="../../assets/css/gradient-navbar-1.css">
 <link rel="stylesheet" href="../../assets/css/gradient-navbar.css">
-<link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link
-    rel="stylesheet"
-    href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
-/>        <link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+<link rel="stylesheet" href="../../assets/css/bootstrap-toc.min.css">
   </head>
 
   <body data-spy="scroll" data-target="#toc">
+    <header>
+      <div class="card" id="h-card">
         <div class="card-header">
-        <h5 class="mb-0"><strong><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#eot-sidebar" aria-expanded="false" aria-controls="eot-sidebar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button><a href="https://comp523eot.netlify.app/html" style="color:inherit">Excavating Occeaneechi Town</a></strong><br></h5>
-    </div>
-    
-        <div class="container-fluid">
+          <h5 class="mb-0"><strong><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#eot-sidebar" aria-expanded="false" aria-controls="eot-sidebar" aria-expanded="false" aria-label="Toggle navigation" id="sidebarButton">
+            <span class="navbar-toggler-icon"></span>
+          </button><a href="../index.html" style="color:inherit">Excavating Occaneechi Town</a></strong><br></h5>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 eot-sidebar collapse show" id="eot-sidebar">
-  <nav id="toc" data-toggle="toc" class="nav flex-column">
-          <div class="sidebar-chapter">
-      <a href="None">Getting Started</a>
+            <div class="col-md-4 col-lg-3 eot-sidebar collapse show" id="eot-sidebar">
+      <script>
+        // Collapse sidebar by default on mobile screens
+        if (window.matchMedia("(max-width: 767px)").matches) {
+          sidebar = document.getElementById("eot-sidebar");
+          sidebar.classList.remove("show");
+        }
+      </script>
+      <nav id="toc" data-toggle="toc" class="nav flex-column">
+        <div class="sidebar-chapter">
+          <a href="../gettingstarted/1_the_basics_of_using_excavating_occaneechi_town.html">Getting Started</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../primer/1_an_archaeology_primer.html">Archaeology Primer</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../introduction/prelims_01_title_page.html">Introduction</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../contents/prelims_06_table_of_contents.html">Contents</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../background/001_historical_background.html">Background</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../excavations/excavations.html">Excavations</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../artifacts/085_introduction_to_artifact_analyses.html">Artifacts</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../foodremains/135_research_questions.html">Food Remains</a>
+        </div>
+        <div class="sidebar-active sidebar-chapter"> <!-- Current chapter -->
+          <a href="205_introduction.html">Interpretations</a>
+          <ul class="nav"> <!-- Current chapter modules list -->
+            <li class="sidebar-module">
+              <a href="205_introduction.html">Occaneechi Town</a>
+            </li>
+            <li class="sidebar-module">
+              <a href="215_introduction.html">Settlement</a>
+            </li>
+            <li class="sidebar-module">
+              <a href="227_introduction.html">Burial Practices</a>
+            </li>
+            <li class="sidebar-module">
+              <a href="236_introduction.html">Diseases</a>
+            </li>
+            <li class="sidebar-active sidebar-module">
+              <a href="244_introduction.html">The Occaneechi and their Role as Middlemen in the Seventeenth-Century Virginia-North Carolina Trade Network</a>
+<p id="author">by R. P. Stephen Davis, Jr. and H. Trawick Ward</p>              <ul class="nav"> <!-- Current chapter section list-->
+                <li class="sidebar-section">
+                  <a href="244_introduction.html">Introduction</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="245_ethnohistoric_evidence.html">Ethnohistoric Evidence</a>
+                </li>
+                <li class="sidebar-active sidebar-section">
+                  <a href="246_archaeological_evidence.html">Archaeological Evidence</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="247_conclusions.html">Conclusions</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="248_list_of_tables_and_figures.html">List of Tables and Figures</a>
+                </li>
+                <li class="sidebar-section">
+                  <a href="249_source.html">Source</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../references/250_a-g.html">References</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../appendixa/001_burial_1.html">Appendix A: Artifacts by Excavation Context</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../appendixb/001_beads.html">Appendix B: Artifacts by Category</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="../data/1_introduction.html">Data Downloads</a>
+        </div>
+        <div class="sidebar-chapter">
+          <a href="https://electronicdig.sites.oasis.unc.edu">Electronic Dig</a>
+        </div>
+      </nav>
     </div>
-              <div class="sidebar-chapter">
-      <a href="None">Archaeology Primer</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../introduction/prelims_01_title_page.html">Introduction</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../contents/prelims_06_table_of_contents.html">Contents</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../background/001_historical_background.html">Background</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../excavations/021_burial_1.html">Excavations</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../artifacts/085_introduction_to_artifact_analyses.html">Artifacts</a>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="../foodremains/135_research_questions.html">Food Remains</a>
-    </div>
-              <div class="sidebar-active sidebar-chapter"> <!-- Current chapter -->
-      <a href="205_introduction.html">Interpretations</a>
-      <ul class="nav"> <!-- Current chapter modules list -->
-                      <li class="sidebar-module">
-          <a href="205_introduction.html">Occaneechi Town</a>
-        </li>
-                              <li class="sidebar-module">
-          <a href="215_introduction.html">Settlement</a>
-        </li>
-                              <li class="sidebar-module">
-          <a href="227_introduction.html">Burial Practices</a>
-        </li>
-                              <li class="sidebar-module">
-          <a href="236_introduction.html">Diseases</a>
-        </li>
-                              <li class="sidebar-active sidebar-module">
-          <a href="244_introduction.html">The Occaneechi and their Role as Middlemen in the Seventeenth-Century Virginia-North Carolina Trade Network</a>
-          <p id="author">by R. P. Stephen Davis, Jr. and H. Trawick Ward</p>          <ul class="nav"> <!-- Current chapter section list-->
-                      <li class="sidebar-section">
-              <a href="244_introduction.html">Introduction</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="245_ethnohistoric_evidence.html">Ethnohistoric Evidence</a>
-                          </li>
-                      <li class="sidebar-active sidebar-section">
-              <a href="246_archaeological_evidence.html">Archaeological Evidence</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="247_conclusions.html">Conclusions</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="248_list_of_tables_and_figures.html">List of Tables and Figures</a>
-                          </li>
-                      <li class="sidebar-section">
-              <a href="249_source.html">Source</a>
-                          </li>
-                    </ul>
-        </li>
-                    </ul>
-    </div>
-              <div class="sidebar-chapter">
-      <a href="https://electronicdig.sites.oasis.unc.edu">Electronic Dig</a>
-    </div>
-        </nav>
-</div>        <div class="col-md" id="text-chapter-contents" style="overflow-y: scroll;">
+
+        <div class="col-md" id="text-chapter-contents">
           <h1>Archaeological Evidence</h1>
-                                  <p>From the preceding discussion, it should be clear that the Occaneechis possessed and maintained a unique level of political and economic power. Furthermore, the ethnohistoric record strongly implies that the Occaneechis controlled access to English goods being sought by neighboring tribes. We will now see to what extent Occaneechi influence is manifested in the archaeological record. This will be done by comparing trade artifact assemblages from two late seventeenth-century sites in piedmont North Carolina--the Fredricks and Upper Saratown sites--where extensive excavations have been undertaken (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 2&lt;/b&gt;. Map of the study area locating Occaneechi Island, Occaneechi Town (Fredricks site), and Upper Saratown." data-figure-path="../../imgs/t/trade1.gif" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>map</u></a>).</p>
-                                                          <p>The Fredricks site was occupied by the Occaneechis immediately following their removal from the Roanoke valley, whereas Upper Saratown was a village of the neighboring Sara tribe. Unfortunately, the earlier Occaneechi Island village on the Roanoke River, occupied at the height of their power, has never been located and in all likelihood lies beneath Kerr Reservoir. However, the Fredricks trade artifact assemblage is believed to be representative of that period and probably contains numerous items that the Occaneechi brought with them from the Roanoke valley. In short, differences in trade artifact assemblages at the two sites probably are more a reflection of access to trade goods than a consequence of temporal changes in the nature of the deerskin trade.</p>
-                                                                      <p><i>Upper Saratown</i></p>
-                                              <p><i>	</i>The Upper Saratown site is situated along the Dan River in eastern Stokes County, North Carolina. This village probably was occupied between 1660 and 1690, while the Occaneechis still controlled the interior trade, and may be where the Occaneechis attempted to ambush Gabriel Arthur in 1674. Archaeological <a class="a-img" data-figure-caption="&lt;b&gt;Figure 489&lt;/b&gt;. Excavation plan of Upper Saratown." data-figure-path="../../imgs/s/sa_11.gif" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>excavations</u></a> at Upper Saratown between 1972 and 1981 opened up over 16,000 sq ft, or about one-fourth of the 1.5-acre village, and exposed 13 houses, 225 features, and 111 burials (<a class="a-ref" data-author="Wilson, Jack H., Jr." data-ref-text="1983  &lt;i&gt;A Study of Late Prehistoric, Protohistoric, and Historic Indians of the Carolina and Virginia Piedmont: Structure, Process, and Ecology&lt;/i&gt;. Unpublished Ph.D. dissertation, Department of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Wilson 1983</u></a>). With very few exceptions, all fill from features and burials was carefully waterscreened, permitting the systematic recovery of small artifacts such as glass beads in addition to larger, more conspicuous items. English trade goods were recovered from most of these contexts and, in some instances, were recovered in large numbers.</p>
-                                                          <p>Over 325,000 trade artifacts were recovered from features and burials (see <a class="a-table" data-table-header="&lt;b&gt;Table 51&lt;/b&gt;. Inventory of European trade artifacts from feature and burial contexts at Upper Saratown and the Fredricks site." data-table-string="=====================================================================
+            <p>From the preceding discussion, it should be clear that the Occaneechis possessed and maintained a unique level of political and economic power. Furthermore, the ethnohistoric record strongly implies that the Occaneechis controlled access to English goods being sought by neighboring tribes. We will now see to what extent Occaneechi influence is manifested in the archaeological record. This will be done by comparing trade artifact assemblages from two late seventeenth-century sites in piedmont North Carolina--the Fredricks and Upper Saratown sites--where extensive excavations have been undertaken (see <a class="a-img" data-src="../../imgs/t/TRADE1.BMP" data-sub-html="&lt;b&gt;Figure 2&lt;/b&gt;. Map of the study area locating Occaneechi Island, Occaneechi Town (Fredricks site), and Upper Saratown." href="../../imgs/t/TRADE1.BMP"><u>map</u></a>).</p>
+            <p>The Fredricks site was occupied by the Occaneechis immediately following their removal from the Roanoke valley, whereas Upper Saratown was a village of the neighboring Sara tribe. Unfortunately, the earlier Occaneechi Island village on the Roanoke River, occupied at the height of their power, has never been located and in all likelihood lies beneath Kerr Reservoir. However, the Fredricks trade artifact assemblage is believed to be representative of that period and probably contains numerous items that the Occaneechi brought with them from the Roanoke valley. In short, differences in trade artifact assemblages at the two sites probably are more a reflection of access to trade goods than a consequence of temporal changes in the nature of the deerskin trade.</p>
+            <p><i>Upper Saratown</i></p>
+            <p><i>	</i>The Upper Saratown site is situated along the Dan River in eastern Stokes County, North Carolina. This village probably was occupied between 1660 and 1690, while the Occaneechis still controlled the interior trade, and may be where the Occaneechis attempted to ambush Gabriel Arthur in 1674. Archaeological <a class="a-img" data-src="../../imgs/s/SA_11.BMP" data-sub-html="&lt;b&gt;Figure 489&lt;/b&gt;. Excavation plan of Upper Saratown." href="../../imgs/s/SA_11.BMP"><u>excavations</u></a> at Upper Saratown between 1972 and 1981 opened up over 16,000 sq ft, or about one-fourth of the 1.5-acre village, and exposed 13 houses, 225 features, and 111 burials (<a class="a-ref" data-author="Wilson, Jack H., Jr." data-ref-text="1983  &lt;i&gt;A Study of Late Prehistoric, Protohistoric, and Historic Indians of the Carolina and Virginia Piedmont: Structure, Process, and Ecology&lt;/i&gt;. Unpublished Ph.D. dissertation, Department of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Wilson 1983</u></a>). With very few exceptions, all fill from features and burials was carefully waterscreened, permitting the systematic recovery of small artifacts such as glass beads in addition to larger, more conspicuous items. English trade goods were recovered from most of these contexts and, in some instances, were recovered in large numbers.</p>
+            <p>Over 325,000 trade artifacts were recovered from features and burials (see <a class="a-table" data-table-header="&lt;b&gt;Table 51&lt;/b&gt;. Inventory of European trade artifacts from feature and burial contexts at Upper Saratown and the Fredricks site." data-table-string="=====================================================================
  Artifact Type              Material     Upper Saratown    Fredricks 
 =====================================================================
  Awls                       Iron                 -              2
@@ -179,13 +201,13 @@
  Wire Fragments             Copper/Brass         -             12
                                                         
  Total                                     325,716         12,911
-====================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 51</u></a>). Most artifacts from feature fill represent items that were discarded or lost, whereas those from burials are associated with clothing or grave associations. The overwhelming majority of trade artifacts from Upper Saratown are ornamental items (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 497&lt;/b&gt;. Bar graph showing the distribution of trade artifacts by class (excluding glass beads) at each site." data-figure-path="../../imgs/t/trade2.gif" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>bar graph</u></a>). Glass beads were by far the most common artifact type and comprised all but 937 of the trade artifacts found. Most beads came from burial contexts and represent the non-perishable remains of beaded funerary clothing. In several instances, these garments were extensively decorated with tens of thousands of small blue and white glass seed beads. Other kinds of beads only occasionally were used. Large glass beads, particularly opaque blue, white, and blue with white stripes, sometimes were used in necklaces and bracelets.</p>
-                                                          <p>Copper and brass ornaments were the next most common artifact class and comprised almost 87% of the remaining trade artifacts (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 498&lt;/b&gt;. Bar graph showing the distribution of trade artifacts by material (excluding glass beads) at each site." data-figure-path="../../imgs/t/trade3.gif" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>bar graph</u></a>). As with beads, these occurred primarily with burials and include: rolled tubular beads, bells, rings, conical tinklers, circular gorgets (or pendants), and triangular danglers. Other identifiable trade items were rare and include: bottle glass fragments, lead shot, gunflints, iron nails, two pairs of scissors, an iron knife, an iron hoe, and a brass spoon. Interestingly, the scissors, knife, and spoon, along with most of the brass bells, rolled tubular beads, and over 40,000 glass beads, were recovered from a single burial. Although no gun parts were found in feature or burial contexts, and gunflints and lead shot only rarely were found, it it clear from an incised representation of a trade musket found on a potsherd that the Sara were familiar with these new weapons.</p>
-                                                          <p>In addition to these trade items, numerous small scraps of copper, brass, and occasionally iron were found in widely scattered contexts, and suggest that the recycling of these relatively scarce metals by the Sara was extensive (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 499&lt;/b&gt;. Bar graph showing the distribution of trade artifact fragments and scraps by material at each site." data-figure-path="../../imgs/t/trade4.gif" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>bar graph</u></a>).</p>
-                                                                      <p><i>Fredricks Site</i></p>
-                                              <p><i>	</i>The Fredricks site is located at Hillsborough in Orange County, North Carolina, where the seventeenth-century and early eighteenth-century trading path from Virginia to the Catawba crossed the Eno River. This village was settled by the Occaneechis sometime after 1690, following their abandonment of the Roanoke valley, and was visited by John Lawson in 1701. The wealth of material goods observed here by Lawson (<a class="a-ref" data-author="Lefler, Hugh T. (editor)" data-ref-text="1967  &lt;i&gt;A New Voyage to Carolina by John Lawson&lt;/i&gt;.  University of North Carolina Press, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Lefler 1967</u></a>:61) led him to remark that "no <i>Indians</i> [have] greater Plenty of Provisions than these." Lawson most likely was referring to the stores of English manufactures possessed by the Occaneechis. If so, it suggests that much of the material wealth that the Occaneechis accumulated as middlemen in the trade was brought with them to their new home. Regardless, comparisons of the archaeological remains at the Fredricks site with historical accounts of what the Occaneechis were likely receiving in trade 10-20 years earlier show no significant differences.</p>
-                                                          <p>The Fredricks site was excavated in its entirety between 1983 and 1986 (<a class="a-ref" data-author="Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr. (editors)" data-ref-text="1987  &lt;i&gt;The Siouan Project: Seasons I and II&lt;/i&gt;.  Monograph Series No. 1. Research Laboratories of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Dickens et al. 1987</u></a>; <a class="a-ref" data-author="Ward, H. Trawick, and R. P. Stephen Davis, Jr." data-ref-text="1988  Archaeology of the Historic Occaneechi Indians.  &lt;i&gt;Southern Indian Studies &lt;/i&gt;36-37." data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Ward and Davis 1988</u></a>). These <a class="a-img" data-figure-caption="&lt;b&gt;Figure 485&lt;/b&gt;. Excavation plan of the Fredricks site." data-figure-path="../../imgs/s/sa_7.gif" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>excavations</u></a>, covering about 16,000 sq ft, revealed a roughly circular palisaded village less than one-third of an acre in size. It contained at least 11 small houses and probably had a population of only 50-75 individuals. The lack of evidence for rebuilding suggests that the occupation was comparatively brief, probably for less than 10 years. Fifty features and three burials were excavated within the village compound; 12 other burials were excavated within a cemetery located just beyond the northeast palisade. A second cemetery west of the village, and containing four graves, was excavated in 1989 and 1990.</p>
-                                                          <p>Almost 13,000 trade artifacts were recovered from Fredricks site features and burials (see <a class="a-table" data-table-header="&lt;b&gt;Table 51&lt;/b&gt;. Inventory of European trade artifacts from feature and burial contexts at Upper Saratown and the Fredricks site." data-table-string="=====================================================================
+====================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 51</u></a>). Most artifacts from feature fill represent items that were discarded or lost, whereas those from burials are associated with clothing or grave associations. The overwhelming majority of trade artifacts from Upper Saratown are ornamental items (see <a class="a-img" data-src="../../imgs/t/TRADE2.BMP" data-sub-html="&lt;b&gt;Figure 497&lt;/b&gt;. Bar graph showing the distribution of trade artifacts by class (excluding glass beads) at each site." href="../../imgs/t/TRADE2.BMP"><u>bar graph</u></a>). Glass beads were by far the most common artifact type and comprised all but 937 of the trade artifacts found. Most beads came from burial contexts and represent the non-perishable remains of beaded funerary clothing. In several instances, these garments were extensively decorated with tens of thousands of small blue and white glass seed beads. Other kinds of beads only occasionally were used. Large glass beads, particularly opaque blue, white, and blue with white stripes, sometimes were used in necklaces and bracelets.</p>
+            <p>Copper and brass ornaments were the next most common artifact class and comprised almost 87% of the remaining trade artifacts (see <a class="a-img" data-src="../../imgs/t/TRADE3.BMP" data-sub-html="&lt;b&gt;Figure 498&lt;/b&gt;. Bar graph showing the distribution of trade artifacts by material (excluding glass beads) at each site." href="../../imgs/t/TRADE3.BMP"><u>bar graph</u></a>). As with beads, these occurred primarily with burials and include: rolled tubular beads, bells, rings, conical tinklers, circular gorgets (or pendants), and triangular danglers. Other identifiable trade items were rare and include: bottle glass fragments, lead shot, gunflints, iron nails, two pairs of scissors, an iron knife, an iron hoe, and a brass spoon. Interestingly, the scissors, knife, and spoon, along with most of the brass bells, rolled tubular beads, and over 40,000 glass beads, were recovered from a single burial. Although no gun parts were found in feature or burial contexts, and gunflints and lead shot only rarely were found, it it clear from an incised representation of a trade musket found on a potsherd that the Sara were familiar with these new weapons.</p>
+            <p>In addition to these trade items, numerous small scraps of copper, brass, and occasionally iron were found in widely scattered contexts, and suggest that the recycling of these relatively scarce metals by the Sara was extensive (see <a class="a-img" data-src="../../imgs/t/TRADE4.BMP" data-sub-html="&lt;b&gt;Figure 499&lt;/b&gt;. Bar graph showing the distribution of trade artifact fragments and scraps by material at each site." href="../../imgs/t/TRADE4.BMP"><u>bar graph</u></a>).</p>
+            <p><i>Fredricks Site</i></p>
+            <p><i>	</i>The Fredricks site is located at Hillsborough in Orange County, North Carolina, where the seventeenth-century and early eighteenth-century trading path from Virginia to the Catawba crossed the Eno River. This village was settled by the Occaneechis sometime after 1690, following their abandonment of the Roanoke valley, and was visited by John Lawson in 1701. The wealth of material goods observed here by Lawson (<a class="a-ref" data-author="Lefler, Hugh T. (editor)" data-ref-text="1967  &lt;i&gt;A New Voyage to Carolina by John Lawson&lt;/i&gt;.  University of North Carolina Press, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Lefler 1967</u></a>:61) led him to remark that "no <i>Indians</i> [have] greater Plenty of Provisions than these." Lawson most likely was referring to the stores of English manufactures possessed by the Occaneechis. If so, it suggests that much of the material wealth that the Occaneechis accumulated as middlemen in the trade was brought with them to their new home. Regardless, comparisons of the archaeological remains at the Fredricks site with historical accounts of what the Occaneechis were likely receiving in trade 10-20 years earlier show no significant differences.</p>
+            <p>The Fredricks site was excavated in its entirety between 1983 and 1986 (<a class="a-ref" data-author="Dickens, Roy S., Jr., H. Trawick Ward, and R. P. Stephen Davis, Jr. (editors)" data-ref-text="1987  &lt;i&gt;The Siouan Project: Seasons I and II&lt;/i&gt;.  Monograph Series No. 1. Research Laboratories of Anthropology, University of North Carolina, Chapel Hill." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Dickens et al. 1987</u></a>; <a class="a-ref" data-author="Ward, H. Trawick, and R. P. Stephen Davis, Jr." data-ref-text="1988  Archaeology of the Historic Occaneechi Indians.  &lt;i&gt;Southern Indian Studies &lt;/i&gt;36-37." data-target="#genModal" data-toggle="modal" href="#genModal"><u>Ward and Davis 1988</u></a>). These <a class="a-img" data-src="../../imgs/s/SA_7.BMP" data-sub-html="&lt;b&gt;Figure 485&lt;/b&gt;. Excavation plan of the Fredricks site." href="../../imgs/s/SA_7.BMP"><u>excavations</u></a>, covering about 16,000 sq ft, revealed a roughly circular palisaded village less than one-third of an acre in size. It contained at least 11 small houses and probably had a population of only 50-75 individuals. The lack of evidence for rebuilding suggests that the occupation was comparatively brief, probably for less than 10 years. Fifty features and three burials were excavated within the village compound; 12 other burials were excavated within a cemetery located just beyond the northeast palisade. A second cemetery west of the village, and containing four graves, was excavated in 1989 and 1990.</p>
+            <p>Almost 13,000 trade artifacts were recovered from Fredricks site features and burials (see <a class="a-table" data-table-header="&lt;b&gt;Table 51&lt;/b&gt;. Inventory of European trade artifacts from feature and burial contexts at Upper Saratown and the Fredricks site." data-table-string="=====================================================================
  Artifact Type              Material     Upper Saratown    Fredricks 
 =====================================================================
  Awls                       Iron                 -              2
@@ -256,33 +278,33 @@
  Wire Fragments             Copper/Brass         -             12
                                                         
  Total                                     325,716         12,911
-====================================================================" data-target="#genModal" data-toggle="modal" href="#genModal" target="_top"><u>Table 51</u></a>). While this sample is numerically smaller than that obtained at Upper Saratown, it represents a material wealth not found on any other Contact-period site in Piedmont North Carolina. In simplest terms, this wealth is reflected by a far greater proportion of utilitarian goods to ornamental items (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 497&lt;/b&gt;. Bar graph showing the distribution of trade artifacts by class (excluding glass beads) at each site." data-figure-path="../../imgs/t/trade2.gif" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>bar graph</u></a>). Glass beads are still the most frequent trade artifact class; however, the ratio of glass beads to other trade artifacts is only 14:1 at Fredricks whereas it is 416:1 at Upper Saratown. It appears that beadworking, particularly using small glass beads to decorate clothing, was not pursued with the intensity that it was among the Sara. Furthermore, a high percentage of the glass beads found at Fredricks were large <i>Cornaline d'Aleppo</i> beads that probably were strung on necklaces, bracelets, and anklets.</p>
-                                                          <p>Eleven hundred and twenty-one trade artifacts other than glass beads were recovered from features and burials at the Fredricks site. In contrast to Upper Saratown, only a small minority of these were ornaments (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 497&lt;/b&gt;. Bar graph showing the distribution of trade artifacts by class (excluding glass beads) at each site." data-figure-path="../../imgs/t/trade2.gif" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>bar graph</u></a>). Almost 60% of all identifiable trade artifacts were associated with firearms and include: 437 pieces of lead shot and lead sprue, 47 gunflints, two gun springs, and a dog-lock musket occurring as a burial association. Numerous gunflints and gun parts also were recovered from plowzone excavations. Pipes and pipe fragments also were common and comprised about 18% of identifiable trade artifacts. While most of these were made of kaolin, pewter pipes and molded pipes of non-kaolin clay also were well represented. In striking contrast, only a small handful of kaolin pipe fragments were recovered from all excavations at Upper Saratown.</p>
-                                                          <p>Likewise, metal and glass implements, instruments, and containers were well represented at Fredricks and comprise almost 14% of identified trade artifacts. Iron implements include 39 nails (most likely used as awls), 31 knives or knife fragments, six pairs of scissors, five axes, five hoes, two ember tenders, two awls, two fishhooks, and a cooper's tool. Three Jews harps also were found. Other metal artifacts include three brass or latten spoons, a brass thimble, and a brass fishhook. Containers are represented by 54 bottle glass fragments and two whole bottles, three pewter porringers, three brass or iron snuff boxes, and a brass kettle.</p>
-                                                          <p>Ornaments were the least frequent class of trade artifacts. Most of these artifacts represent finished ornaments or clothing fasteners and include: 35 brass bells; 21 brass, glass, lead, and pewter buttons; 19 brass and pewter buckles; two brass wire coils possibly used as ear ornaments; two brass wire C-bracelets; and two brass tubular beads.</p>
-                                                          <p>Finally, numerous unidentifiable or scrap pieces of iron, brass, pewter, and lead were recovered (see <a class="a-img" data-figure-caption="&lt;b&gt;Figure 499&lt;/b&gt;. Bar graph showing the distribution of trade artifact fragments and scraps by material at each site." data-figure-path="../../imgs/t/trade4.gif" data-target="#genModal" data-toggle="modal" href="#genModal" target="body"><u>bar graph</u></a>). Many of these pieces are quite large compared to similar metal fragments found at Upper Saratown. When viewed alongside the numerous usable implements and containers that occur as burial accompaniments, it becomes readily apparent that the Occaneechi, unlike the Sara, were not lacking in trade goods nor were they compelled to recycle or conserve what they received in trade.</p>
-                                            <nav aria-label="Page navigation">
+====================================================================" data-target="#genModal" data-toggle="modal" href="#genModal"><u>Table 51</u></a>). While this sample is numerically smaller than that obtained at Upper Saratown, it represents a material wealth not found on any other Contact-period site in Piedmont North Carolina. In simplest terms, this wealth is reflected by a far greater proportion of utilitarian goods to ornamental items (see <a class="a-img" data-src="../../imgs/t/TRADE2.BMP" data-sub-html="&lt;b&gt;Figure 497&lt;/b&gt;. Bar graph showing the distribution of trade artifacts by class (excluding glass beads) at each site." href="../../imgs/t/TRADE2.BMP"><u>bar graph</u></a>). Glass beads are still the most frequent trade artifact class; however, the ratio of glass beads to other trade artifacts is only 14:1 at Fredricks whereas it is 416:1 at Upper Saratown. It appears that beadworking, particularly using small glass beads to decorate clothing, was not pursued with the intensity that it was among the Sara. Furthermore, a high percentage of the glass beads found at Fredricks were large <i>Cornaline d'Aleppo</i> beads that probably were strung on necklaces, bracelets, and anklets.</p>
+            <p>Eleven hundred and twenty-one trade artifacts other than glass beads were recovered from features and burials at the Fredricks site. In contrast to Upper Saratown, only a small minority of these were ornaments (see <a class="a-img" data-src="../../imgs/t/TRADE2.BMP" data-sub-html="&lt;b&gt;Figure 497&lt;/b&gt;. Bar graph showing the distribution of trade artifacts by class (excluding glass beads) at each site." href="../../imgs/t/TRADE2.BMP"><u>bar graph</u></a>). Almost 60% of all identifiable trade artifacts were associated with firearms and include: 437 pieces of lead shot and lead sprue, 47 gunflints, two gun springs, and a dog-lock musket occurring as a burial association. Numerous gunflints and gun parts also were recovered from plowzone excavations. Pipes and pipe fragments also were common and comprised about 18% of identifiable trade artifacts. While most of these were made of kaolin, pewter pipes and molded pipes of non-kaolin clay also were well represented. In striking contrast, only a small handful of kaolin pipe fragments were recovered from all excavations at Upper Saratown.</p>
+            <p>Likewise, metal and glass implements, instruments, and containers were well represented at Fredricks and comprise almost 14% of identified trade artifacts. Iron implements include 39 nails (most likely used as awls), 31 knives or knife fragments, six pairs of scissors, five axes, five hoes, two ember tenders, two awls, two fishhooks, and a cooper's tool. Three Jews harps also were found. Other metal artifacts include three brass or latten spoons, a brass thimble, and a brass fishhook. Containers are represented by 54 bottle glass fragments and two whole bottles, three pewter porringers, three brass or iron snuff boxes, and a brass kettle.</p>
+            <p>Ornaments were the least frequent class of trade artifacts. Most of these artifacts represent finished ornaments or clothing fasteners and include: 35 brass bells; 21 brass, glass, lead, and pewter buttons; 19 brass and pewter buckles; two brass wire coils possibly used as ear ornaments; two brass wire C-bracelets; and two brass tubular beads.</p>
+            <p>Finally, numerous unidentifiable or scrap pieces of iron, brass, pewter, and lead were recovered (see <a class="a-img" data-src="../../imgs/t/TRADE4.BMP" data-sub-html="&lt;b&gt;Figure 499&lt;/b&gt;. Bar graph showing the distribution of trade artifact fragments and scraps by material at each site." href="../../imgs/t/TRADE4.BMP"><u>bar graph</u></a>). Many of these pieces are quite large compared to similar metal fragments found at Upper Saratown. When viewed alongside the numerous usable implements and containers that occur as burial accompaniments, it becomes readily apparent that the Occaneechi, unlike the Sara, were not lacking in trade goods nor were they compelled to recycle or conserve what they received in trade.</p>
+<nav aria-label="Page navigation" class="page-navigation">
   <ul class="pagination justify-content-center">
-        <li class="page-item">
+    <li class="page-item">
       <a class="page-link" href="245_ethnohistoric_evidence.html">Previous</a>
     </li>
-        <li class="page-item active">
+    <li class="page-item active">
       <a class="page-link" id="pageNumClickable" data-toggle="popover">246</a>
     </li>
-        <li class="page-item">
+    <li class="page-item">
       <a class="page-link" href="247_conclusions.html">Next</a>
     </li>
-      </ul>
+  </ul>
 </nav>        </div>
       </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
-      <div class="modal" id="genModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+    <script src="../../assets/js/bootstrap-toc.min.js"></script>
+<div class="modal" id="genModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-lg modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header modal-header-generic-textpage">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -294,19 +316,22 @@
     </div>
   </div>
 </div>
-<div class="modal" id="tableImgModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<div class="modal" id="versionModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-lg modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header modal-header-generic-textpage">
+        <h5 class="modal-title">Version Information</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" id="table-img-modal-body">
+      <div class="modal-body" id="version-modal-body">
+          <p>The authors of Excavating Occaneechi Town (Web edition) recognize that, while all the information recovered in an archaeological excavation has scientific importance, it may be inappropriate to display or view some of that information, such as photographs of human bones, in a public or instructional context. Therefore, we have provided two versions of this edition. The Professional Version provides access to all of the information about the site; the Instructional Version provides access to all of the information except for photographs of human burials.</p>
       </div>
     </div>
   </div>
 </div>
+<script src="../../assets/js/lightgallery-all.js"></script>
 <script src="../../assets/js/load-modals.js"></script>  <script src="../../assets/js/page-num-navigation.js"></script>
   </body>
 </html>

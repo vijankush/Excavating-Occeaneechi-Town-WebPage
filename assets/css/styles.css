@@ -1,7 +1,12 @@
 .card-header {
   font-family: 'Lithos Pro';
   background-color: #202151 !important;
-  border-radius: 0;
+  border-radius: 0 !important;
+}
+
+/* Remove gap between header and top of the browser */
+#h-card {
+  border: 0;
 }
 
 .mb-0 {
@@ -9,7 +14,7 @@
   font-size: 1.5rem;
 }
 /* iPads (portrait and landscape) and above ----------- */
-@media only screen and (max-device-width : 991px) {
+@media only screen and (max-width : 991px) {
   /* Styles */
   #home-pot-pics {
     display: none;
@@ -31,6 +36,8 @@ footer {
   left: 0;
   background-color: #C4C4C4;
   width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 #footer-navbar .nav-item {
@@ -80,16 +87,11 @@ footer {
   background-color: #202151 !important;
 }
 
-#toc .nav {
-  display: inline-block;
-}
-
-.col-md-3 {
+.col-md-4 {
   padding: 1rem !important;
-  max-width: 20% !important;
 }
 
-.col-md {
+.col-md, .col-md-9 {
   padding: 1rem;
 }
 
@@ -107,6 +109,7 @@ footer {
   font-family: 'Ubuntu';
   font-size: small;
   margin-left: 10%;
+  margin-bottom: 0;
   font-style: italic;
   color: #828282;
 }
@@ -118,8 +121,17 @@ footer {
   font-size: larger;
 }
 
+.sidebar-module {
+  width: 100%;
+}
+
 .sidebar-section {
   margin-left: 5%;
+  width: 100%;
+}
+
+.sidebar-subsection {
+  width: 100%;
 }
 
 .sidebar-active > a {
@@ -133,6 +145,7 @@ footer {
 nav[data-toggle=toc] .nav>li>a {
   font-size: medium !important;
   font-weight: bold !important;
+  padding: 4px 30px !important;
 }
 
 .col-md > h1 {
@@ -144,9 +157,6 @@ nav[data-toggle=toc] .nav>li>a {
 .col-md > p {
   color: black;
 }
-.container-fluid {
-  padding-right: 0px !important;
-}
 
 .pagination .page-item .page-link {
     border: 1px solid #dee2e6 !important;
@@ -155,13 +165,18 @@ nav[data-toggle=toc] .nav>li>a {
 a.nav-link.active {
     display: none !important;
 }
-ul.nav.navbar-nav > li {
+#eot-sidebar ul.nav.navbar-nav > li {
   display: none !important;
 }
 /*border TOC*/
 @media only screen and (min-width : 768px) {
   /* Styles */
-  .row>[class*='col-md']:nth-child(n+1):before {
+  /* Display a vertical border line between sidebar/content and between
+   * both halves of an Excavation Context page only.
+   * NOTE: May need to be fine-tuned by adding IDs for HTML tags
+   * into the templates later on. */
+  .container-fluid > .row>[class*='col-md']:nth-child(1):before,
+  .container-fluid > .row > .col-md > .row >[class*='col-md']:nth-child(1):before {
     content: "";
     border-left: 2px solid #DDD;
     position: absolute;
@@ -173,14 +188,17 @@ ul.nav.navbar-nav > li {
 @media only screen and (max-width : 767px) {
   /* Styles */
   #toc {
-    display: inline-block;
-  }
-  div#eot-sidebar.col-md-3 {
-    max-width: 60% !important;
+    display: block;
   }
   .sidebar-chapter > a {
     color: #828282;
-    white-space: nowrap;
+  }
+  footer {
+    left: 0;
+    background-color: #C4C4C4;
+    width: 100%;
+    position: relative !important;
+    bottom: 0;
   }
 }
 .carousel-item {
@@ -191,21 +209,6 @@ ul.nav.navbar-nav > li {
 }
 .carousel {
   width: 100% !important;
-}
-ol.carousel-indicators li,
-ol.carousel-indicators li.active {
-   width: 1rem !important;
-   height: .2rem !important;
-   margin: 0;
-   border-radius: 0% !important;
-   border: 0;
-   background: transparent;
-}
-
-ol.carousel-indicators li {
-   background: rgba(255,255,255,0.39);
-   margin-left: .5rem;
-   margin-right: .5rem;
 }
 .row > .col > p {
   padding-left: inherit;
@@ -236,30 +239,85 @@ li.sidebar-subsection > a:hover {
   color: #563D7C;
 }
 
-/* .w-100 {
-  width: auto !important;
-} */
-/* .carousel-inner {
-  height: 650px !important;
-} */
-/* .carousel-inner img {
-  object-fit: contain !important;
-} */
-/* img.d-block.img-fluid {
-  min-height: -webkit-fill-available;
-} */
-/* .carousel-item {
-  height:600px;
-} */
-/* .carousel .carousel-indicators li {
-  border-radius: 0%;
-  margin-bottom: -100px;
-} */
+.carousel-inner {
+  max-height: 450px !important;
+}
 
-/* img.d-block.w-100.img-fluid {
-  height: -webkit-fill-available;
-  padding-block-end: 25px;
-} */
+.mx-auto.d-block.img-fluid {
+  height: 400px !important;
+}
+
 .text-light {
   font-family: 'Lithos Pro';
+}
+
+/* For centering tables in modals */
+.table-modal-body .modal-pre-container-div {
+  text-align: center;
+  overflow-x: auto;
+}
+
+.table-modal-body pre {
+  display: inline-block;
+  text-align: left;
+}
+
+/* For displaying images alongside text, i.e. in the Archaeology Primer */
+#archaeology-images .in-text-figure {
+  padding-block-start: 0.5em;
+  padding-block-end: 0.5em;
+}
+
+.in-text-img {
+  max-width: calc(100% - 2rem);
+}
+
+#archaeology-images .figure-caption {
+  white-space: normal; /* needs to be off or columns will not re-size
+  properly, as the no-wrap on a long figcaption forces the column to
+  expand in size accordingly. */
+}
+
+/* For page 5 of the Archaeology Primer specifically */
+#site-grid-img {
+  margin-block-start: 0.5em; /* Padding messes with the <map> tag on this page */
+  margin-block-end: 0.5em;
+}
+
+/* For displaying images on pages 13, 14, and 23 in the Archaeology Primer*/
+#changeable-image-table {
+  text-align: center;
+  vertical-align: middle;
+  border: gray solid 2px;
+  height: 500px;
+  width: 100%;
+}
+
+#changeable-image-table img {
+  max-width: calc(100% - 2rem);
+  max-height: 450px;
+}
+
+#changeable-image-table .figure-caption {
+  white-space: normal;
+  font-size: 100%;
+  color: black;
+}
+
+/* For making the page navigation div look better */
+.page-navigation {
+  padding-top: 0.5rem;
+}
+
+/* For displaying tables in Appendices A and B */
+.table-container-div {
+  overflow-x: auto;
+}
+
+/* Reduce the number of tables that overflow in Appendix A.
+   Should produce decent results on screens ~360-400px in size. */
+@media only screen and (max-width: 400px) {
+  .appendix-a-table {
+    font-size: 85%;
+  }
 }
